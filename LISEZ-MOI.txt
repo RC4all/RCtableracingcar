@@ -1,0 +1,229 @@
+RC TABLE CAR RACING — site refondu
+==================================
+
+OUVRIR LE SITE
+  Double-clique sur  site/index.html  : il s'ouvre dans ton navigateur.
+  Tout fonctionne en local, sans serveur. Une connexion internet est utile
+  au premier chargement pour les trois polices (Barlow Condensed, IBM Plex
+  Mono, Archivo) ; sans connexion, le site reste parfaitement lisible avec
+  des polices de substitution.
+
+
+CE QUI A CHANGÉ PAR RAPPORT À LA VERSION PRÉCÉDENTE
+  Avant : un seul fichier index.html piloté par un moteur React maison
+  (support.js). Une seule URL, aucune balise <title>, aucune description,
+  aucune donnée structurée — donc invisible pour Google et pour les IA.
+
+  Maintenant : 20 vraies pages HTML statiques, une URL par page, chacune
+  avec son title, sa description, son URL canonique, ses images sociales
+  et ses données structurées. Plus aucune dépendance à un runtime.
+
+
+ARBORESCENCE
+  site/                        le site à mettre en ligne
+    index.html                 accueil
+    debuter-en-10-minutes.html
+    le-concept.html
+    choisir-son-modele.html            ← outils 01 et 02
+    guide-turbo-racing-c76.html
+    comprendre-la-radiocommande.html   ← outil 03
+    reglages-et-pilotage.html
+    entretien-et-personnalisation.html
+    circuits-et-tapis.html
+    ou-acheter-et-budget.html          ← outil 04
+    reglement-type-de-course.html
+    clubs-et-competitions.html
+    galerie-des-circuits.html
+    actus.html
+    glossaire.html
+    questions-frequentes.html
+    contact.html
+    mentions-legales.html
+    plan-du-site.html
+    404.html
+    assets/css/style.css       tout le design (un seul fichier)
+    assets/js/main.js          animations et navigation
+    assets/js/tools.js         les 4 outils interactifs
+    img/                       17 visuels
+    robots.txt · sitemap.xml · llms.txt · manifest.webmanifest
+
+  build/                       le générateur (facultatif)
+    build.py                   assemble les pages
+    content.py                 navigation et fragments partagés
+    pages1-4.py                le contenu éditorial
+
+
+MISE EN LIGNE
+  Tout est prêt. Les étapes GitHub puis Vercel sont détaillées dans le
+  fichier  MISE-EN-LIGNE.md  à la racine du dossier.
+
+  Le domaine de production est fixé à  rctableracingcar.fr
+  (canoniques, Open Graph, sitemap.xml, robots.txt, llms.txt, données
+  structurées). Pour passer à un vrai nom de domaine : modifier DOMAIN
+  ligne 15 de build/build.py, relancer « python3 build.py », puis pousser.
+
+  Deux points restent à traiter :
+   · le nom et l'adresse de l'hébergeur dans site/mentions-legales.html
+   · la boîte contact@rctableracingcar.fr doit exister et être relevée
+     (c'est l'adresse du formulaire et des données structurées)
+
+  La page 404 est gérée automatiquement par Vercel.
+
+
+CE QUI A ÉTÉ FAIT POUR LE SEO
+  · Une URL et un <title> uniques par page, descriptions rédigées à la main
+  · URL canoniques, hreflang fr et x-default
+  · Open Graph et Twitter Card sur chaque page (aperçu au partage)
+  · HTML sémantique : un seul <h1> par page, hiérarchie h2/h3 respectée
+  · Fil d'Ariane visible ET balisé (BreadcrumbList)
+  · Maillage interne : navigation précédent/suivant, liens contextuels
+  · sitemap.xml avec priorités et fréquences, robots.txt
+  · Images en lazy loading, dimensions déclarées (pas de saut de mise en page)
+  · Polices chargées sans bloquer l'affichage
+  · Pas de JavaScript nécessaire pour lire le contenu
+
+  Données structurées Schema.org utilisées :
+    WebSite · Organization · BreadcrumbList · WebPage · CollectionPage
+    ContactPage · FAQPage · HowTo · Product · ItemList · ImageGallery
+    DefinedTermSet · DefinedTerm · Blog
+
+
+CE QUI A ÉTÉ FAIT POUR LE GEO (visibilité dans les réponses des IA)
+  Le GEO, c'est être cité par ChatGPT, Claude, Perplexity ou Google AI
+  Overviews. Ça ne marche pas comme le SEO classique :
+
+  · llms.txt à la racine — le résumé du site destiné aux modèles, avec les
+    faits clés (échelle, dimensions, prix, autonomie) et la liste des pages
+  · robots.txt autorisant explicitement GPTBot, ClaudeBot, PerplexityBot,
+    OAI-SearchBot, Google-Extended, Applebot-Extended et CCBot
+  · Un bloc « réponse directe » (encadré orange) en haut de chaque page de
+    fond : les IA citent les paragraphes qui répondent en une fois
+  · Des chiffres précis, unités et dates plutôt que des formules vagues
+    — « 5,8 cm », « 95 × 50 cm », « ≈ 59 € », « 20 à 30 minutes », « 2026 »
+  · Trois FAQPage balisées (radio, pilotage, budget) + la page FAQ complète
+  · Trois HowTo balisés (débuter, entretien, organiser une course)
+  · Des tableaux comparatifs : format que les modèles extraient très bien
+  · Un glossaire balisé DefinedTermSet, qui fait du site une source de
+    définition pour le vocabulaire de la discipline
+  · Une clause de citation en fin de llms.txt
+
+
+LES ANIMATIONS
+  · Circuit animé sur l'accueil : le tracé se dessine, trois voitures
+    parcourent réellement la courbe (SVG + suivi de chemin)
+  · Apparition des blocs au défilement, avec décalage en cascade
+  · Compteurs qui s'incrémentent sur les chiffres clés
+  · Bandeau défilant, barre de progression de lecture
+  · Survols : cartes qui se soulèvent, boutons qui se remplissent,
+    images qui zooment, liens dont la flèche avance
+  · Tout est désactivé automatiquement si le système est réglé sur
+    « réduire les animations » (prefers-reduced-motion)
+
+
+SCHÉMAS TRADUITS ET MANETTE REDESSINÉE
+  · Les vues éclatées du constructeur portaient des légendes en chinois.
+    Elles sont maintenant recouvertes d'étiquettes françaises posées en HTML
+    par-dessus l'image (pas de retouche du fichier) : le texte reste net à
+    tous les zooms, il est sélectionnable, lisible par un lecteur d'écran et
+    indexable. Les références à six chiffres sont conservées telles quelles,
+    ce sont les numéros de pièces détachées.
+    Pour déplacer une étiquette : ses coordonnées sont dans l'attribut
+    style="--x:… ; --y:…" (en % de la largeur et de la hauteur de l'image).
+
+  · Ces schémas sont désormais affichés à leur taille réelle ou en dessous
+    (760 px et 520 px de large), et non plus étirés sur toute la largeur :
+    c'est ce qui rend le trait net. Les fichiers sources font 768 et 618 px
+    de large — les agrandir davantage ne ferait que flouter.
+
+  · La manette du schéma interactif n'était qu'un rectangle gris. Elle a été
+    entièrement redessinée en SVG (img/radio-schema.svg) : volant à gauche,
+    gâchette à droite avec ses repères gaz / neutre / frein, panneau central
+    avec le limiteur TH.LIM, l'inverseur ST-REV, les quatre molettes
+    TH-TRM, ST-TRM, TH-D/R et ST-D/R, l'interrupteur ON / CHARGE / OFF,
+    le témoin lumineux et les boutons CH3 et CH4. Les onze pastilles
+    numérotées sont posées exactement sur la commande correspondante ;
+    leurs coordonnées sont dans assets/js/tools.js, tableau RADIO.
+
+
+OÙ LES IMAGES APPARAISSENT MAINTENANT
+  · Accueil : l'image du circuit occupe tout le fond du hero, en fondu dans
+    le noir, avec un très lent mouvement de zoom. Par-dessus, la scène de
+    circuit vectorielle où trois voitures tournent réellement.
+  · Les 18 autres pages : chaque en-tête a son image de fond, choisie selon
+    le sujet de la page (le châssis sur le guide C76, le tracé sur la page
+    circuits, les livrées sur la page entretien, la soirée sur les pages
+    communauté…), traitée en fondu sombre pour que le texte reste lisible.
+  · Le corps des pages garde ses illustrations légendées.
+
+  Le traitement (opacité, désaturation, dégradé) se règle en un seul endroit :
+  assets/css/style.css, blocs .hero-bg et .page-head-bg.
+
+
+LES IMAGES GÉNÉRÉES DANS CANVA — CE QU'IL RESTE À FAIRE
+  9 séries d'images photoréalistes ont été générées dans ton compte Canva,
+  4 propositions par série. Je ne peux pas les rapatrier moi-même : mon
+  environnement n'a pas accès au CDN de Canva. La marche à suivre :
+
+    1. Ouvre le lien de la série (ils sont dans notre conversation)
+    2. Choisis la proposition qui te plaît
+    3. Partager → Télécharger → PNG
+    4. Renomme le fichier avec le nom exact ci-dessous
+    5. Dépose-le dans  site/img/  en écrasant l'ancien
+
+  Série                          → fichier à remplacer     utilisé sur
+  ------------------------------------------------------------------------
+  Circuit vu de dessus           → hero-track.png          image de partage
+                                                           (réseaux sociaux)
+  Table complète, ambiance salon → concept-wide.png        accueil, concept
+  Châssis nu en macro            → chassis-annote.png      guide C76, débuter,
+                                                           glossaire
+  4 carrosseries peintes         → livrees.png             modèles, entretien,
+                                                           galerie
+  Grille de départ               → grid-start.png          accueil, règlement
+  5 familles de modèles          → familles.png            concept, modèles
+  Circuit maison en carton       → gallery-1.png           galerie
+  Soirée à 4 pilotes             → gallery-3.png           galerie, clubs
+
+  ATTENTION — ne remplace PAS  img/radio-corps.png  : les 11 pastilles
+  cliquables du schéma de radiocommande sont positionnées en pourcentage
+  sur cette image précise. Une autre image décalerait tous les repères.
+
+  Les visuels purement schématiques gardent tout leur sens en illustration
+  et n'ont pas vocation à devenir des photos : tailles-tapis.png (comparaison
+  d'emprises à l'échelle), trajectoire.png (trajectoire idéale),
+  bordure-coupe.png (vue en coupe), circuit-carte.png (tracé annoté).
+
+  Aucune image n'est cassée en attendant : le site tourne avec les visuels
+  actuels, tu remplaces ce que tu veux, quand tu veux.
+
+
+LES VISUELS
+  Les 15 illustrations d'origine ont été conservées : elles sont cohérentes
+  entre elles et correctement légendées. S'y ajoutent le logo, le favicon et
+  le circuit animé de l'accueil, créés en SVG (nets à toutes les tailles).
+
+  Pour remplacer un visuel par une photo : mets ta photo dans site/img/ sous
+  le même nom, ou change l'attribut src dans la page concernée.
+
+
+MODIFIER LES TEXTES
+  Deux façons :
+  · Directement dans les fichiers .html de site/ — tout est en clair.
+  · Ou dans build/pages1-4.py puis « python3 build.py » : plus sûr si tu
+    touches aux menus, aux pieds de page ou aux données structurées, qui
+    sont partagés entre toutes les pages.
+
+
+MISE EN LIGNE
+  Le dossier site/ est autonome : dépose-le tel quel chez n'importe quel
+  hébergeur (Netlify, OVH, Infomaniak, GitHub Pages…). Aucun serveur,
+  aucune base de données, aucun cookie, aucun traceur.
+
+  Après la mise en ligne, pense à déclarer sitemap.xml dans la Search
+  Console de Google et dans Bing Webmaster Tools.
+
+
+NOTES
+  Prix indicatifs constatés en 2026. Site indépendant, sans lien commercial
+  avec Turbo Racing, LDARC ou les revendeurs cités.
+  La version anglaise n'est pas encore faite.

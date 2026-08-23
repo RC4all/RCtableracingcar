@@ -1,0 +1,18 @@
+{
+  "name": "RC Table Racing Car",
+  "short_name": "RC 1/76",
+  "lang": "fr",
+  "description": "Le guide francophone du RC racing sur table à l’échelle 1/76",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#101215",
+  "icons": [
+    {
+      "src": "img/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

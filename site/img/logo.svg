@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="RC Table Racing Car">
+  <rect width="512" height="512" fill="#101215"/>
+  <g transform="translate(256 250) skewX(-9)">
+    <rect x="-150" y="-150" width="150" height="150" fill="#e0592b"/>
+    <rect x="0" y="-150" width="150" height="150" fill="#ffffff"/>
+    <rect x="-150" y="0" width="150" height="150" fill="#ffffff"/>
+    <rect x="0" y="0" width="150" height="150" fill="#e0592b"/>
+  </g>
+  <text x="256" y="470" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="46"
+        font-weight="600" letter-spacing="9" fill="#8b9299">1/76</text>
+</svg>
