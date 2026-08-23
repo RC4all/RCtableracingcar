@@ -69,7 +69,8 @@ P["entretien"] = {
 </section>
 
 <section class="section section--paper2">
-  <div class="wrap grid g-side">
+  <div class="wrap">
+    <div class="grid g-side">
     <div class="stack" data-reveal="left">
       <p class="eyebrow">Atelier</p>
       <h2 class="h2">Peindre ses carrosseries</h2>
@@ -82,6 +83,14 @@ P["entretien"] = {
     <figure class="fig" data-reveal="right">
       <img src="img/photos/carrosseries-led.webp" width="1000" height="589" loading="lazy" decoding="async" alt="Trois carrosseries RC 1/76 peintes différemment, éclairage LED allumé sous chaque châssis">
       <figcaption>Trois carrosseries, trois identités : la différence se voit, pas au chrono.</figcaption>
+    </figure>
+    </div>
+    <figure class="fig" style="max-width:800px;margin:36px auto 0" data-reveal>
+      <img src="img/photos/aerographe-debutant.jpg" width="1000" height="517" loading="lazy" decoding="async"
+           alt="Aérographe portatif utilisé pour appliquer une fine couche de peinture sur une maquette">
+      <figcaption><strong>Pas besoin de matériel coûteux pour commencer.</strong> Un aérographe simple autour de
+      20&nbsp;€ fait déjà l’affaire pour peindre une carrosserie 1/76 : travaille avec des couches fines,
+      laisse sécher entre les passes et nettoie l’outil immédiatement après usage.</figcaption>
     </figure>
   </div>
 </section>
@@ -303,7 +312,7 @@ P["budget"] = {
     "crumb": "Où acheter & budget",
     "title": "Budget RC 1/76 — combien coûte vraiment le RC racing sur table",
     "desc": "Calculateur de budget RC 1/76 : voiture, tapis, bordures, radio et comptage "
-            "de tours, pour un pilote ou pour un club. Ticket d’entrée à partir d’environ 90 €, "
+            "de tours, pour un pilote ou pour un club. Ticket d’entrée à partir d’environ 125 €, "
             "prix constatés en 2026.",
     "image": "photos/tapis-turbo-racing-l.jpg",
     "image_alt": "Plan d’un tapis de course Turbo Racing pour le 1/76",
@@ -317,7 +326,7 @@ P["budget"] = {
         "@type": "FAQPage",
         "mainEntity": [
             {"@type": "Question", "name": "Combien coûte le RC table car racing pour débuter ?",
-             "acceptedAnswer": {"@type": "Answer", "text": "Comptez environ 90 € pour un ticket d’entrée complet : une voiture Turbo Racing C76 à environ 59 €, un tapis Turbo Racing XS à environ 25 €, et des bordures en polyuréthane autour de 15 € les 5 mètres. La radio, la batterie et le chargeur sont fournis avec la voiture."}},
+             "acceptedAnswer": {"@type": "Answer", "text": "Comptez environ 125 € pour un ticket d’entrée complet : une voiture Turbo Racing C76 à environ 85 €, un tapis Turbo Racing XS à environ 25 €, et des bordures en polyuréthane autour de 15 € les 5 mètres. La radio, la batterie et le chargeur sont fournis avec la voiture."}},
             {"@type": "Question", "name": "Que faut-il vérifier avant d’acheter une RC 1/76 ?",
              "acceptedAnswer": {"@type": "Answer", "text": "Que le kit soit complet — radiocommande, batterie, chargeur, deux carrosseries — et que le modèle annoncé soit bien celui de la photo. Prévoyez quatre piles AAA, qui ne sont jamais fournies."}},
             {"@type": "Question", "name": "Quel matériel peut attendre quand on débute en RC 1/76 ?",
@@ -331,16 +340,16 @@ P["budget"] = {
     <h1 class="h1" style="color:#fff">Où acheter &amp; combien ça coûte</h1>
     <p class="lead">Compose ta liste et vois le total. Les prix sont indicatifs, constatés en 2026 chez les
     revendeurs de modélisme et sur les grandes plateformes — ce site n’a aucun lien commercial avec les marques citées.</p>
-    <ul class="facts"><li>Entrée <b>≈ 90 €</b></li><li>4 pilotes <b>≈ 350 €</b></li><li>Soit <b>&lt; 90 € / pilote</b></li><li>Prix <b>2026</b></li></ul>
+    <ul class="facts"><li>Entrée <b>≈ 125 €</b></li><li>4 pilotes <b>≈ 415 €</b></li><li>Soit <b>≈ 104 € / pilote</b></li><li>Prix <b>2026</b></li></ul>
   </div>
 </section>
 
 <section class="section">
   <div class="wrap">
-    <p class="answer" style="margin-bottom:40px" data-reveal><strong>Le ticket d’entrée est d’environ 90&nbsp;€ :</strong>
-    une Turbo Racing C76 (≈&nbsp;59&nbsp;€, radio et batterie incluses), un tapis XS (≈&nbsp;25&nbsp;€) et
+    <p class="answer" style="margin-bottom:40px" data-reveal><strong>Le ticket d’entrée est d’environ 125&nbsp;€ :</strong>
+    une Turbo Racing C76 (≈&nbsp;85&nbsp;€, radio et batterie incluses), un tapis XS (≈&nbsp;25&nbsp;€) et
     des bordures PU (≈&nbsp;15&nbsp;€). Pour quatre pilotes sur un tapis L, compte plutôt
-    <strong>environ 350&nbsp;€ au total</strong>, soit moins de 90&nbsp;€ par personne.</p>
+    <strong>environ 415&nbsp;€ au total</strong>, soit environ 104&nbsp;€ par personne.</p>
 
     <section id="budget-tool" class="tool" data-reveal>
       <div class="tool-head">
@@ -351,9 +360,9 @@ P["budget"] = {
         <div>
           <div class="field"><span class="tiny">La voiture</span>
             <div class="chips" role="group" aria-label="Choisir la voiture">
-              <button type="button" class="chip" data-b="car" data-v="mini" aria-pressed="false">Turbo Racing MINI · 35 €</button>
-              <button type="button" class="chip" data-b="car" data-v="c76" aria-pressed="true">Turbo Racing C76 · 59 €</button>
-              <button type="button" class="chip" data-b="car" data-v="c76le" aria-pressed="false">Turbo Racing C76LE · 69 €</button>
+              <button type="button" class="chip" data-b="car" data-v="mini" aria-pressed="false">Turbo Racing MINI · 50 €</button>
+              <button type="button" class="chip" data-b="car" data-v="c76" aria-pressed="true">Turbo Racing C76 · 85 €</button>
+              <button type="button" class="chip" data-b="car" data-v="c76le" aria-pressed="false">Turbo Racing C76LE · 95 €</button>
             </div></div>
           <div class="field"><span class="tiny">Le tapis</span>
             <div class="chips" role="group" aria-label="Choisir le tapis">

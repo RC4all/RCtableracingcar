@@ -322,7 +322,7 @@ _FAQ = [
      "Échelle 1/76, 5,8 cm de long, châssis TC-06 v3 à empattement réglable de 33,5 à 34,5 mm, propulsion, "
      "moteur coreless 1020 tournant à environ 42 000 tr/min, trois modes de puissance (20 %, 50 %, 100 %), "
      "batterie LiPo 3,7 V 55 mAh rechargée en USB-C, radiocommande 2,4 GHz proportionnelle, LED avant et "
-     "arrière, vitesse annoncée autour de 6 km/h. Livrée RTR, prête à rouler, pour environ 59 €."),
+     "arrière, vitesse annoncée autour de 6 km/h. Livrée RTR, prête à rouler, pour environ 85 €."),
     ("Peut-on rouler à plusieurs sur la même piste ?",
      "Oui : c’est tout l’intérêt. Chaque voiture s’appaire à sa propre radio, sans réglage de fréquence. "
      "Quatre pilotes tiennent confortablement sur un tapis L, huit sur un XL."),

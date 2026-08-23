@@ -35,9 +35,9 @@ P["modeles"] = {
             {"@type": "ListItem", "position": 3, "item": {"@type": "Product", "name": "Turbo Racing C71", "category": "Racing loisir", "description": "Première génération de châssis. Agréable en loisir, dépassée en course.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "45", "availability": "https://schema.org/InStock"}}},
             {"@type": "ListItem", "position": 4, "item": {"@type": "Product", "name": "Turbo Racing C74", "category": "Racing loisir", "description": "Fin de la génération v1. Bon compromis d’occasion.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "48", "availability": "https://schema.org/InStock"}}},
             {"@type": "ListItem", "position": 5, "item": {"@type": "Product", "name": "Turbo Racing C75", "category": "Racing", "description": "Châssis v2, plus rapide que la v1, mais moins précise à piloter.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "55", "availability": "https://schema.org/InStock"}}},
-            {"@type": "ListItem", "position": 6, "item": {"@type": "Product", "name": "Turbo Racing C76", "category": "Référence racing", "description": "Châssis TC-06. Le meilleur rapport précision-vitesse-prix de la gamme, base de comparaison du site.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "59", "availability": "https://schema.org/InStock"}}},
-            {"@type": "ListItem", "position": 7, "item": {"@type": "Product", "name": "Turbo Racing C76LE", "category": "Racing", "description": "Identique à la C76, carrosserie plus détaillée.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "69", "availability": "https://schema.org/InStock"}}},
-            {"@type": "ListItem", "position": 8, "item": {"@type": "Product", "name": "Turbo Racing C78", "category": "Racing", "description": "Même châssis TC-06 que la C76, carrosserie plus détaillée et prix plus élevé.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "75", "availability": "https://schema.org/InStock"}}},
+            {"@type": "ListItem", "position": 6, "item": {"@type": "Product", "name": "Turbo Racing C76", "category": "Référence racing", "description": "Châssis TC-06. Le meilleur rapport précision-vitesse-prix de la gamme, base de comparaison du site.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "85", "availability": "https://schema.org/InStock"}}},
+            {"@type": "ListItem", "position": 7, "item": {"@type": "Product", "name": "Turbo Racing C76LE", "category": "Racing", "description": "Identique à la C76, carrosserie plus détaillée.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "95", "availability": "https://schema.org/InStock"}}},
+            {"@type": "ListItem", "position": 8, "item": {"@type": "Product", "name": "Turbo Racing C78", "category": "Racing", "description": "Même châssis TC-06 que la C76, carrosserie plus détaillée et prix plus élevé.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "100", "availability": "https://schema.org/InStock"}}},
             {"@type": "ListItem", "position": 9, "item": {"@type": "Product", "name": "Turbo Racing C82", "category": "Fun", "description": "Hors gabarit pour la catégorie, mais parfaite comme pace car.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "65", "availability": "https://schema.org/InStock"}}},
         ],
     }],
@@ -49,15 +49,15 @@ P["modeles"] = {
     <p class="lead">Drift, loisir ou compétition. À ce jour, seule la marque Turbo&nbsp;Racing propose des
     modèles&nbsp;1/76 assez fiables et performants pour courser sérieusement. Voici comment ils se situent
     les uns par rapport aux autres.</p>
-    <ul class="facts"><li><b>11 modèles</b> comparés</li><li><b>3 générations</b> de châssis</li><li>De <b>35 à 75 €</b></li><li>Référence <b>C76</b></li></ul>
+    <ul class="facts"><li><b>11 modèles</b> comparés</li><li><b>3 générations</b> de châssis</li><li>De <b>50 à 100 €</b></li><li>Référence <b>C76</b></li></ul>
   </div>
 </section>
 
 <section class="section">
   <div class="wrap">
     <p class="answer" style="margin-bottom:40px" data-reveal><strong>La réponse courte :</strong> prends une
-    <strong>Turbo Racing C76</strong> (châssis TC-06, ≈&nbsp;59&nbsp;€). Les C76LE et C78 partagent la même
-    mécanique pour 10 à 16&nbsp;€ de plus — la seule différence est la carrosserie. La MINI (≈&nbsp;35&nbsp;€)
+    <strong>Turbo Racing C76</strong> (châssis TC-06, ≈&nbsp;85&nbsp;€). Les C76LE et C78 partagent la même
+    mécanique pour 10 à 15&nbsp;€ de plus — la seule différence est la carrosserie. La MINI (≈&nbsp;50&nbsp;€)
     convient pour découvrir, et la famille C61-C66 est une famille <em>drift</em>, à ne pas mélanger avec le racing.</p>
 
     <section id="comparateur" class="tool" data-reveal>
@@ -81,7 +81,7 @@ P["modeles"] = {
             <caption>Prix indicatifs constatés en 2026 · kit complet radio + batterie + chargeur</caption>
             <thead><tr><th scope="col">Modèle</th><th scope="col">Châssis</th><th scope="col">Usage</th><th scope="col">Prix</th><th scope="col">Notre lecture</th></tr></thead>
             <tbody>
-              <tr class="is-star"><th scope="row">C76<span class="star-tag">★</span></th><td>TC-06 · v3</td><td>Référence</td><td>≈ 59 €</td><td>La meilleure : précision et vitesse au prix le plus juste.</td></tr>
+              <tr class="is-star"><th scope="row">C76<span class="star-tag">★</span></th><td>TC-06 · v3</td><td>Référence</td><td>≈ 85 €</td><td>La meilleure : précision et vitesse au prix le plus juste.</td></tr>
             </tbody>
           </table>
         </div>
@@ -186,7 +186,7 @@ P["c76"] = {
     "crumb": "Guide du C76",
     "title": "Turbo Racing C76 — guide complet du châssis TC-06 à l’échelle 1/76",
     "desc": "Fiche de référence du Turbo Racing C76 : châssis TC-06, 5,8 cm, 20 à 30 minutes "
-            "d’autonomie selon l’usage, ≈ 59 €. Routine de session, points de vigilance direction, "
+            "d’autonomie selon l’usage, ≈ 85 €. Routine de session, points de vigilance direction, "
             "transmission et pneus.",
     "image": "photos/c76-avant.jpg",
     "image_alt": "Turbo Racing C76 orange vue de trois quarts avant",
@@ -219,8 +219,8 @@ P["c76"] = {
             {"@type": "PropertyValue", "name": "Vitesse annoncée", "value": "environ 6 km/h"},
             {"@type": "PropertyValue", "name": "Type", "value": "RTR (Ready To Run)"},
         ],
-        "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "59",
-                   "highPrice": "75", "offerCount": "3",
+        "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "85",
+                   "highPrice": "100", "offerCount": "3",
                    "availability": "https://schema.org/InStock"},
     }],
     "body": """
@@ -243,14 +243,14 @@ P["c76"] = {
         ("Châssis", "TC-06 · v3", ""),
         ("Longueur", "5,8 cm", ""),
         ("Autonomie", "20-30 min", ""),
-        ("Prix constaté", '≈&nbsp;<span data-count="59" data-suffix="&nbsp;€">59&nbsp;€</span>', ""),
+        ("Prix constaté", '≈&nbsp;<span data-count="85" data-suffix="&nbsp;€">85&nbsp;€</span>', ""),
     ]) + """
 
 <section class="section">
   <div class="wrap">
     <p class="answer" style="margin-bottom:40px" data-reveal><strong>Pourquoi la C76 plutôt qu’une autre :</strong>
     la C76, la C76LE et la C78 utilisent exactement le même châssis TC-06 et la même mécanique. Seule la
-    carrosserie change. La C76 est la moins chère des trois (≈&nbsp;59&nbsp;€ contre 69 et 75&nbsp;€) :
+    carrosserie change. La C76 est la moins chère des trois (≈&nbsp;85&nbsp;€ contre 95 et 100&nbsp;€) :
     à performance identique, c’est le choix rationnel — et le bon choix pour que tous les pilotes d’une
     même course roulent à armes égales.</p>
 
@@ -297,7 +297,7 @@ P["c76"] = {
         <div><dt>Radio</dt><dd>2,4 GHz proportionnelle</dd></div>
         <div><dt>Éclairage</dt><dd>LED avant / arrière</dd></div>
         <div><dt>Livraison</dt><dd>RTR, prêt à rouler</dd></div>
-        <div><dt>Prix constaté</dt><dd>≈ 59 €</dd></div>
+        <div><dt>Prix constaté</dt><dd>≈ 85 €</dd></div>
       </dl>
     </div>
 
@@ -358,9 +358,9 @@ P["c76"] = {
         <table class="data">
           <thead><tr><th scope="col">Modèle</th><th scope="col">Châssis</th><th scope="col">Prix</th><th scope="col">Différence réelle</th></tr></thead>
           <tbody>
-            <tr class="is-star"><th scope="row">C76</th><td>TC-06</td><td>≈ 59 €</td><td>Aucune, c’est la base — et la moins chère</td></tr>
-            <tr><th scope="row">C76LE</th><td>TC-06</td><td>≈ 69 €</td><td>Carrosserie plus détaillée uniquement</td></tr>
-            <tr><th scope="row">C78</th><td>TC-06</td><td>≈ 75 €</td><td>Carrosserie plus détaillée uniquement</td></tr>
+            <tr class="is-star"><th scope="row">C76</th><td>TC-06</td><td>≈ 85 €</td><td>Aucune, c’est la base — et la moins chère</td></tr>
+            <tr><th scope="row">C76LE</th><td>TC-06</td><td>≈ 95 €</td><td>Carrosserie plus détaillée uniquement</td></tr>
+            <tr><th scope="row">C78</th><td>TC-06</td><td>≈ 100 €</td><td>Carrosserie plus détaillée uniquement</td></tr>
           </tbody>
         </table>
       </div>

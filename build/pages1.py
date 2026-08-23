@@ -66,7 +66,7 @@ P["index"] = {
         ("Échelle", "1/76", ""),
         ("Longueur", '<span data-count="5,8" data-suffix="&nbsp;cm">5,8&nbsp;cm</span>', ""),
         ("Piste minimum", "95 × 50 cm", ""),
-        ("Ticket d’entrée", '≈&nbsp;<span data-count="90" data-suffix="&nbsp;€">90&nbsp;€</span>', ""),
+        ("Ticket d’entrée", '≈&nbsp;<span data-count="125" data-suffix="&nbsp;€">125&nbsp;€</span>', ""),
     ]) + """
 
 """ + MARQUEE + """

@@ -8,7 +8,7 @@ NAV = [
     ("Débuter", [
         ("Débuter en 10 minutes", "debuter", "Les 4 étapes du premier soir"),
         ("Le concept 1/76", "concept", "Ce qui définit la discipline"),
-        ("Où acheter &amp; budget", "budget", "Calculateur · à partir de 90 €"),
+        ("Où acheter &amp; budget", "budget", "Calculateur · à partir de 125 €"),
     ]),
     ("Matériel", [
         ("Choisir son modèle", "modeles", "Comparateur des 11 Turbo Racing"),
@@ -47,10 +47,10 @@ ORDER = ["debuter", "concept", "modeles", "c76", "radio", "pilotage", "entretien
 MARQUEE = """<div class="marquee" aria-hidden="true">
   <div class="marquee-track">
     <span>Échelle 1/76</span><span>Voiture de 5,8 cm</span><span>Piste dès 95 × 50 cm</span>
-    <span>Châssis TC-06</span><span>20 à 30 min d’autonomie</span><span>Ticket d’entrée ≈ 90 €</span>
+    <span>Châssis TC-06</span><span>20 à 30 min d’autonomie</span><span>Ticket d’entrée ≈ 125 €</span>
     <span>Proche de la série</span><span>Objectif : championnat de France 1/76</span>
     <span>Échelle 1/76</span><span>Voiture de 5,8 cm</span><span>Piste dès 95 × 50 cm</span>
-    <span>Châssis TC-06</span><span>20 à 30 min d’autonomie</span><span>Ticket d’entrée ≈ 90 €</span>
+    <span>Châssis TC-06</span><span>20 à 30 min d’autonomie</span><span>Ticket d’entrée ≈ 125 €</span>
     <span>Proche de la série</span><span>Objectif : championnat de France 1/76</span>
   </div>
 </div>"""

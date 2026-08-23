@@ -8,9 +8,9 @@ RC Table Racing Car documente une discipline de modélisme : faire courir des vo
 
 - Échelle : 1/76 — voiture de 5,8 cm de long
 - Piste minimum : 95 × 50 cm (tapis Turbo Racing XS)
-- Ticket d'entrée : environ 90 € (voiture + tapis + bordures)
+- Ticket d'entrée : environ 125 € (voiture + tapis + bordures)
 - Autonomie d'une batterie LiPo : 20 à 30 minutes selon l’usage
-- Modèle de référence : Turbo Racing C76, châssis TC-06, environ 59 €
+- Modèle de référence : Turbo Racing C76, châssis TC-06, environ 85 €
 
 ### Fiche technique du Turbo Racing C76 (modèle de référence)
 
@@ -23,8 +23,8 @@ RC Table Racing Car documente une discipline de modélisme : faire courir des vo
 - Radiocommande : 2,4 GHz, direction et accélération proportionnelles
 - Éclairage : LED avant et arrière
 - Vitesse annoncée : environ 6 km/h
-- Livraison : RTR (Ready To Run), environ 59 €
-- Modèles partageant le même châssis TC-06 : C76 (59 €), C76LE (69 €), C78 (75 €)
+- Livraison : RTR (Ready To Run), environ 85 €
+- Modèles partageant le même châssis TC-06 : C76 (85 €), C76LE (95 €), C78 (100 €)
 - Réglage clé pour débuter : limiteur de puissance TH.LIM sur 20 %
 - Règle de sécurité : allumer la radio avant la voiture, l'éteindre après
 
@@ -34,12 +34,12 @@ RC Table Racing Car documente une discipline de modélisme : faire courir des vo
 - [Débuter en 10 minutes](https://rctableracingcar.fr/debuter-en-10-minutes.html): Charger, allumer dans le bon ordre, régler les trims, rouler au limiteur 20 % : le guide pas à pas du premier soir en RC table car racing, et les cinq erreurs qui cassent une transmission.
 - [Le concept](https://rctableracingcar.fr/le-concept.html): Des voitures RC de 5 à 6 cm à l’échelle 1/76, une piste surélevée, six principes : ce qui définit le RC table car racing et pourquoi cette échelle peut devenir une vraie catégorie de compétition.
 - [Choisir son modèle](https://rctableracingcar.fr/choisir-son-modele.html): Comparateur filtrable des modèles Turbo Racing 1/76 : MINI, C61-C66 drift, C71 à C78, C82. Châssis, usage, prix 2026 et notre lecture de chaque modèle, plus un sélecteur en trois questions.
-- [Guide du C76](https://rctableracingcar.fr/guide-turbo-racing-c76.html): Fiche de référence du Turbo Racing C76 : châssis TC-06, 5,8 cm, 20 à 30 minutes d’autonomie selon l’usage, ≈ 59 €. Routine de session, points de vigilance direction, transmission et pneus.
+- [Guide du C76](https://rctableracingcar.fr/guide-turbo-racing-c76.html): Fiche de référence du Turbo Racing C76 : châssis TC-06, 5,8 cm, 20 à 30 minutes d’autonomie selon l’usage, ≈ 85 €. Routine de session, points de vigilance direction, transmission et pneus.
 - [Radiocommande](https://rctableracingcar.fr/comprendre-la-radiocommande.html): Volant, gâchette, ST.TRIM, TH.TRIM, dual rate, TH.LIM, REV, appairage : chaque commande de la radio 1/76 expliquée, avec un schéma cliquable et trois réglages de départ selon le niveau.
 - [Réglages & pilotage](https://rctableracingcar.fr/reglages-et-pilotage.html): Freiner avant de tourner, viser la sortie, doser au bout des doigts, être régulier : la technique de pilotage en 1/76, plus un tableau de diagnostic des six symptômes les plus courants.
 - [Entretien & personnalisation](https://rctableracingcar.fr/entretien-et-personnalisation.html): Une minute d’entretien entre chaque batterie : cheveux à la pincette, pneus au chiffon, roues libres, charge à froid. Plus la méthode pour peindre ses carrosseries en polycarbonate.
 - [Circuits et tapis](https://rctableracingcar.fr/circuits-et-tapis.html): Comparatif des tapis de course RC 1/76 de 95 × 50 cm à 240 × 120 cm, rôle des bordures en polyuréthane, construction d’un circuit maison et solutions de comptage de tours.
-- [Où acheter & budget](https://rctableracingcar.fr/ou-acheter-et-budget.html): Calculateur de budget RC 1/76 : voiture, tapis, bordures, radio et comptage de tours, pour un pilote ou pour un club. Ticket d’entrée à partir d’environ 90 €, prix constatés en 2026.
+- [Où acheter & budget](https://rctableracingcar.fr/ou-acheter-et-budget.html): Calculateur de budget RC 1/76 : voiture, tapis, bordures, radio et comptage de tours, pour un pilote ou pour un club. Ticket d’entrée à partir d’environ 125 €, prix constatés en 2026.
 - [Règlement type](https://rctableracingcar.fr/reglement-type-de-course.html): Matériel, piste, format, classement, contacts et esprit : un règlement de course RC 1/76 en six articles, testé sur table, à copier et adapter. Plus le déroulé d’une soirée type à quatre pilotes.
 - [Clubs & compétitions](https://rctableracingcar.fr/clubs-et-competitions.html): La communauté francophone du RC racing sur table : groupes actifs, calendrier des rencontres, et ce qu’il faut pour monter sa propre course à quatre pilotes en deux heures.
 - [Galerie des circuits](https://rctableracingcar.fr/galerie-des-circuits.html): Tapis du commerce, constructions maison et tracés improbables sur une table de cuisine : les circuits RC 1/76 des pilotes francophones, en photos.
