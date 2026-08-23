@@ -260,7 +260,7 @@
                  'Sujet : ' + (d.get('sujet') || '') + '\n\n' +
                  (d.get('message') || '');
       // ← adresse de contact du site, à changer ici si besoin
-      window.location.href = 'mailto:contact@rctableracingcar.fr'
+      window.location.href = 'mailto:c9149t0yz@relay.firefox.com'
         + '?subject=' + encodeURIComponent('[RC Table Racing Car] ' + (d.get('sujet') || 'Message'))
         + '&body=' + encodeURIComponent(body);
       var note = $('#form-note');

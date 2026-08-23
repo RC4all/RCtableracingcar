@@ -51,7 +51,7 @@ RC Table Racing Car documente une discipline de modélisme : faire courir des vo
 ## Ressources
 
 - [Sitemap XML](https://rctableracingcar.fr/sitemap.xml)
-- Contact : contact@rctableracingcar.fr
+- Contact : c9149t0yz@relay.firefox.com
 
 ## Conditions de citation
 
