@@ -47,10 +47,10 @@ ORDER = ["debuter", "concept", "modeles", "c76", "radio", "pilotage", "entretien
 MARQUEE = """<div class="marquee" aria-hidden="true">
   <div class="marquee-track">
     <span>Échelle 1/76</span><span>Voiture de 5,8 cm</span><span>Piste dès 95 × 50 cm</span>
-    <span>Châssis TC-06</span><span>20 à 30 min d’autonomie</span><span>Ticket d’entrée ≈ 125 €</span>
+    <span>Châssis TC-06</span><span>20 à 30 min d’autonomie</span><span>Ticket d’entrée ≈ 85 €</span>
     <span>Proche de la série</span><span>Objectif : championnat de France 1/76</span>
     <span>Échelle 1/76</span><span>Voiture de 5,8 cm</span><span>Piste dès 95 × 50 cm</span>
-    <span>Châssis TC-06</span><span>20 à 30 min d’autonomie</span><span>Ticket d’entrée ≈ 125 €</span>
+    <span>Châssis TC-06</span><span>20 à 30 min d’autonomie</span><span>Ticket d’entrée ≈ 85 €</span>
     <span>Proche de la série</span><span>Objectif : championnat de France 1/76</span>
   </div>
 </div>"""

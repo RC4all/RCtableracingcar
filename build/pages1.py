@@ -64,9 +64,9 @@ P["index"] = {
 
 """ + statbar([
         ("Échelle", "1/76", ""),
-        ("Longueur", '<span data-count="5,8" data-suffix="&nbsp;cm">5,8&nbsp;cm</span>', ""),
-        ("Piste minimum", "95 × 50 cm", ""),
-        ("Ticket d’entrée", '≈&nbsp;<span data-count="125" data-suffix="&nbsp;€">125&nbsp;€</span>', ""),
+        ("Taille", '<span data-count="5,8" data-suffix="&nbsp;cm">5,8&nbsp;cm</span>', ""),
+        ("Espace nécessaire", "95 × 50 cm", ""),
+        ("Ticket d’entrée", '≈&nbsp;<a href="choisir-son-modele.html#comparateur" title="Voir le comparateur des prix" style="color:#fff"><span data-count="85" data-suffix="&nbsp;€">85&nbsp;€</span></a>', ""),
     ]) + """
 
 """ + MARQUEE + """
@@ -199,7 +199,7 @@ P["index"] = {
       </div>
     </div>
     <figure class="fig" style="border-color:var(--ink-3);background:var(--ink-2)" data-reveal="right">
-      <img src="img/photos/grille-depart-carre.webp" width="941" height="706" loading="lazy" decoding="async" alt="Grille de départ sur tapis de course RC 1/76 : une MINI, un coupé orange et deux buggys alignés">
+      <img src="img/photos/ligne-depart-nettoyee.jpg" width="1508" height="1043" loading="lazy" decoding="async" style="filter:none;opacity:1" alt="Quatre voitures RC 1/76 alignées sur la grille de départ d’un circuit sur tapis">
       <figcaption style="background:var(--ink-2);border-color:var(--ink-3);color:#a3aab2">Grille de départ, quatre pilotes : le format le plus courant d’une soirée.</figcaption>
     </figure>
   </div>

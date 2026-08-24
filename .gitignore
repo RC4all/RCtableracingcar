@@ -1,0 +1,4 @@
+# Fichiers macOS et caches locaux : ils ne font pas partie du site.
+.DS_Store
+__pycache__/
+*.py[cod]
