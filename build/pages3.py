@@ -333,7 +333,7 @@ P["comptage"] = {
     <h1 class="h1" style="color:#fff">Les systèmes de comptage</h1>
     <p class="lead">Du téléphone posé au bord de la piste à la boucle qui identifie chaque voiture :
     le bon système est celui qui laisse les pilotes rouler, pas celui qui complique la soirée.</p>
-    <ul class="facts"><li>De <b>0 €</b> à plusieurs milliers</li><li>Caméra, <b>IR</b> ou <b>NFC/RFID</b></li><li>Compatible <b>1/76</b></li></ul>
+    <ul class="facts"><li>De <b>0 €</b> à <b>200 €</b></li><li>Caméra ou <b>NFC/RFID</b></li><li>Compatible <b>1/76</b></li></ul>
   </div>
 </section>
 
@@ -348,57 +348,40 @@ P["comptage"] = {
     <div class="grid g2" data-stagger>
       <article class="card"><span class="card-num">01 · SANS ÉLECTRONIQUE</span><h3>Un arbitre et un chrono</h3>
       <p>Une feuille, un téléphone et une personne qui note les passages. C’est gratuit et parfait pour tester un
-      format de course, mais le comptage devient vite difficile au-delà de deux ou trois voitures.</p></article>
+      format de course. Pour suivre plusieurs pilotes à la fois, l’arbitre peut utiliser les smartphones des
+      coureurs : un chrono par voiture. C’est sportif, mais ça marche.</p>
+      <figure class="fig" style="max-width:250px;margin:18px auto 0"><img src="img/photos/chrono-iphone.jpg" width="618" height="495" loading="lazy" decoding="async"
+      alt="iPhone affichant le chronomètre utilisé pour compter les tours manuellement"><figcaption>Un simple chronomètre suffit pour les premières manches.</figcaption></figure></article>
       <article class="card"><span class="card-num">02 · CAMÉRA</span><h3>Le smartphone reconnaît la voiture</h3>
       <p>Sur Android, <a href="https://play.google.com/store/apps/details?id=com.laptrap" target="_blank" rel="noopener">LapTrap</a>
       utilise la caméra du smartphone et des marqueurs imprimés sur les voitures. Sur iPhone, essaie
       <a href="https://apps.apple.com/us/app/rc-timing/id1092261747" target="_blank" rel="noopener">RC Timing</a>
       (reconnaissance par couleur) ou <a href="https://apps.apple.com/jp/app/mini4-lap-timer/id1280883925" target="_blank" rel="noopener">Mini4 Lap Timer</a>
       (caméra, conçu à l’origine pour les Mini 4WD). Pas de matériel de piste à acheter ; LapTrap et RC Timing
-      proposent des achats intégrés, Mini4 Lap Timer est annoncé gratuit.</p></article>
+      proposent des achats intégrés, Mini4 Lap Timer est annoncé gratuit.</p>
+      <figure class="fig" style="max-width:300px;margin:18px auto 0"><img src="img/photos/comptage-camera-smartphone.png" width="1536" height="1024" loading="lazy" decoding="async"
+      alt="Smartphone sur trépied filmant une petite voiture RC qui passe la ligne de départ"><figcaption>Le smartphone filme et reconnaît la voiture qui lui passe devant.</figcaption></figure></article>
       <article class="card"><span class="card-num">03 · NFC / RFID</span><h3>Une étiquette passive sous la voiture</h3>
       <p>Le <a href="https://rsrc.biz/turbo-racing/8386-systeme-de-comptage-pour-micro-rc-176.html" target="_blank" rel="noopener">Mini Race Challenge</a>
       est pensé pour les micro-RC 1/76 : une fine étiquette NFC (famille RFID) collée sous le châssis et un lecteur
-      sous le tapis. Le kit est vendu aux alentours de <strong>180 €</strong>, avec dix étiquettes incluses.</p></article>
-    </div>
-  </div>
-</section>
-
-<section class="section section--paper2">
-  <div class="wrap">
-    <p class="eyebrow" data-reveal>Comparer avant d’acheter</p>
-    <h2 class="h2" style="margin-bottom:24px" data-reveal>Quel budget, pour quel usage ?</h2>
-    <div class="table-wrap" data-reveal>
-      <table class="data">
-        <caption>Prix indicatifs relevés en ligne : vérifie toujours le tarif et la compatibilité avant achat.</caption>
-        <thead><tr><th scope="col">Méthode</th><th scope="col">Exemple disponible</th><th scope="col">Budget indicatif</th><th scope="col">À retenir</th></tr></thead>
-        <tbody>
-          <tr><th scope="row">Manuel</th><td>Chrono + feuille</td><td>0 €</td><td>Très bien pour débuter ; un observateur est nécessaire.</td></tr>
-          <tr><th scope="row">Caméra</th><td>LapTrap</td><td>Application avec achats intégrés</td><td>Rapide à installer ; réclame une bonne vue de la piste et des marqueurs visibles.</td></tr>
-          <tr class="is-star"><th scope="row">NFC / RFID</th><td>Mini Race Challenge 1/76</td><td>≈ 180 € le kit</td><td>Étiquettes passives très légères : particulièrement adapté au 1/76.</td></tr>
-        </tbody>
-      </table>
+      sous le tapis. Le kit est vendu aux alentours de <strong>180 €</strong>, avec dix étiquettes incluses. Il est même
+      possible d’ajouter en option des feux bicolores sur la ligne de départ, pour encore plus de réalisme.</p>
+      <figure class="fig" style="max-width:280px;margin:18px auto 0"><img src="img/photos/mini-race-challenge-1-76.jpg" width="800" height="724" loading="lazy" decoding="async"
+      alt="Kit Mini Race Challenge avec boîtier, antenne et étiquettes NFC pour micro RC"><figcaption>Le kit Mini Race Challenge, avec lecteur, antenne et étiquettes NFC.</figcaption></figure></article>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="wrap grid g2">
-    <div class="stack" data-reveal="left">
+  <div class="wrap" style="max-width:800px" data-reveal>
       <p class="eyebrow">Le conseil 1/76</p>
       <h2 class="h2">Le NFC/RFID évite d’alourdir la voiture</h2>
       <p class="prose">Sur une micro-RC, un transpondeur actif peut prendre de la place et demander une alimentation.
       Une étiquette NFC est passive : elle ne pèse presque rien et n’a rien à recharger. Le lecteur du Mini Race
       Challenge se place sous la zone de passage, avec une épaisseur de tapis limitée par le fabricant.</p>
-    </div>
-    <div class="callout" data-reveal="right"><span class="tiny">Avant la commande</span>
-      <h3 class="h3" style="margin-bottom:12px">Les trois vérifications utiles</h3>
-      <p class="prose">1. La largeur de la ligne de détection couvre-t-elle toute la piste ?<br>2. Le système sait-il
-      distinguer plusieurs voitures dans le même tour ?<br>3. Les étiquettes ou transpondeurs passent-ils sous la
-      carrosserie sans toucher le tapis ?</p>
-      <p class="prose" style="margin-top:14px">Pour une première soirée, essaie la caméra. Pour une piste 1/76
-      régulière, le Mini Race Challenge est le choix le plus cohérent parmi les kits trouvés.</p>
-    </div>
+      <p class="prose" style="margin-top:14px">À notre connaissance, il n’existe pas actuellement d’autre système
+      de comptage performant, prêt à l’emploi et réellement adapté au 1/76 qui soit équivalent au Mini Race Challenge.
+      Pour une première soirée, essaie la caméra ; pour une piste 1/76 régulière, c’est aujourd’hui le choix le plus cohérent.</p>
   </div>
 </section>
 
