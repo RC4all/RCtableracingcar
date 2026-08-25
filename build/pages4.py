@@ -162,7 +162,8 @@ P["galerie"] = {
 _POSTS = [
     ("2026-08-25", "25 août 2026", "Atelier", "Recharger toutes les voitures sur une seule prise",
      "Voici le chargeur idéal pour recharger toutes les voitures en même temps, pratique lorsqu’on ne dispose que "
-     "d’une seule prise électrique. Un chargeur USB-C à quatre ports ne coûte que quelques euros sur les sites "
+     "d’une seule prise électrique. Un chargeur USB-A (ou USB-C en fonction des câbles que tu as chez toi) avec 4 ports "
+     "ne coûte que quelques euros sur les sites "
      "d’e-commerce.", None, "photos/multi-chargeur-usb-c.jpg"),
     ("2026-07-27", "27 juil. 2026", "Essai", "Le châssis TC-06 après trois mois",
      "Une centaine de batteries plus tard : ce qui s’use, ce qui tient, et pourquoi la C76 reste la "
