@@ -525,7 +525,7 @@ P["plan"] = {
   <div class="wrap page-head-inner stack" style="--gap:16px">
     <p class="eyebrow">Navigation</p>
     <h1 class="h1" style="color:#fff">Plan du site</h1>
-    <p class="lead">Dix-neuf pages, quatre outils interactifs.</p>
+    <p class="lead">Vingt pages, quatre outils interactifs.</p>
   </div>
 </section>
 <section class="section">
@@ -538,7 +538,8 @@ P["plan"] = {
       <li style="list-style:none"><a href="choisir-son-modele.html">Choisir son modèle</a></li>
       <li style="list-style:none"><a href="guide-turbo-racing-c76.html">Guide du Turbo Racing C76</a></li>
       <li style="list-style:none"><a href="comprendre-la-radiocommande.html">Comprendre la radiocommande</a></li>
-      <li style="list-style:none"><a href="circuits-et-tapis.html">Circuits et tapis</a></li></ul></div>
+      <li style="list-style:none"><a href="circuits-et-tapis.html">Circuits et tapis</a></li>
+      <li style="list-style:none"><a href="systemes-de-comptage.html">Les systèmes de comptage</a></li></ul></div>
     <div class="card card--flat"><h2 class="h3">Piloter</h2><ul style="display:grid;gap:9px;margin-top:8px">
       <li style="list-style:none"><a href="reglages-et-pilotage.html">Réglages &amp; pilotage</a></li>
       <li style="list-style:none"><a href="entretien-et-personnalisation.html">Entretien &amp; personnalisation</a></li>

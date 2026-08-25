@@ -114,6 +114,7 @@ FOOTER = """<footer class="site-footer">
           <li><a href="reglages-et-pilotage.html">Réglages &amp; pilotage</a></li>
           <li><a href="entretien-et-personnalisation.html">Entretien</a></li>
           <li><a href="circuits-et-tapis.html">Circuits et tapis</a></li>
+          <li><a href="systemes-de-comptage.html">Systèmes de comptage</a></li>
         </ul>
       </div>
       <div class="footer-col">

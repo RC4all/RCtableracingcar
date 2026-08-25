@@ -15,6 +15,7 @@ NAV = [
         ("Guide du Turbo Racing C76", "c76", "La référence, châssis TC-06"),
         ("Comprendre la radiocommande", "radio", "Schéma cliquable, 11 commandes"),
         ("Circuits et tapis", "circuits", "Dimensions, bordures, tracés"),
+        ("Les systèmes de comptage", "comptage", "Caméra et NFC/RFID"),
     ]),
     ("Piloter", [
         ("Réglages &amp; pilotage", "pilotage", "Les 4 gestes qui font le chrono"),
@@ -36,7 +37,7 @@ NAV = [
 
 # Ordre de lecture (précédent / suivant en bas de page)
 ORDER = ["debuter", "concept", "modeles", "c76", "radio", "pilotage", "entretien",
-         "circuits", "budget", "reglement", "clubs", "galerie", "actus",
+         "circuits", "comptage", "budget", "reglement", "clubs", "galerie", "actus",
          "glossaire", "faq", "contact"]
 
 

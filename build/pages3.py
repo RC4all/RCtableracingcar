@@ -264,13 +264,14 @@ P["circuits"] = {
 </section>
 
 <section class="section">
-  <div class="wrap grid g-side">
-    <figure class="fig" data-reveal="left">
+  <div class="wrap">
+    <div class="grid g-side">
+      <figure class="fig" data-reveal="left">
       <img src="img/bordure-coupe.png" width="1200" height="680" loading="lazy" decoding="async"
            alt="Vue en coupe d’une bordure en polyuréthane collée sur un tapis de course RC">
       <figcaption>En coupe : la bordure PU agit comme une glissière et renvoie la voiture en piste.</figcaption>
-    </figure>
-    <div class="stack" data-reveal="right">
+      </figure>
+      <div class="stack" data-reveal="right">
       <p class="eyebrow">Indispensable</p>
       <h2 class="h2">Les bordures</h2>
       <p class="prose">Si ton tapis n’en a pas, procure-t’en : idéalement une bande autocollante en
@@ -278,7 +279,14 @@ P["circuits"] = {
       l’arrêter</strong>. On en trouve facilement sur les plateformes en ligne, autour de 15&nbsp;€ les 5 mètres.</p>
       <p class="prose">C’est le seul accessoire dont l’absence se paie immédiatement : sans bordure, chaque
       erreur devient un arrêt de course et une voiture à aller récupérer par terre.</p>
+      </div>
     </div>
+    <figure class="fig" style="max-width:1100px;margin:36px auto 0" data-reveal>
+      <img src="img/photos/bordures-pu-turbo-racing.jpg" width="1500" height="386" loading="lazy" decoding="async"
+           alt="Annonce d’une bordure en polyuréthane Turbo Racing de 13 mètres pour circuit RC 1/76">
+      <figcaption>Exemple de bordure PU Turbo Racing, référence 760140, vendue en rouleau de 13 mètres.
+      Les prix et disponibilités varient selon le vendeur.</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -291,15 +299,107 @@ P["circuits"] = {
       s’inspirer sur les groupes Facebook et sur YouTube.</p>
       <p style="margin-top:14px"><a class="link-arrow" href="galerie-des-circuits.html">Voir la galerie des circuits <span aria-hidden="true">→</span></a></p></div>
     <div class="callout"><span class="tiny">Pour augmenter le challenge</span>
-      <h2 class="h3" style="margin-bottom:12px">Compter les tours</h2>
-      <p class="prose">Deux familles de solutions : les applications smartphone qui suivent les voitures à la
-      caméra, et les capteurs à étiquettes <strong>RFID</strong> collées sous le châssis. Le chrono transforme
-      une soirée sympa en vraie compétition.</p>
-      <p style="margin-top:14px"><a class="link-arrow" href="ou-acheter-et-budget.html">Chiffrer le comptage RFID <span aria-hidden="true">→</span></a></p></div>
+      <h2 class="h3" style="margin-bottom:12px">Les systèmes de comptage</h2>
+      <p class="prose">De l’application qui reconnaît les voitures à la caméra aux étiquettes
+      <strong>NFC / RFID</strong> collées sous le châssis : le chrono transforme une soirée sympa en vraie compétition.</p>
+      <p style="margin-top:14px"><a class="link-arrow" href="systemes-de-comptage.html">Les différents systèmes existants <span aria-hidden="true">→</span></a></p></div>
   </div>
 </section>
 
 """ + cta("Combien tout cela coûte-t-il vraiment ?", "ou-acheter-et-budget.html", "Le calculateur de budget"),
+}
+
+
+# =========================================================================== #
+#  SYSTÈMES DE COMPTAGE
+# =========================================================================== #
+P["comptage"] = {
+    "head_bg": "photos/grille-depart-carre.webp",
+    "url": "systemes-de-comptage.html",
+    "crumb": "Les systèmes de comptage",
+    "title": "Systèmes de comptage RC — caméra et NFC/RFID",
+    "desc": "Comparatif des systèmes de comptage de tours RC : application caméra sur smartphone"
+            " et étiquettes NFC/RFID. Solutions et budgets indicatifs pour le 1/76.",
+    "image": "photos/grille-depart-carre.jpg",
+    "image_alt": "Voitures RC 1/76 alignées sur une grille de départ",
+    "priority": "0.7", "changefreq": "monthly",
+    "og_type": "article",
+    "about": ["Comptage de tours RC", "NFC", "RFID"],
+    "speakable": [".answer"],
+    "body": """
+<section class="page-head">
+  <div class="wrap page-head-inner stack" style="--gap:20px">
+    <p class="eyebrow">Matériel · chronométrage</p>
+    <h1 class="h1" style="color:#fff">Les systèmes de comptage</h1>
+    <p class="lead">Du téléphone posé au bord de la piste à la boucle qui identifie chaque voiture :
+    le bon système est celui qui laisse les pilotes rouler, pas celui qui complique la soirée.</p>
+    <ul class="facts"><li>De <b>0 €</b> à plusieurs milliers</li><li>Caméra, <b>IR</b> ou <b>NFC/RFID</b></li><li>Compatible <b>1/76</b></li></ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="answer" style="margin-bottom:40px" data-reveal><strong>Pour découvrir la course, commence par la caméra d’un smartphone.</strong>
+    Pour une piste 1/76 qui roule souvent, un système NFC à étiquette passive est le plus discret : aucun fil ni
+    batterie à ajouter dans la voiture. Les transpondeurs actifs sont trop encombrants pour ces modèles : les systèmes
+    de compétition professionnels sont donc surdimensionnés pour une table à la maison.</p>
+
+    <h2 class="h2" style="margin-bottom:26px" data-reveal>Quatre façons de compter les tours</h2>
+    <div class="grid g2" data-stagger>
+      <article class="card"><span class="card-num">01 · SANS ÉLECTRONIQUE</span><h3>Un arbitre et un chrono</h3>
+      <p>Une feuille, un téléphone et une personne qui note les passages. C’est gratuit et parfait pour tester un
+      format de course, mais le comptage devient vite difficile au-delà de deux ou trois voitures.</p></article>
+      <article class="card"><span class="card-num">02 · CAMÉRA</span><h3>Le smartphone reconnaît la voiture</h3>
+      <p><a href="https://play.google.com/store/apps/details?id=com.laptrap" target="_blank" rel="noopener">LapTrap</a>
+      utilise la caméra du smartphone et des marqueurs imprimés sur les voitures. Pas de matériel de piste à acheter ;
+      l’application est proposée avec achats intégrés. C’est la solution la plus simple à essayer.</p></article>
+      <article class="card"><span class="card-num">03 · NFC / RFID</span><h3>Une étiquette passive sous la voiture</h3>
+      <p>Le <a href="https://rsrc.biz/turbo-racing/8386-systeme-de-comptage-pour-micro-rc-176.html" target="_blank" rel="noopener">Mini Race Challenge</a>
+      est pensé pour les micro-RC 1/76 : une fine étiquette NFC (famille RFID) collée sous le châssis et un lecteur
+      sous le tapis. Le kit est vendu aux alentours de <strong>180 €</strong>, avec dix étiquettes incluses.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper2">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Comparer avant d’acheter</p>
+    <h2 class="h2" style="margin-bottom:24px" data-reveal>Quel budget, pour quel usage ?</h2>
+    <div class="table-wrap" data-reveal>
+      <table class="data">
+        <caption>Prix indicatifs relevés en ligne : vérifie toujours le tarif et la compatibilité avant achat.</caption>
+        <thead><tr><th scope="col">Méthode</th><th scope="col">Exemple disponible</th><th scope="col">Budget indicatif</th><th scope="col">À retenir</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Manuel</th><td>Chrono + feuille</td><td>0 €</td><td>Très bien pour débuter ; un observateur est nécessaire.</td></tr>
+          <tr><th scope="row">Caméra</th><td>LapTrap</td><td>Application avec achats intégrés</td><td>Rapide à installer ; réclame une bonne vue de la piste et des marqueurs visibles.</td></tr>
+          <tr class="is-star"><th scope="row">NFC / RFID</th><td>Mini Race Challenge 1/76</td><td>≈ 180 € le kit</td><td>Étiquettes passives très légères : particulièrement adapté au 1/76.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap grid g2">
+    <div class="stack" data-reveal="left">
+      <p class="eyebrow">Le conseil 1/76</p>
+      <h2 class="h2">Le NFC/RFID évite d’alourdir la voiture</h2>
+      <p class="prose">Sur une micro-RC, un transpondeur actif peut prendre de la place et demander une alimentation.
+      Une étiquette NFC est passive : elle ne pèse presque rien et n’a rien à recharger. Le lecteur du Mini Race
+      Challenge se place sous la zone de passage, avec une épaisseur de tapis limitée par le fabricant.</p>
+    </div>
+    <div class="callout" data-reveal="right"><span class="tiny">Avant la commande</span>
+      <h3 class="h3" style="margin-bottom:12px">Les trois vérifications utiles</h3>
+      <p class="prose">1. La largeur de la ligne de détection couvre-t-elle toute la piste ?<br>2. Le système sait-il
+      distinguer plusieurs voitures dans le même tour ?<br>3. Les étiquettes ou transpondeurs passent-ils sous la
+      carrosserie sans toucher le tapis ?</p>
+      <p class="prose" style="margin-top:14px">Pour une première soirée, essaie la caméra. Pour une piste 1/76
+      régulière, le Mini Race Challenge est le choix le plus cohérent parmi les kits trouvés.</p>
+    </div>
+  </div>
+</section>
+
+""" + cta("Installer le comptage sur un circuit adapté", "circuits-et-tapis.html", "Voir les circuits et tapis"),
 }
 
 
