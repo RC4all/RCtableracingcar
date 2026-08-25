@@ -177,6 +177,10 @@ _POSTS = [
     ("2026-07-04", "04 juil. 2026", "Matériel", "Passer à la radio P32S : ce que ça change",
      "Exponentiel de direction et gestion multi-modèles. Utile, mais pas avant d’avoir maîtrisé la radio "
      "d’origine — voici quand franchir le pas.", "comprendre-la-radiocommande.html", None),
+    ("2026-06-25", "25 juin 2026", "Course", "Un exemple à suivre : des compétitions 1/76 au Mexique",
+     "Au Mexique, des compétitions commencent à voir le jour. Regarde la dernière finale A d’un club local : "
+     "un exemple inspirant pour faire grandir la discipline en France.",
+     "https://www.youtube.com/watch?v=nKoKJSziTVU", None),
 ]
 
 P["actus"] = {
@@ -201,7 +205,7 @@ P["actus"] = {
             {"@type": "BlogPosting", "headline": t, "datePublished": d, "dateModified": d,
              "description": x, "articleSection": s,
              "author": {"@type": "Organization", "name": "RC Table Racing Car"},
-             **({"url": "https://rctableracingcar.fr/" + u} if u else {})}
+             **({"url": (u if u.startswith("http") else "https://rctableracingcar.fr/" + u)} if u else {})}
             for d, _, s, t, x, u, _ in _POSTS
         ],
     }],
@@ -223,8 +227,8 @@ P["actus"] = {
         <div><h2>{heading}</h2><p>{x}</p>{pic}{more}</div>
       </article>
 """.format(d=d, human=h, sec=s.upper(), t=t, x=x, u=u, race=" tag--race" if i == 0 else "",
-           heading=('<a href="{u}" style="color:inherit">{t}</a>'.format(u=u, t=t) if u else t),
-           more=('<p style="margin-top:10px"><a class="link-arrow" href="{u}">Lire la page liée <span aria-hidden="true">→</span></a></p>'.format(u=u) if u else ""),
+           heading=('<a href="{u}"{external} style="color:inherit">{t}</a>'.format(u=u, t=t, external=' target="_blank" rel="noopener"' if u and u.startswith("http") else "") if u else t),
+           more=('<p style="margin-top:10px"><a class="link-arrow" href="{u}"{external}>{label} <span aria-hidden="true">→</span></a></p>'.format(u=u, external=' target="_blank" rel="noopener"' if u.startswith("http") else "", label="Voir la vidéo" if u.startswith("http") else "Lire la page liée") if u else ""),
            pic=('''<figure class="fig" style="max-width:330px;margin-top:18px"><img src="img/{img}" width="1000" height="820" loading="lazy" decoding="async"
         alt="Quatre voitures RC 1/76 reliées à un chargeur USB-C quatre ports"><figcaption>Quatre voitures rechargées à partir d’une seule prise.</figcaption></figure>'''.format(img=img) if img else ""))
         for i, (d, h, s, t, x, u, img) in enumerate(_POSTS)) + """
