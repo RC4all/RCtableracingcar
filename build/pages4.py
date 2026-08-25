@@ -160,18 +160,22 @@ P["galerie"] = {
 #  ACTUS
 # =========================================================================== #
 _POSTS = [
+    ("2026-08-25", "25 août 2026", "Atelier", "Recharger toutes les voitures sur une seule prise",
+     "Voici le chargeur idéal pour recharger toutes les voitures en même temps, pratique lorsqu’on ne dispose que "
+     "d’une seule prise électrique. Un chargeur USB-C à quatre ports ne coûte que quelques euros sur les sites "
+     "d’e-commerce.", None, "photos/multi-chargeur-usb-c.jpg"),
     ("2026-07-27", "27 juil. 2026", "Essai", "Le châssis TC-06 après trois mois",
      "Une centaine de batteries plus tard : ce qui s’use, ce qui tient, et pourquoi la C76 reste la "
-     "meilleure affaire de la gamme malgré l’arrivée de la C78.", "guide-turbo-racing-c76.html"),
+     "meilleure affaire de la gamme malgré l’arrivée de la C78.", "guide-turbo-racing-c76.html", None),
     ("2026-07-20", "20 juil. 2026", "Atelier", "Un circuit 80 × 120 en carton rigide",
      "Le pas-à-pas du tracé le plus compact du site : découpe, collage des bordures polyuréthane, "
-     "et les deux erreurs de conception à éviter.", "circuits-et-tapis.html"),
+     "et les deux erreurs de conception à éviter.", "circuits-et-tapis.html", None),
     ("2026-07-12", "12 juil. 2026", "Course", "Première soirée à quatre, règlement à l’épreuve",
      "Deux séries, une finale, et trois articles du règlement type réécrits après coup. Le compte rendu, "
-     "avec les temps et ce qu’on a appris.", "reglement-type-de-course.html"),
+     "avec les temps et ce qu’on a appris.", "reglement-type-de-course.html", None),
     ("2026-07-04", "04 juil. 2026", "Matériel", "Passer à la radio P32S : ce que ça change",
      "Exponentiel de direction et gestion multi-modèles. Utile, mais pas avant d’avoir maîtrisé la radio "
-     "d’origine — voici quand franchir le pas.", "comprendre-la-radiocommande.html"),
+     "d’origine — voici quand franchir le pas.", "comprendre-la-radiocommande.html", None),
 ]
 
 P["actus"] = {
@@ -196,8 +200,8 @@ P["actus"] = {
             {"@type": "BlogPosting", "headline": t, "datePublished": d, "dateModified": d,
              "description": x, "articleSection": s,
              "author": {"@type": "Organization", "name": "RC Table Racing Car"},
-             "url": "https://rctableracingcar.fr/" + u}
-            for d, _, s, t, x, u in _POSTS
+             **({"url": "https://rctableracingcar.fr/" + u} if u else {})}
+            for d, _, s, t, x, u, _ in _POSTS
         ],
     }],
     "body": """
@@ -215,11 +219,14 @@ P["actus"] = {
 """ + "".join(
         """      <article class="post">
         <div class="post-meta"><time datetime="{d}">{human}</time><span class="tag{race}">{sec}</span></div>
-        <div><h2><a href="{u}" style="color:inherit">{t}</a></h2><p>{x}</p>
-        <p style="margin-top:10px"><a class="link-arrow" href="{u}">Lire la page liée <span aria-hidden="true">→</span></a></p></div>
+        <div><h2>{heading}</h2><p>{x}</p>{pic}{more}</div>
       </article>
-""".format(d=d, human=h, sec=s.upper(), t=t, x=x, u=u, race=" tag--race" if i == 0 else "")
-        for i, (d, h, s, t, x, u) in enumerate(_POSTS)) + """
+""".format(d=d, human=h, sec=s.upper(), t=t, x=x, u=u, race=" tag--race" if i == 0 else "",
+           heading=('<a href="{u}" style="color:inherit">{t}</a>'.format(u=u, t=t) if u else t),
+           more=('<p style="margin-top:10px"><a class="link-arrow" href="{u}">Lire la page liée <span aria-hidden="true">→</span></a></p>'.format(u=u) if u else ""),
+           pic=('''<figure class="fig" style="max-width:330px;margin-top:18px"><img src="img/{img}" width="1000" height="820" loading="lazy" decoding="async"
+        alt="Quatre voitures RC 1/76 reliées à un chargeur USB-C quatre ports"><figcaption>Quatre voitures rechargées à partir d’une seule prise.</figcaption></figure>'''.format(img=img) if img else ""))
+        for i, (d, h, s, t, x, u, img) in enumerate(_POSTS)) + """
     </div>
     <p class="tiny" style="margin-top:26px">Une info à partager, un essai à proposer ?
       <a href="contact.html">Écris-moi</a>.</p>
