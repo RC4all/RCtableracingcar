@@ -35,7 +35,8 @@ P["clubs"] = {
     <p class="answer" style="margin-bottom:40px" data-reveal><strong>Il n’existe pas encore de championnat
     structuré en 1/76.</strong> Les rencontres se montent de façon informelle, principalement via le groupe
     Facebook « Turbo Racing RC 1:76 France ». Monter la vôtre demande peu : une table, un tapis avec bordures,
-    quatre pilotes et deux heures.</p>
+    quatre pilotes et deux heures. Ce site est là pour rassembler les amateurs et pilotes de 1/76 : n’hésite pas à
+    proposer un lieu ou une soirée pour vous challenger.</p>
 
     <div class="grid g3" data-stagger>
       <article class="card"><span class="card-num">Le groupe le plus actif</span>

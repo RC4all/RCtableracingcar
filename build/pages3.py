@@ -558,8 +558,8 @@ P["reglement"] = {
         Carrosserie libre, numéro obligatoire et lisible.</p></article>
       <article class="callout"><span class="tiny">Art. 2 · Piste</span>
         <p class="prose" style="margin-top:8px">Tapis tissu avec bordures sur toute la longueur, posé sur une
-        surface plane et stable. Largeur minimale permettant deux voitures côte à côte. Sens de circulation
-        annoncé avant la première série.</p></article>
+        surface plane et stable. La piste doit faire au moins <strong>20 cm de large</strong> afin de permettre les
+        dépassements sans risque. Sens de circulation annoncé avant la première série.</p></article>
       <article class="callout"><span class="tiny">Art. 3 · Format</span>
         <p class="prose" style="margin-top:8px">Essais libres 10 min, puis deux séries qualificatives de 4 min.
         Finale en deux manches de 5 min. Grille de départ selon le meilleur temps qualificatif.</p></article>
