@@ -350,9 +350,12 @@ P["comptage"] = {
       <p>Une feuille, un téléphone et une personne qui note les passages. C’est gratuit et parfait pour tester un
       format de course, mais le comptage devient vite difficile au-delà de deux ou trois voitures.</p></article>
       <article class="card"><span class="card-num">02 · CAMÉRA</span><h3>Le smartphone reconnaît la voiture</h3>
-      <p><a href="https://play.google.com/store/apps/details?id=com.laptrap" target="_blank" rel="noopener">LapTrap</a>
-      utilise la caméra du smartphone et des marqueurs imprimés sur les voitures. Pas de matériel de piste à acheter ;
-      l’application est proposée avec achats intégrés. C’est la solution la plus simple à essayer.</p></article>
+      <p>Sur Android, <a href="https://play.google.com/store/apps/details?id=com.laptrap" target="_blank" rel="noopener">LapTrap</a>
+      utilise la caméra du smartphone et des marqueurs imprimés sur les voitures. Sur iPhone, essaie
+      <a href="https://apps.apple.com/us/app/rc-timing/id1092261747" target="_blank" rel="noopener">RC Timing</a>
+      (reconnaissance par couleur) ou <a href="https://apps.apple.com/jp/app/mini4-lap-timer/id1280883925" target="_blank" rel="noopener">Mini4 Lap Timer</a>
+      (caméra, conçu à l’origine pour les Mini 4WD). Pas de matériel de piste à acheter ; LapTrap et RC Timing
+      proposent des achats intégrés, Mini4 Lap Timer est annoncé gratuit.</p></article>
       <article class="card"><span class="card-num">03 · NFC / RFID</span><h3>Une étiquette passive sous la voiture</h3>
       <p>Le <a href="https://rsrc.biz/turbo-racing/8386-systeme-de-comptage-pour-micro-rc-176.html" target="_blank" rel="noopener">Mini Race Challenge</a>
       est pensé pour les micro-RC 1/76 : une fine étiquette NFC (famille RFID) collée sous le châssis et un lecteur
