@@ -212,7 +212,7 @@ P["c76"] = {
             {"@type": "PropertyValue", "name": "Moteur", "value": "Coreless 1020, environ 42 000 tr/min"},
             {"@type": "PropertyValue", "name": "Modes de puissance", "value": "20 %, 50 %, 100 % (TH.LIM)"},
             {"@type": "PropertyValue", "name": "Batterie", "value": "LiPo 3,7 V 55 mAh"},
-            {"@type": "PropertyValue", "name": "Charge", "value": "USB-C, environ 5 minutes"},
+            {"@type": "PropertyValue", "name": "Charge", "value": "USB-C, environ 20 minutes pour une charge complète"},
             {"@type": "PropertyValue", "name": "Autonomie", "value": "20 à 30 minutes selon l’usage"},
             {"@type": "PropertyValue", "name": "Radiocommande", "value": "2,4 GHz, direction et gaz proportionnels"},
             {"@type": "PropertyValue", "name": "Éclairage", "value": "LED avant et arrière"},
@@ -291,7 +291,7 @@ P["c76"] = {
         <div><dt>Régime</dt><dd>≈ 42 000 tr/min</dd></div>
         <div><dt>Puissance</dt><dd>20 / 50 / 100 %</dd></div>
         <div><dt>Batterie</dt><dd>LiPo 3,7 V · 55 mAh</dd></div>
-        <div><dt>Charge</dt><dd>USB-C · ≈ 5 min</dd></div>
+        <div><dt>Charge</dt><dd>USB-C · ≈ 20 min</dd></div>
         <div><dt>Autonomie</dt><dd>20–30 min selon l’usage</dd></div>
         <div><dt>Vitesse</dt><dd>≈ 6 km/h</dd></div>
         <div><dt>Radio</dt><dd>2,4 GHz proportionnelle</dd></div>
@@ -322,16 +322,18 @@ P["c76"] = {
         <img src="img/photos/chassis-eclairage-led.webp" width="900" height="802" loading="lazy" decoding="async"
              alt="Châssis RC 1/76 transparent montrant la batterie, la carte électronique et trois plaques de guidage lumineux bleue, rouge et jaune">
         <figcaption>Les plaques de guidage lumineux se changent sans outil : la couleur de l’éclairage de
-        châssis se choisit en dix secondes. Visuel du constructeur.</figcaption>
+        châssis se choisit en dix secondes. La batterie est soudée, mais reste facilement accessible si elle doit
+        être remplacée : on trouve des LiPo <strong>12 × 15 × 4 mm</strong> (référence <strong>041215</strong>) sur AliExpress
+        pour quelques euros. Savoir manier un fer à souder est toutefois recommandé. <span class="tiny">(Visuel du constructeur.)</span></figcaption>
       </figure>
     </div>
 
     <h2 class="h2" style="margin-bottom:26px" data-reveal>La routine d’une session propre</h2>
     <div class="grid g4" data-stagger>
-      <div class="card card--flat"><span class="card-num">01 · Charge</span><h3 class="h4">Interrupteur sur OFF</h3><p>Quand la LED rouge s’éteint, c’est chargé.</p></div>
+      <div class="card card--flat"><span class="card-num">01 · Charge</span><h3 class="h4">Interrupteur sur OFF</h3><p>Et quand la LED rouge s’éteint, c’est chargé.</p></div>
       <div class="card card--flat"><span class="card-num">02 · Allumage</span><h3 class="h4">Radio d’abord</h3><p>Voiture ensuite. Extinction dans l’ordre inverse.</p></div>
       <div class="card card--flat"><span class="card-num">03 · Trim</span><h3 class="h4">Voiture bien droite</h3><p>ST.TRIM ajusté pour qu’elle roule droit toute seule.</p></div>
-      <div class="card card--flat"><span class="card-num">04 · Roule</span><h3 class="h4">Batterie vide</h3><p>Laisse refroidir, puis recharge cinq minutes pour la préserver.</p></div>
+      <div class="card card--flat"><span class="card-num">04 · Range</span><h3 class="h4">Batterie vide</h3><p>Laisse refroidir, puis recharge juste 5 minutes pour la préserver.</p></div>
     </div>
   </div>
 </section>
