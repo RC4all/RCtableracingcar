@@ -45,6 +45,7 @@
       var rows = MODELS.filter(function (m) { return filter === 'tous' || m.cat === filter; });
       tbody.innerHTML = rows.map(function (m) {
         return '<tr class="' + (m.star ? 'is-star' : '') + '">' +
+          '<td><img class="model-thumb" src="img/' + m.thumb + '"' + (m.thumbPos ? ' style="object-position:' + m.thumbPos + '"' : '') + ' alt="" loading="lazy" decoding="async"></td>' +
           '<th scope="row">' + m.id + (m.star ? '<span class="star-tag" title="Notre référence">★</span>' : '') + '</th>' +
           '<td>' + m.chassis + '</td>' +
           '<td>' + m.usage + '</td>' +

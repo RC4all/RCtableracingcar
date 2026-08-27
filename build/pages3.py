@@ -213,7 +213,7 @@ P["circuits"] = {
 
     <div class="grid g2" style="margin-top:44px" data-stagger>
       <figure class="fig">
-        <img src="img/tailles-tapis.png" width="1600" height="920" loading="lazy" decoding="async"
+        <img src="img/tailles-tapis.png" width="1000" height="575" loading="lazy" decoding="async"
              alt="Les quatre tailles de tapis RC 1/76 superposées à l’échelle : XS, M, L et XL">
         <figcaption>L’emprise réelle des quatre tapis, à l’échelle. Un XL demande une vraie table.</figcaption>
       </figure>
@@ -398,7 +398,7 @@ P["budget"] = {
     "crumb": "Où acheter & budget",
     "title": "Budget RC 1/76 — combien coûte vraiment le RC racing sur table",
     "desc": "Calculateur de budget RC 1/76 : voiture, tapis, bordures, radio et comptage "
-            "de tours, pour un pilote ou pour un club. Ticket d’entrée à partir d’environ 125 €, "
+            "de tours, pour un pilote ou pour un club. Budget de départ à partir d’environ 125 €, "
             "prix constatés en 2026.",
     "image": "photos/tapis-turbo-racing-l.jpg",
     "image_alt": "Plan d’un tapis de course Turbo Racing pour le 1/76",
@@ -412,7 +412,7 @@ P["budget"] = {
         "@type": "FAQPage",
         "mainEntity": [
             {"@type": "Question", "name": "Combien coûte le RC table car racing pour débuter ?",
-             "acceptedAnswer": {"@type": "Answer", "text": "Comptez environ 125 € pour un ticket d’entrée complet : une voiture Turbo Racing C76 à environ 85 €, un tapis Turbo Racing XS à environ 25 €, et des bordures en polyuréthane autour de 15 € les 5 mètres. La radio, la batterie et le chargeur sont fournis avec la voiture."}},
+             "acceptedAnswer": {"@type": "Answer", "text": "Comptez environ 125 € pour un budget de départ complet : une voiture Turbo Racing C76 à environ 85 €, un tapis Turbo Racing XS à environ 25 €, et des bordures en polyuréthane autour de 15 € les 5 mètres. La radio, la batterie et le chargeur sont fournis avec la voiture."}},
             {"@type": "Question", "name": "Que faut-il vérifier avant d’acheter une RC 1/76 ?",
              "acceptedAnswer": {"@type": "Answer", "text": "Que le kit soit complet — radiocommande, batterie, chargeur, deux carrosseries — et que le modèle annoncé soit bien celui de la photo. Prévoyez quatre piles AAA, qui ne sont jamais fournies."}},
             {"@type": "Question", "name": "Quel matériel peut attendre quand on débute en RC 1/76 ?",
@@ -432,7 +432,7 @@ P["budget"] = {
 
 <section class="section">
   <div class="wrap">
-    <p class="answer" style="margin-bottom:40px" data-reveal><strong>Le ticket d’entrée est d’environ 125&nbsp;€ :</strong>
+    <p class="answer" style="margin-bottom:40px" data-reveal><strong>Le budget de départ est d’environ 125&nbsp;€ :</strong>
     une Turbo Racing C76 (≈&nbsp;85&nbsp;€, radio et batterie incluses), un tapis XS (≈&nbsp;25&nbsp;€) et
     des bordures PU (≈&nbsp;15&nbsp;€). Pour quatre pilotes sur un tapis L, compte plutôt
     <strong>environ 415&nbsp;€ au total</strong>, soit environ 104&nbsp;€ par personne.</p>

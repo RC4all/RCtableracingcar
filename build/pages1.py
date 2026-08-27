@@ -66,7 +66,7 @@ P["index"] = {
         ("Échelle", "1/76", ""),
         ("Taille", '<span data-count="5,8" data-suffix="&nbsp;cm">5,8&nbsp;cm</span>', ""),
         ("Espace nécessaire", "95 × 50 cm", ""),
-        ("Ticket d’entrée", '≈&nbsp;<a href="choisir-son-modele.html#comparateur" title="Voir le comparateur des prix" style="color:#fff"><span data-count="85" data-suffix="&nbsp;€">85&nbsp;€</span></a>', ""),
+        ("Budget de départ", '≈&nbsp;<a href="choisir-son-modele.html#comparateur" title="Voir le comparateur des prix" style="color:#fff"><span data-count="85" data-suffix="&nbsp;€">85&nbsp;€</span></a>', ""),
     ]) + """
 
 """ + MARQUEE + """
