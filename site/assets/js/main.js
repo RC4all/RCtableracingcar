@@ -5,6 +5,9 @@
 (function () {
   'use strict';
 
+  /* Les contenus restent visibles si JavaScript est indisponible. */
+  document.documentElement.classList.add('js');
+
   var REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var $ = function (s, c) { return (c || document).querySelector(s); };
   var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };

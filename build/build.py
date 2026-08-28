@@ -19,7 +19,7 @@ SITE_NAME = "RC Table Racing Car"
 TAGLINE = "Le guide francophone du RC racing sur table à l’échelle 1/76"
 AUTHOR = "RC Table Racing Car"
 EMAIL = "c9149t0yz@relay.firefox.com"
-TODAY = "2026-07-28"
+TODAY = "2026-08-28"
 
 from content import PAGES, NAV, ORDER   # noqa: E402
 
@@ -227,6 +227,8 @@ def jsonld_common(slug):
         "description": p["desc"],
         "inLanguage": "fr-FR",
         "isPartOf": {"@id": DOMAIN + "/#website"},
+        "mainEntityOfPage": url,
+        "isAccessibleForFree": True,
         "datePublished": "2026-07-01",
         "dateModified": TODAY,
         "author": {"@id": DOMAIN + "/#org"},
@@ -404,7 +406,7 @@ def write_llms():
              "",
              "- Échelle : 1/76 — voiture de 5,8 cm de long",
              "- Piste minimum : 95 × 50 cm (tapis Turbo Racing XS)",
-             "- Ticket d'entrée : environ 125 € (voiture + tapis + bordures)",
+             "- Budget de départ : environ 125 € (voiture + tapis + bordures)",
              "- Autonomie d'une batterie LiPo : 20 à 30 minutes selon l’usage",
              "- Modèle de référence : Turbo Racing C76, châssis TC-06, environ 85 €",
              "",
@@ -415,7 +417,7 @@ def write_llms():
              "- Transmission : propulsion (2 roues motrices)",
              "- Moteur : coreless 1020, environ 42 000 tr/min",
              "- Modes de puissance : 20 %, 50 %, 100 % via le limiteur TH.LIM",
-             "- Batterie : LiPo 3,7 V 55 mAh, charge USB-C en environ 5 minutes",
+             "- Batterie : LiPo 3,7 V 55 mAh, charge USB-C complète en environ 20 minutes ; 5 minutes de recharge avant rangement",
              "- Radiocommande : 2,4 GHz, direction et accélération proportionnelles",
              "- Éclairage : LED avant et arrière",
              "- Vitesse annoncée : environ 6 km/h",
