@@ -479,8 +479,8 @@ P["mentions"] = {
     "url": "mentions-legales.html",
     "crumb": "Mentions légales",
     "title": "Mentions légales — RC Table Racing Car",
-    "desc": "Éditeur, hébergement, propriété intellectuelle, absence de lien commercial et absence "
-            "de collecte de données personnelles sur RC Table Racing Car.",
+    "desc": "Éditeur, hébergement Vercel, propriété intellectuelle, absence de lien commercial et "
+            "mesure d’audience anonymisée sur RC Table Racing Car.",
     "priority": "0.2", "changefreq": "yearly",
     "body": """
 <section class="page-head">
@@ -494,16 +494,18 @@ P["mentions"] = {
     <div><h2 class="h3" style="margin-bottom:10px">Éditeur</h2>
       <p class="prose">Site personnel édité par un passionné de modélisme RC, à titre non commercial.
       Contact : le <a href="contact.html">formulaire de contact</a>.</p></div>
+    <div><h2 class="h3" style="margin-bottom:10px">Hébergement</h2>
+      <p class="prose">Ce site est hébergé par <a href="https://vercel.com" target="_blank" rel="noopener">Vercel</a>.</p></div>
     <div><h2 class="h3" style="margin-bottom:10px">Indépendance</h2>
       <p class="prose">RC Table Racing Car n’a aucun lien commercial, partenariat ni programme d’affiliation
       avec Turbo Racing, LDARC ou les revendeurs cités. Les marques et références sont mentionnées à titre
       strictement informatif. Les prix indiqués sont des ordres de grandeur constatés en 2026 et ne
       constituent pas des offres de vente.</p></div>
     <div><h2 class="h3" style="margin-bottom:10px">Données personnelles</h2>
-      <p class="prose">Ce site est un ensemble de pages statiques. Il ne dépose aucun cookie, n’utilise
-      aucun outil de mesure d’audience et ne collecte aucune donnée personnelle. Les outils interactifs
-      (comparateur, sélecteur, calculateur de budget) fonctionnent entièrement dans le navigateur : aucune
-      information saisie n’est transmise. Le formulaire de contact ouvre votre logiciel de messagerie et
+      <p class="prose">Ce site est un ensemble de pages statiques. La mesure d’audience est limitée au
+      strict minimum et réalisée de manière anonymisée avec Vercel Web Analytics, sans cookie. Les outils
+      interactifs (comparateur, sélecteur, calculateur de budget) fonctionnent entièrement dans le navigateur :
+      aucune information saisie n’est transmise. Le formulaire de contact ouvre votre logiciel de messagerie et
       ne transite par aucun serveur.</p></div>
     <div><h2 class="h3" style="margin-bottom:10px">Propriété intellectuelle</h2>
       <p class="prose">Les textes et illustrations de ce site sont la propriété de leur auteur. Toute
@@ -514,8 +516,6 @@ P["mentions"] = {
       <p class="prose">Les informations techniques sont fournies de bonne foi et vérifiées, mais sans
       garantie. Les batteries lithium-polymère demandent des précautions : ne jamais charger une batterie
       chaude, gonflée ou endommagée, et ne jamais laisser une charge sans surveillance.</p></div>
-    <div><h2 class="h3" style="margin-bottom:10px">Hébergement</h2>
-      <p class="prose">À compléter avec le nom et l’adresse de votre hébergeur avant la mise en ligne.</p></div>
   </div>
 </section>
 """,

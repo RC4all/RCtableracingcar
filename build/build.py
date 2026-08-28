@@ -295,6 +295,7 @@ TEMPLATE = """<!DOCTYPE html>
 {footer}
 <script src="assets/js/main.js" defer></script>
 {tools}
+<script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 </body>
 </html>
 """
