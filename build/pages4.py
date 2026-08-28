@@ -160,6 +160,9 @@ P["galerie"] = {
 #  ACTUS
 # =========================================================================== #
 _POSTS = [
+    ("2026-08-28", "28 août 2026", "Course", "Course amicale à Paris : Housseyne l’emporte à la régularité",
+     "Cette semaine à Paris, une course amicale a réuni les pilotes autour du circuit. Housseyne s’impose grâce à sa régularité : des tours propres, peu d’erreurs et une belle constance jusqu’à la dernière manche.",
+     None, "photos/race-paris-08-2026.jpg"),
     ("2026-08-25", "25 août 2026", "Atelier", "Recharger toutes les voitures sur une seule prise",
      "Voici le chargeur idéal pour recharger toutes les voitures en même temps, pratique lorsqu’on ne dispose que "
      "d’une seule prise électrique. Un chargeur USB-A (ou USB-C en fonction des câbles que tu as chez toi) avec 4 ports "
@@ -171,7 +174,7 @@ _POSTS = [
     ("2026-07-20", "20 juil. 2026", "Atelier", "Un circuit 80 × 120 en carton rigide",
      "Le pas-à-pas du tracé le plus compact du site : découpe, collage des bordures polyuréthane, "
      "et les deux erreurs de conception à éviter.", "circuits-et-tapis.html", None),
-    ("2026-07-12", "12 juil. 2026", "Course", "Première soirée à quatre, règlement à l’épreuve",
+    ("2026-07-12", "12 juil. 2026", "Course", "Une nouvelle proposition de règlement de course pour le 1/76",
      "Deux séries, une finale, et trois articles du règlement type réécrits après coup. Le compte rendu, "
      "avec les temps et ce qu’on a appris.", "reglement-type-de-course.html", None),
     ("2026-07-04", "04 juil. 2026", "Matériel", "Passer à la radio P32S : ce que ça change",
@@ -229,8 +232,11 @@ P["actus"] = {
 """.format(d=d, human=h, sec=s.upper(), t=t, x=x, u=u, race=" tag--race" if i == 0 else "",
            heading=('<a href="{u}"{external} style="color:inherit">{t}</a>'.format(u=u, t=t, external=' target="_blank" rel="noopener"' if u and u.startswith("http") else "") if u else t),
            more=('<p style="margin-top:10px"><a class="link-arrow" href="{u}"{external}>{label} <span aria-hidden="true">→</span></a></p>'.format(u=u, external=' target="_blank" rel="noopener"' if u.startswith("http") else "", label="Voir la vidéo" if u.startswith("http") else "Lire la page liée") if u else ""),
-           pic=('''<figure class="fig" style="max-width:330px;margin-top:18px"><img src="img/{img}" width="1000" height="820" loading="lazy" decoding="async"
-        alt="Quatre voitures RC 1/76 reliées à un chargeur USB-C quatre ports"><figcaption>Quatre voitures rechargées à partir d’une seule prise.</figcaption></figure>'''.format(img=img) if img else ""))
+           pic=('''<figure class="fig" style="max-width:500px;margin-top:18px"><img src="img/{img}" width="1500" height="1125" loading="lazy" decoding="async"
+        alt="{alt}"><figcaption>{caption}</figcaption></figure>'''.format(
+                img=img,
+                alt=("Pilotes réunis autour d’un circuit RC 1/76 à Paris" if img == "photos/race-paris-08-2026.jpg" else "Quatre voitures RC 1/76 reliées à un chargeur USB quatre ports"),
+                caption=("Une course amicale disputée cette semaine à Paris." if img == "photos/race-paris-08-2026.jpg" else "Quatre voitures rechargées à partir d’une seule prise.")) if img else ""))
         for i, (d, h, s, t, x, u, img) in enumerate(_POSTS)) + """
     </div>
     <p class="tiny" style="margin-top:26px">Une info à partager, un essai à proposer ?
