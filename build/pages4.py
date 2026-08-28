@@ -168,18 +168,12 @@ _POSTS = [
      "d’une seule prise électrique. Un chargeur USB-A (ou USB-C en fonction des câbles que tu as chez toi) avec 4 ports "
      "ne coûte que quelques euros sur les sites "
      "d’e-commerce.", None, "photos/multi-chargeur-usb-c.jpg"),
-    ("2026-07-27", "27 juil. 2026", "Essai", "Le châssis TC-06 après trois mois",
-     "Une centaine de batteries plus tard : ce qui s’use, ce qui tient, et pourquoi la C76 reste la "
-     "meilleure affaire de la gamme malgré l’arrivée de la C78.", "guide-turbo-racing-c76.html", None),
     ("2026-07-20", "20 juil. 2026", "Atelier", "Un circuit 80 × 120 en carton rigide",
      "Le pas-à-pas du tracé le plus compact du site : découpe, collage des bordures polyuréthane, "
      "et les deux erreurs de conception à éviter.", "circuits-et-tapis.html", None),
     ("2026-07-12", "12 juil. 2026", "Course", "Une nouvelle proposition de règlement de course pour le 1/76",
      "Deux séries, une finale, et trois articles du règlement type réécrits après coup. Le compte rendu, "
      "avec les temps et ce qu’on a appris.", "reglement-type-de-course.html", None),
-    ("2026-07-04", "04 juil. 2026", "Matériel", "Passer à la radio P32S : ce que ça change",
-     "Exponentiel de direction et gestion multi-modèles. Utile, mais pas avant d’avoir maîtrisé la radio "
-     "d’origine — voici quand franchir le pas.", "comprendre-la-radiocommande.html", None),
     ("2026-06-25", "25 juin 2026", "Course", "Un exemple à suivre : des compétitions 1/76 au Mexique",
      "Au Mexique, des compétitions commencent à voir le jour. Regarde la dernière finale A d’un club local : "
      "un exemple inspirant pour faire grandir la discipline en France.",
