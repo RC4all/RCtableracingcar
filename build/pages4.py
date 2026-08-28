@@ -323,14 +323,16 @@ _FAQ = [
      "pneus interchangeables, batterie rechargeable : tout l’essentiel du RC racing est là, simplement miniaturisé."),
     ("Quel âge minimum ?",
      "À partir de 8-10 ans avec le limiteur TH.LIM sur 20 %. Les pièces sont petites : ce n’est pas un jouet "
-     "pour les tout-petits, mais c’est une excellente première radiocommande."),
+     "pour les tout-petits, mais un excellent moyen de se challenger entre fiston et papa."),
     ("Ça roule sur quoi ?",
      "Idéalement un tapis tissu de course, posé sur une table plane. Une table nue est trop glissante, une "
-     "moquette épaisse trop molle. Les bordures sont indispensables dès qu’on roule vite."),
-    ("Combien de temps roule une batterie ?",
+     "moquette épaisse trop molle. Les bordures sont indispensables, elles obligent à suivre le tracé et "
+     "empêchent les sorties de piste. C’est un game-changer."),
+    ("Combien de temps dure une batterie ?",
      "Compte entre 20 et 30 minutes selon l’usage, selon le niveau de puissance et le style de conduite. "
-     "Laisse refroidir la LiPo 3,7 V de 55 mAh avant de recharger, et "
-     "compte cinq minutes de charge en USB-C. Deux batteries de rechange changent une soirée."),
+     "Laisse refroidir la batterie avant de recharger, et "
+     "compte cinq minutes de charge avant de ranger et partir. 5 minutes de charge t’apporte approximativement "
+     "5 minutes de roulage."),
     ("Quelle est la fiche technique de la Turbo Racing C76 ?",
      "Échelle 1/76, 5,8 cm de long, châssis TC-06 v3 à empattement réglable de 33,5 à 34,5 mm, propulsion, "
      "moteur coreless 1020 tournant à environ 42 000 tr/min, trois modes de puissance (20 %, 50 %, 100 %), "
@@ -349,8 +351,9 @@ _FAQ = [
      "Un peu, et c’est volontaire : l’esprit de la catégorie est de rester proche de la série. Propreté de la "
      "transmission, pneus sains, trims justes et batterie en forme comptent bien plus que n’importe quelle option."),
     ("Où acheter en France ?",
-     "Les boutiques de modélisme en ligne, les revendeurs Turbo Racing, et les grandes plateformes. Vérifie "
-     "toujours que le kit est complet (radio, chargeur, deux carrosseries) et prévois quatre piles AAA."),
+     "Les boutiques de modélisme en ligne ou les grandes plateformes (Banggood, AliExpress, Amazon). Tu peux "
+     "parfois trouver de bonnes occasions sur LeBonCoin. Vérifie que le kit est complet (radio, câble, deux "
+     "carrosseries, tournevis et trombone) et prévois quatre piles AAA ainsi qu’un chargeur USB type smartphone."),
     ("Existe-t-il des compétitions officielles ?",
      "Pas encore de championnat structuré en 1/76. Des rencontres locales s’organisent via les groupes Facebook. "
      "C’est précisément l’ambition de ce site : rassembler assez de pilotes pour que ça arrive."),

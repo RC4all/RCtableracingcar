@@ -47,6 +47,12 @@
     <filter id="inset" x="-30%" y="-30%" width="160%" height="160%">
       <feDropShadow dx="0" dy="2" stdDeviation="2.6" flood-color="#000" flood-opacity=".7"/>
     </filter>
+    <marker id="arrow-race" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#ff662f"/>
+    </marker>
+    <marker id="arrow-brake" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#75a8d9"/>
+    </marker>
     <style>
       .lbl{font-family:'IBM Plex Mono',ui-monospace,monospace;font-weight:600;fill:#aab2bd;letter-spacing:1px}
       .lbl-s{font-size:14px}
@@ -134,25 +140,27 @@
 
   <!-- ============ GÂCHETTE (2) ============ -->
   <g>
-    <path d="M352 352
-             C324 360 306 384 302 414
-             C298 446 310 474 330 486
-             C346 496 360 488 362 470
-             C365 440 366 400 372 366 Z"
+    <!-- pontet et gâchette : forme de gâchette de fusil -->
+    <path d="M366 356 C408 360 434 386 434 420
+             C434 459 409 490 370 501"
+          fill="none" stroke="#11151a" stroke-width="15" stroke-linecap="round"/>
+    <path d="M366 356 C408 360 434 386 434 420
+             C434 459 409 490 370 501"
+          fill="none" stroke="#65707b" stroke-width="4" stroke-linecap="round" stroke-opacity=".7"/>
+    <path d="M366 370 C390 379 401 397 400 419
+             C399 441 389 458 374 472 L359 459
+             C374 443 380 429 379 412 C378 394 373 383 362 378 Z"
           fill="url(#dial)" stroke="#0f1216" stroke-width="3"/>
-    <path d="M348 366 C328 376 316 396 312 418"
-          fill="none" stroke="#ccd4dd" stroke-width="3" stroke-opacity=".28"/>
+    <path d="M372 382 C385 390 390 404 389 420"
+          fill="none" stroke="#d8e0e8" stroke-width="3" stroke-opacity=".3" stroke-linecap="round"/>
     <circle cx="366" cy="356" r="11" fill="#12151a"/>
     <circle cx="366" cy="356" r="4.5" fill="url(#chrome)"/>
-    <!-- repères de course -->
-    <g class="lbl lbl-xs">
-      <text x="196" y="416">GAZ</text>
-      <text x="182" y="470">NEUTRE</text>
-      <text x="196" y="524">FREIN</text>
-    </g>
-    <g stroke="#79818c" stroke-width="1.5" opacity=".5">
-      <path d="M236 410 l52 8"/><path d="M240 464 l58 2"/><path d="M236 518 l50 -14"/>
-    </g>
+    <!-- course de la gâchette : droite = accélération, gauche = freinage -->
+    <path d="M404 420 H494" fill="none" stroke="#ff662f" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-race)"/>
+    <path d="M350 440 H258" fill="none" stroke="#75a8d9" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow-brake)"/>
+    <text class="lbl lbl-xs" x="449" y="404" text-anchor="middle" fill="#ff8a60">ACCÉLÉRATION</text>
+    <text class="lbl lbl-xs" x="303" y="462" text-anchor="middle" fill="#9ec5eb">FREINAGE</text>
+    <text class="lbl lbl-xs" x="402" y="493" text-anchor="middle">NEUTRE</text>
   </g>
 
   <!-- ============ ÉCRAN ============ -->
