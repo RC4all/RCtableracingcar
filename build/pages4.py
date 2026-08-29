@@ -101,14 +101,16 @@ P["galerie"] = {
         "associatedMedia": [
             {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-maison-80x120.jpg",
              "caption": "Circuit maison 80 × 120 cm, plaque rigide et bordures polyuréthane."},
-            {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/grille-depart-carre.jpg",
-             "caption": "Grille de départ sur tapis tissu, vibreurs rouge et blanc."},
+            {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-criso.jpg",
+             "caption": "Le circuit de Criso : un tracé miniature magnifique et technique."},
             {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/soiree-course-table.jpg",
              "caption": "Quatre pilotes, un apéro, deux heures de course."},
-            {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/carrosseries-led.jpg",
-             "caption": "Trois carrosseries et leurs plaques d’éclairage interchangeables."},
-            {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/echelle-dans-la-main.jpg",
-             "caption": "Une voiture 1/76 de 5,8 cm dans le creux d’une main."},
+            {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/microcorsa-makerworld.webp",
+             "caption": "Circuit Microcorsa à imprimer en 3D, partagé gratuitement par GregSparrow sur MakerWorld."},
+            {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-cyril.jpg",
+             "caption": "Le circuit de Cyril, administrateur du groupe Facebook Turbo Racing 1/76 RC Car-Official Group."},
+            {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-fastandfunrc.jpg",
+             "caption": "Le circuit FastandFunRC, construit avec des tuiles en mousse rigide imbriquées."},
         ],
     }],
     "body": """
@@ -126,22 +128,30 @@ P["galerie"] = {
     <div class="gallery" data-stagger>
       <figure class="shot"><img src="img/photos/circuit-maison-80x120.webp" width="768" height="513" loading="lazy" decoding="async"
         alt="Circuit RC 1/76 fait maison vu de dessus : plaque beige, bordures blanches en polyuréthane, quatre voitures en piste">
-        <figcaption>Circuit maison 80 × 120 cm : une plaque rigide, des bordures PU collées, quatre repères de virage. L’exemple le plus compact du site.</figcaption></figure>
-      <figure class="shot"><img src="img/photos/grille-depart-carre.webp" width="941" height="706" loading="lazy" decoding="async"
-        alt="Gros plan d’une grille de départ sur tapis tissu : MINI verte, coupé orange et deux buggys">
-        <figcaption>La grille de départ d’un tapis du commerce, vibreurs rouge et blanc et emplacements peints.</figcaption></figure>
+        <figcaption>Circuit maison 80 × 120 cm : une plaque en carton rigide, des bordures en PU autocollants et quelques stickers rouges pour visualiser les virages. L’exemple le plus compact du site. Une largeur de 23 cm a été préservée partout, et c’est important pour garder la capacité de rouler à plusieurs sans se télescoper.</figcaption></figure>
+      <figure class="shot"><img src="img/photos/circuit-criso.jpg" width="900" height="675" loading="lazy" decoding="async"
+        alt="Circuit RC miniature de Criso, avec de nombreux virages rapprochés et plusieurs niveaux de piste">
+        <figcaption>Le circuit de Criso est magnifique et technique. Il est toutefois trop étroit pour effectuer
+          des dépassements. Si vous vous lancez sur un projet de piste perso, sacrifiez quelques virages contre plus
+          de largeur de piste, au moins 20 cm. <a href="https://www.facebook.com/100005246790455/videos/pcb.27592073257060300/27400379099564676" target="_blank" rel="noopener">Plus de vidéos sur Facebook</a>.</figcaption></figure>
       <figure class="shot"><img src="img/photos/soiree-course-table.webp" width="900" height="675" loading="lazy" decoding="async"
         alt="Quatre pilotes debout autour d’un circuit RC 1/76 posé sur une table dans un bar">
-        <figcaption>Quatre pilotes, un apéro, deux heures de course. Le format qui fait vivre la catégorie.</figcaption></figure>
-      <figure class="shot"><img src="img/photos/carrosseries-led.webp" width="1000" height="589" loading="lazy" decoding="async"
-        alt="Trois carrosseries RC 1/76 avec phares et bandeaux LED de couleurs différentes allumés">
-        <figcaption>Les plaques d’éclairage se changent sans outil : vert, rouge, bleu. Aucun effet sur le chrono, beaucoup sur les photos.</figcaption></figure>
-      <figure class="shot"><img src="img/photos/echelle-dans-la-main.webp" width="900" height="384" loading="lazy" decoding="async"
-        alt="Voiture RC 1/76 posée dans le creux d’une main, qui montre ses 5,8 cm">
-        <figcaption>5,8 cm : l’échelle 1/76 tient littéralement dans le creux de la main.</figcaption></figure>
-      <figure class="shot"><img src="img/photos/tapis-turbo-racing-s.webp" width="1000" height="551" loading="lazy" decoding="async"
-        alt="Plan d’un tapis de course Turbo Racing avec ligne de départ à damier et emplacements de grille">
-        <figcaption>Un tapis du commerce : tracé imprimé, vibreurs, emplacements de grille et zone de stand.</figcaption></figure>
+        <figcaption>Un bar de quartier, quatre pilotes, un tapis de course installé sur 2 tables, deux heures de fun avec l’apéro jamais très loin. Le format qui fait vivre la catégorie en soirée !</figcaption></figure>
+      <figure class="shot"><img src="img/photos/microcorsa-makerworld.webp" width="1000" height="562" loading="lazy" decoding="async"
+        alt="Circuit Microcorsa pour voitures RC aux échelles 1/64 et 1/76, imprimé en 3D">
+        <figcaption>GregSparrow partage gratuitement un circuit à imprimer en 3D. Les pièces sont téléchargeables sur
+          <a href="https://makerworld.com/en/models/3042068-microcorsa-rc-racing-tracks-1-64-and-1-76" target="_blank" rel="noopener">MakerWorld</a>.</figcaption></figure>
+      <figure class="shot"><img src="img/photos/circuit-cyril.jpg" width="1448" height="1086" loading="lazy" decoding="async"
+        alt="Circuit RC miniature de Cyril, vu de dessus, avec bordures, vibreurs rouge et blanc, stand et piste en asphalte">
+        <figcaption>Le circuit de Cyril, administrateur du groupe Facebook « Turbo Racing 1/76 RC Car-Official Group ».
+          Le travail est remarquable : avec quelques centimètres de largeur en plus, cela aurait fait un fantastique
+          circuit de compétition. <a href="https://www.facebook.com/photo?fbid=960018363437281&amp;set=pcb.27867205796213710" target="_blank" rel="noopener">D’autres photos sur Facebook</a>.</figcaption></figure>
+      <figure class="shot"><img src="img/photos/circuit-fastandfunrc.jpg" width="1040" height="780" loading="lazy" decoding="async"
+        alt="Circuit RC miniature FastandFunRC avec tuiles en mousse rigide, station-service, stands et feux de départ">
+        <figcaption>Le circuit de FastandFunRC, à base de tuiles en mousse rigide qui s’imbriquent comme un puzzle,
+          similaire à ce qui existe pour les circuits Mini-Z 1/24. Mais c’est relativement cher et un luxe pas nécessaire
+          pour le 1/76, moins rapide. Ce joli circuit a l’air fun, mais il risque de manquer de largeur pour affronter
+          plusieurs pilotes. <a href="https://www.youtube.com/watch?v=tSlGppj1xbA" target="_blank" rel="noopener">Plus de vidéos sur YouTube</a>.</figcaption></figure>
       <div class="shot shot--empty">
         <span class="tiny">Emplacement libre</span>
         <p class="h3">ta piste ici</p>
@@ -177,7 +187,7 @@ _POSTS = [
     ("2026-06-25", "25 juin 2026", "Course", "Un exemple à suivre : des compétitions 1/76 au Mexique",
      "Au Mexique, des compétitions commencent à voir le jour. Regarde la dernière finale A d’un club local : "
      "un exemple inspirant pour faire grandir la discipline en France.",
-     "https://www.youtube.com/watch?v=nKoKJSziTVU", None),
+     "https://www.youtube.com/watch?v=nKoKJSziTVU", "photos/mexico-1-76.jpg"),
 ]
 
 P["actus"] = {
@@ -226,11 +236,17 @@ P["actus"] = {
 """.format(d=d, human=h, sec=s.upper(), t=t, x=x, u=u, race=" tag--race" if i == 0 else "",
            heading=('<a href="{u}"{external} style="color:inherit">{t}</a>'.format(u=u, t=t, external=' target="_blank" rel="noopener"' if u and u.startswith("http") else "") if u else t),
            more=('<p style="margin-top:10px"><a class="link-arrow" href="{u}"{external}>{label} <span aria-hidden="true">→</span></a></p>'.format(u=u, external=' target="_blank" rel="noopener"' if u.startswith("http") else "", label="Voir la vidéo" if u.startswith("http") else "Lire la page liée") if u else ""),
-           pic=('''<figure class="fig" style="max-width:500px;margin-top:18px"><img src="img/{img}" width="1500" height="1125" loading="lazy" decoding="async"
-        alt="{alt}"><figcaption>{caption}</figcaption></figure>'''.format(
+           pic=('''<figure class="fig" style="max-width:500px;margin-top:18px"><img src="img/{img}" width="{width}" height="{height}" loading="lazy" decoding="async"
+        alt="{alt}">{caption}</figure>'''.format(
                 img=img,
-                alt=("Pilotes réunis autour d’un circuit RC 1/76 à Paris" if img == "photos/race-paris-08-2026.jpg" else "Quatre voitures RC 1/76 reliées à un chargeur USB quatre ports"),
-                caption=("Une course amicale disputée cette semaine à Paris." if img == "photos/race-paris-08-2026.jpg" else "Quatre voitures rechargées à partir d’une seule prise.")) if img else ""))
+                width=("1000" if img == "photos/mexico-1-76.jpg" else "1500"),
+                height=("553" if img == "photos/mexico-1-76.jpg" else "1125"),
+                alt=("Pilotes réunis autour d’un circuit RC 1/76 à Paris" if img == "photos/race-paris-08-2026.jpg" else
+                     "Circuit RC 1/76 avec ses bordures, utilisé lors d’une compétition au Mexique" if img == "photos/mexico-1-76.jpg" else
+                     "Quatre voitures RC 1/76 reliées à un chargeur USB quatre ports"),
+                caption=("<figcaption>Une course amicale disputée cette semaine à Paris.</figcaption>" if img == "photos/race-paris-08-2026.jpg" else
+                         "" if img == "photos/mexico-1-76.jpg" else
+                         "<figcaption>Quatre voitures rechargées à partir d’une seule prise.</figcaption>")) if img else ""))
         for i, (d, h, s, t, x, u, img) in enumerate(_POSTS)) + """
     </div>
     <p class="tiny" style="margin-top:26px">Une info à partager, un essai à proposer ?
