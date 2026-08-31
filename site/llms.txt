@@ -30,28 +30,28 @@ RC Table Racing Car documente une discipline de modélisme : faire courir des vo
 
 ## Pages
 
-- [Accueil](https://rctableracingcar.fr/): Faire courir des voitures radiocommandées de 5,8 cm sur une table : matériel, réglages, circuits, budget et règlement. Le guide francophone de l’échelle 1/76, avec comparateur Turbo Racing et calculateur de budget.
-- [Débuter en 10 minutes](https://rctableracingcar.fr/debuter-en-10-minutes.html): Charger, allumer dans le bon ordre, régler les trims, rouler au limiteur 20 % : le guide pas à pas du premier soir en RC table car racing, et les cinq erreurs qui cassent une transmission.
-- [Le concept](https://rctableracingcar.fr/le-concept.html): Des voitures RC de 5 à 6 cm à l’échelle 1/76, une piste surélevée, six principes : ce qui définit le RC table car racing et pourquoi cette échelle peut devenir une vraie catégorie de compétition.
-- [Choisir son modèle](https://rctableracingcar.fr/choisir-son-modele.html): Comparateur filtrable des modèles Turbo Racing 1/76 : MINI, C61-C66 drift, C71 à C78, C82. Châssis, usage, prix 2026 et notre lecture de chaque modèle, plus un sélecteur en trois questions.
-- [Guide du C76](https://rctableracingcar.fr/guide-turbo-racing-c76.html): Fiche de référence du Turbo Racing C76 : châssis TC-06, 5,8 cm, 20 à 30 minutes d’autonomie selon l’usage, ≈ 85 €. Routine de session, points de vigilance direction, transmission et pneus.
-- [Radiocommande](https://rctableracingcar.fr/comprendre-la-radiocommande.html): Volant, gâchette, ST.TRIM, TH.TRIM, dual rate, TH.LIM, REV, appairage : chaque commande de la radio 1/76 expliquée, avec un schéma cliquable et trois réglages de départ selon le niveau.
-- [Réglages & pilotage](https://rctableracingcar.fr/reglages-et-pilotage.html): Freiner avant de tourner, viser la sortie, doser au bout des doigts, être régulier : la technique de pilotage en 1/76, plus un tableau de diagnostic des six symptômes les plus courants.
-- [Entretien & personnalisation](https://rctableracingcar.fr/entretien-et-personnalisation.html): Une minute d’entretien entre chaque batterie : cheveux à la pincette, pneus au chiffon, roues libres, charge à froid. Plus la méthode pour peindre ses carrosseries en polycarbonate.
-- [Circuits et tapis](https://rctableracingcar.fr/circuits-et-tapis.html): Comparatif des tapis de course RC 1/76 de 95 × 50 cm à 240 × 120 cm, rôle des bordures en polyuréthane, construction d’un circuit maison et solutions de comptage de tours.
-- [Les systèmes de comptage](https://rctableracingcar.fr/systemes-de-comptage.html): Comparatif des systèmes de comptage de tours RC : application caméra sur smartphone et étiquettes NFC/RFID. Solutions et budgets indicatifs pour le 1/76.
-- [Où acheter & budget](https://rctableracingcar.fr/ou-acheter-et-budget.html): Calculateur de budget RC 1/76 : voiture, tapis, bordures, radio et comptage de tours, pour un pilote ou pour un club. Budget de départ à partir d’environ 125 €, prix constatés en 2026.
-- [Règlement type](https://rctableracingcar.fr/reglement-type-de-course.html): Matériel, piste, format, classement, contacts et esprit : un règlement de course RC 1/76 en six articles, testé sur table, à copier et adapter. Plus le déroulé d’une soirée type à quatre pilotes.
-- [Clubs & compétitions](https://rctableracingcar.fr/clubs-et-competitions.html): La communauté francophone du RC racing sur table : groupes actifs, calendrier des rencontres, et ce qu’il faut pour monter sa propre course à quatre pilotes en deux heures.
-- [Galerie des circuits](https://rctableracingcar.fr/galerie-des-circuits.html): Tapis du commerce, constructions maison et tracés improbables sur une table de cuisine : les circuits RC 1/76 des pilotes francophones, en photos.
-- [Actus](https://rctableracingcar.fr/actus.html): Nouveautés matériel, essais longue durée, ateliers de construction et comptes rendus de soirées : le journal du RC table car racing à l’échelle 1/76.
-- [Glossaire](https://rctableracingcar.fr/glossaire.html): ESC, trim, dual rate, LiPo, RTR, survirage, TC-06, RFID : le vocabulaire du RC racing traduit pour l’échelle 1/76, en vingt définitions courtes et vérifiées.
-- [Questions fréquentes](https://rctableracingcar.fr/questions-frequentes.html): Jouet ou modélisme, âge minimum, surface de roulage, autonomie, chronométrage, choix du modèle, fiche technique, où acheter : les onze questions les plus fréquentes sur le RC racing sur table.
-- [Contact](https://rctableracingcar.fr/contact.html): Ce site est tenu par un pilote, pas par une marque. Écrivez pour signaler un club, proposer une photo de circuit, corriger une erreur technique ou organiser une rencontre.
+- [Accueil](https://www.rctableracingcar.fr/): Faire courir des voitures radiocommandées de 5,8 cm sur une table : matériel, réglages, circuits, budget et règlement. Le guide francophone de l’échelle 1/76, avec comparateur Turbo Racing et calculateur de budget.
+- [Débuter en 10 minutes](https://www.rctableracingcar.fr/debuter-en-10-minutes.html): Charger, allumer dans le bon ordre, régler les trims, rouler au limiteur 20 % : le guide pas à pas du premier soir en RC table car racing, et les cinq erreurs qui cassent une transmission.
+- [Le concept](https://www.rctableracingcar.fr/le-concept.html): Des voitures RC de 5 à 6 cm à l’échelle 1/76, une piste surélevée, six principes : ce qui définit le RC table car racing et pourquoi cette échelle peut devenir une vraie catégorie de compétition.
+- [Choisir son modèle](https://www.rctableracingcar.fr/choisir-son-modele.html): Comparateur filtrable des modèles Turbo Racing 1/76 : MINI, C61-C66 drift, C71 à C78, C82. Châssis, usage, prix 2026 et notre lecture de chaque modèle, plus un sélecteur en trois questions.
+- [Guide du C76](https://www.rctableracingcar.fr/guide-turbo-racing-c76.html): Fiche de référence du Turbo Racing C76 : châssis TC-06, 5,8 cm, 20 à 30 minutes d’autonomie selon l’usage, ≈ 85 €. Routine de session, points de vigilance direction, transmission et pneus.
+- [Radiocommande](https://www.rctableracingcar.fr/comprendre-la-radiocommande.html): Volant, gâchette, ST.TRIM, TH.TRIM, dual rate, TH.LIM, REV, appairage : chaque commande de la radio 1/76 expliquée, avec un schéma cliquable et trois réglages de départ selon le niveau.
+- [Réglages & pilotage](https://www.rctableracingcar.fr/reglages-et-pilotage.html): Freiner avant de tourner, viser la sortie, doser au bout des doigts, être régulier : la technique de pilotage en 1/76, plus un tableau de diagnostic des six symptômes les plus courants.
+- [Entretien & personnalisation](https://www.rctableracingcar.fr/entretien-et-personnalisation.html): Une minute d’entretien entre chaque batterie : cheveux à la pincette, pneus au chiffon, roues libres, charge à froid. Plus la méthode pour peindre ses carrosseries en polycarbonate.
+- [Circuits et tapis](https://www.rctableracingcar.fr/circuits-et-tapis.html): Comparatif des tapis de course RC 1/76 de 95 × 50 cm à 240 × 120 cm, rôle des bordures en polyuréthane, construction d’un circuit maison et solutions de comptage de tours.
+- [Les systèmes de comptage](https://www.rctableracingcar.fr/systemes-de-comptage.html): Comparatif des systèmes de comptage de tours RC : application caméra sur smartphone et étiquettes NFC/RFID. Solutions et budgets indicatifs pour le 1/76.
+- [Où acheter & budget](https://www.rctableracingcar.fr/ou-acheter-et-budget.html): Calculateur de budget RC 1/76 : voiture, tapis, bordures, radio et comptage de tours, pour un pilote ou pour un club. Budget de départ à partir d’environ 125 €, prix constatés en 2026.
+- [Règlement type](https://www.rctableracingcar.fr/reglement-type-de-course.html): Matériel, piste, format, classement, contacts et esprit : un règlement de course RC 1/76 en six articles, testé sur table, à copier et adapter. Plus le déroulé d’une soirée type à quatre pilotes.
+- [Clubs & compétitions](https://www.rctableracingcar.fr/clubs-et-competitions.html): La communauté francophone du RC racing sur table : groupes actifs, calendrier des rencontres, et ce qu’il faut pour monter sa propre course à quatre pilotes en deux heures.
+- [Galerie des circuits](https://www.rctableracingcar.fr/galerie-des-circuits.html): Tapis du commerce, constructions maison et tracés improbables sur une table de cuisine : les circuits RC 1/76 des pilotes francophones, en photos.
+- [Actus](https://www.rctableracingcar.fr/actus.html): Nouveautés matériel, essais longue durée, ateliers de construction et comptes rendus de soirées : le journal du RC table car racing à l’échelle 1/76.
+- [Glossaire](https://www.rctableracingcar.fr/glossaire.html): ESC, trim, dual rate, LiPo, RTR, survirage, TC-06, RFID : le vocabulaire du RC racing traduit pour l’échelle 1/76, en vingt définitions courtes et vérifiées.
+- [Questions fréquentes](https://www.rctableracingcar.fr/questions-frequentes.html): Jouet ou modélisme, âge minimum, surface de roulage, autonomie, chronométrage, choix du modèle, fiche technique, où acheter : les onze questions les plus fréquentes sur le RC racing sur table.
+- [Contact](https://www.rctableracingcar.fr/contact.html): Ce site est tenu par un pilote, pas par une marque. Écrivez pour signaler un club, proposer une photo de circuit, corriger une erreur technique ou organiser une rencontre.
 
 ## Ressources
 
-- [Sitemap XML](https://rctableracingcar.fr/sitemap.xml)
+- [Sitemap XML](https://www.rctableracingcar.fr/sitemap.xml)
 - Contact : c9149t0yz@relay.firefox.com
 
 ## Conditions de citation

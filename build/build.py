@@ -14,12 +14,12 @@ OUT = os.path.normpath(os.path.join(HERE, "..", "site"))
 
 # Domaine de production. Pour basculer sur un nom de domaine personnalisé :
 # changer cette ligne, relancer « python3 build.py », puis pousser sur GitHub.
-DOMAIN = "https://rctableracingcar.fr"
+DOMAIN = "https://www.rctableracingcar.fr"
 SITE_NAME = "RC Table Racing Car"
 TAGLINE = "Le guide francophone du RC racing sur table à l’échelle 1/76"
 AUTHOR = "RC Table Racing Car"
 EMAIL = "c9149t0yz@relay.firefox.com"
-TODAY = "2026-08-28"
+TODAY = "2026-08-31"
 
 from content import PAGES, NAV, ORDER   # noqa: E402
 
@@ -257,7 +257,7 @@ TEMPLATE = """<!DOCTYPE html>
 <title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{canonical}">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="robots" content="{robots}">
 <meta name="author" content="{author}">
 <meta name="theme-color" content="#101215">
 <meta name="format-detection" content="telephone=no">
@@ -324,6 +324,8 @@ def build_page(slug):
                         ensure_ascii=False, separators=(",", ":"))
     html = TEMPLATE.format(
         title=p["title"], desc=p["desc"], canonical=url, author=AUTHOR,
+        robots=("noindex, follow" if slug == "404" else
+                "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"),
         og_type=p.get("og_type", "website"), og_title=p.get("og_title", p["title"]),
         site_name=SITE_NAME, domain=DOMAIN, image=p.get("image", "hero-track.png"),
         image_alt=p.get("image_alt", "Circuit RC 1/76 vu de dessus"),
@@ -344,6 +346,10 @@ def build_page(slug):
 def write_sitemap():
     rows = []
     for slug, p in PAGES.items():
+        # La page d'erreur est utile aux visiteurs, mais ne doit jamais être proposée
+        # aux moteurs de recherche comme une page de contenu.
+        if slug == "404":
+            continue
         loc = DOMAIN + "/" + ("" if slug == "index" else p["url"])
         rows.append(
             "  <url>\n"

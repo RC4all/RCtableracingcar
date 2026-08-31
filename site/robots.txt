@@ -24,4 +24,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://rctableracingcar.fr/sitemap.xml
+Sitemap: https://www.rctableracingcar.fr/sitemap.xml
