@@ -19,7 +19,7 @@ SITE_NAME = "RC Table Racing Car"
 TAGLINE = "Le guide francophone du RC racing sur table à l’échelle 1/76"
 AUTHOR = "RC Table Racing Car"
 EMAIL = "c9149t0yz@relay.firefox.com"
-TODAY = "2026-08-31"
+TODAY = "2026-09-02"
 
 from content import PAGES, NAV, ORDER   # noqa: E402
 

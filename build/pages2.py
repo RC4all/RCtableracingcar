@@ -30,15 +30,17 @@ P["modeles"] = {
                        "avec prix indicatifs constatés en 2026.",
         "numberOfItems": 11,
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "Turbo Racing MINI", "category": "Découverte", "description": "Rassurante et peu rapide, idéale pour apprendre les commandes sans casser.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "35", "availability": "https://schema.org/InStock"}}},
-            {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Turbo Racing C61 à C66", "category": "Drift", "description": "Pneus métalliques, dérive volontaire et contre-braquage. Spectaculaire, mais pas fait pour le chrono.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "45", "availability": "https://schema.org/InStock"}}},
-            {"@type": "ListItem", "position": 3, "item": {"@type": "Product", "name": "Turbo Racing C71", "category": "Racing loisir", "description": "Première génération de châssis. Agréable en loisir, dépassée en course.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "45", "availability": "https://schema.org/InStock"}}},
-            {"@type": "ListItem", "position": 4, "item": {"@type": "Product", "name": "Turbo Racing C74", "category": "Racing loisir", "description": "Fin de la génération v1. Bon compromis d’occasion.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "48", "availability": "https://schema.org/InStock"}}},
-            {"@type": "ListItem", "position": 5, "item": {"@type": "Product", "name": "Turbo Racing C75", "category": "Racing", "description": "Châssis v2, plus rapide que la v1, mais moins précise à piloter.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "55", "availability": "https://schema.org/InStock"}}},
-            {"@type": "ListItem", "position": 6, "item": {"@type": "Product", "name": "Turbo Racing C76", "category": "Référence racing", "description": "Châssis TC-06. Le meilleur rapport précision-vitesse-prix de la gamme, base de comparaison du site.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "85", "availability": "https://schema.org/InStock"}}},
-            {"@type": "ListItem", "position": 7, "item": {"@type": "Product", "name": "Turbo Racing C76LE", "category": "Racing", "description": "Identique à la C76, carrosserie plus détaillée.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "95", "availability": "https://schema.org/InStock"}}},
-            {"@type": "ListItem", "position": 8, "item": {"@type": "Product", "name": "Turbo Racing C78", "category": "Racing", "description": "Même châssis TC-06 que la C76, carrosserie plus détaillée et prix plus élevé.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "100", "availability": "https://schema.org/InStock"}}},
-            {"@type": "ListItem", "position": 9, "item": {"@type": "Product", "name": "Turbo Racing C82", "category": "Fun", "description": "Hors gabarit pour la catégorie, mais parfaite comme pace car.", "brand": {"@type": "Brand", "name": "Turbo Racing"}, "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "65", "availability": "https://schema.org/InStock"}}},
+            {"@type": "ListItem", "position": 1, "item": {"@type": "Thing", "name": "Turbo Racing MINI", "description": "Modèle découverte, rassurant et peu rapide."}},
+            {"@type": "ListItem", "position": 2, "item": {"@type": "Thing", "name": "Turbo Racing C61 à C66", "description": "Famille drift : pneus métalliques et dérive volontaire."}},
+            {"@type": "ListItem", "position": 3, "item": {"@type": "Thing", "name": "Turbo Racing C71 à C74", "description": "Première génération de modèles racing loisir."}},
+            {"@type": "ListItem", "position": 4, "item": {"@type": "Thing", "name": "Turbo Racing C71 RTR", "description": "Version 2026 sur châssis TC-06."}},
+            {"@type": "ListItem", "position": 5, "item": {"@type": "Thing", "name": "Turbo Racing C72 RTR", "description": "Version 2026 sur châssis TC-06."}},
+            {"@type": "ListItem", "position": 6, "item": {"@type": "Thing", "name": "Turbo Racing C73 RTR", "description": "Version 2026 sur châssis TC-06."}},
+            {"@type": "ListItem", "position": 7, "item": {"@type": "Thing", "name": "Turbo Racing C74 RTR", "description": "Version 2026 sur châssis TC-06."}},
+            {"@type": "ListItem", "position": 8, "item": {"@type": "Thing", "name": "Turbo Racing C75", "description": "Modèle racing sur châssis TC-04."}},
+            {"@type": "ListItem", "position": 9, "item": {"@type": "Thing", "name": "Turbo Racing C76", "description": "Référence racing sur châssis TC-06 ; également proposée en version LE (Limited Edition)."}},
+            {"@type": "ListItem", "position": 10, "item": {"@type": "Thing", "name": "Turbo Racing C78", "description": "Modèle racing sur châssis TC-06."}},
+            {"@type": "ListItem", "position": 11, "item": {"@type": "Thing", "name": "Turbo Racing C81 à C82", "description": "Modèles fun, hors gabarit pour la catégorie."}},
         ],
     }],
     "body": """
@@ -196,7 +198,7 @@ P["c76"] = {
     "speakable": [".answer"],
     "jsonld": [{
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Thing",
         "name": "Turbo Racing C76",
         "description": "Voiture radiocommandée à l’échelle 1/76 sur châssis TC-06, longueur 5,8 cm, "
                        "autonomie de 20 à 30 minutes selon l’usage. Modèle de référence du RC table car racing.",
@@ -219,9 +221,6 @@ P["c76"] = {
             {"@type": "PropertyValue", "name": "Vitesse annoncée", "value": "environ 6 km/h"},
             {"@type": "PropertyValue", "name": "Type", "value": "RTR (Ready To Run)"},
         ],
-        "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": "85",
-                   "highPrice": "100", "offerCount": "3",
-                   "availability": "https://schema.org/InStock"},
     }],
     "body": """
 <section class="page-head">
