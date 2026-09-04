@@ -363,25 +363,33 @@ P["comptage"] = {
       alt="Smartphone sur trépied filmant une petite voiture RC qui passe la ligne de départ"><figcaption>Le smartphone filme et reconnaît la voiture qui lui passe devant.</figcaption></figure></article>
       <article class="card"><span class="card-num">03 · NFC / RFID</span><h3>Une étiquette passive sous la voiture</h3>
       <p>Le <a href="https://rsrc.biz/turbo-racing/8386-systeme-de-comptage-pour-micro-rc-176.html" target="_blank" rel="noopener">Mini Race Challenge</a>
-      est pensé pour les micro-RC 1/76 : une fine étiquette NFC (famille RFID) collée sous le châssis et un lecteur
-      sous le tapis. Le kit est vendu aux alentours de <strong>180 €</strong>, avec dix étiquettes incluses. Il est même
+      est pensé pour les micro-RC 1/76 : une fine étiquette magnétique (NFC/RFID) placée sous le châssis et un lecteur
+      sous le tapis. Le kit est vendu aux alentours de <strong>180 €</strong>, avec huit étiquettes incluses. Il est même
       possible d’ajouter en option des feux bicolores sur la ligne de départ, pour encore plus de réalisme.</p>
-      <figure class="fig" style="max-width:280px;margin:18px auto 0"><img src="img/photos/mini-race-challenge-1-76.jpg" width="800" height="724" loading="lazy" decoding="async"
-      alt="Kit Mini Race Challenge avec boîtier, antenne et étiquettes NFC pour micro RC"><figcaption>Le kit Mini Race Challenge, avec lecteur, antenne et étiquettes NFC.</figcaption></figure></article>
+      <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px">
+        <figure class="fig" style="margin:0"><img src="img/photos/mini-race-challenge-1-76.jpg" width="800" height="724" loading="lazy" decoding="async" style="display:block;width:100%;height:clamp(136px,15vw,190px);object-fit:cover"
+        alt="Kit Mini Race Challenge avec boîtier, antenne et étiquettes NFC pour micro RC"><figcaption>Le kit Mini Race Challenge.</figcaption></figure>
+        <figure class="fig" style="margin:0"><img src="img/photos/laptimer-mrc-installe.jpg" width="1000" height="1175" loading="lazy" decoding="async" style="display:block;width:100%;height:clamp(136px,15vw,190px);object-fit:cover"
+        alt="Système Mini Race Challenge installé près d’une piste RC 1/76, avec smartphone, boîtier et antenne sous le tapis"><figcaption>Le système installé au bord de la piste.</figcaption></figure>
+      </div></article>
     </div>
   </div>
 </section>
 
-<section class="section">
+<section class="section" style="padding-top:clamp(32px,4vw,56px)">
   <div class="wrap" style="max-width:800px" data-reveal>
       <p class="eyebrow">Le conseil 1/76</p>
       <h2 class="h2">Le NFC/RFID évite d’alourdir la voiture</h2>
-      <p class="prose">Sur une micro-RC, un transpondeur actif peut prendre de la place et demander une alimentation.
-      Une étiquette NFC est passive : elle ne pèse presque rien et n’a rien à recharger. Le lecteur du Mini Race
-      Challenge se place sous la zone de passage, avec une épaisseur de tapis limitée par le fabricant.</p>
+      <p class="prose">Pour enregistrer les temps au tour automatiquement, le seul système suffisamment petit pour tenir
+      dans une micro-RC 1/76 est la lecture de puce NFC. Une étiquette NFC est une antenne passive : elle ne pèse
+      presque rien et n’a rien à recharger. Le capteur du Mini Race Challenge se place sous la zone de passage,
+      pour capter chaque passage de voiture.</p>
       <p class="prose" style="margin-top:14px">À notre connaissance, il n’existe pas actuellement d’autre système
       de comptage performant, prêt à l’emploi et réellement adapté au 1/76 qui soit équivalent au Mini Race Challenge.
-      Pour une première soirée, essaie la caméra ; pour une piste 1/76 régulière, c’est aujourd’hui le choix le plus cohérent.</p>
+      Et l’application Android et iPhone qui fonctionne avec est très complète.</p>
+      <p class="prose" style="margin-top:14px">Pour une première soirée, essaie la caméra ; pour des rassemblements
+      1/76 réguliers, c’est aujourd’hui le choix le plus cohérent et le plus ludique. Même le dernier, à défaut de gagner,
+      pourra jouer contre la montre et essayer de faire son meilleur chrono. L’essayer, c’est l’adopter !</p>
   </div>
 </section>
 
