@@ -344,7 +344,7 @@ P["comptage"] = {
     batterie à ajouter dans la voiture. Les transpondeurs actifs sont trop encombrants pour ces modèles : les systèmes
     de compétition professionnels sont donc surdimensionnés pour une table à la maison.</p>
 
-    <h2 class="h2" style="margin-bottom:26px" data-reveal>Quatre façons de compter les tours</h2>
+    <h2 class="h2" style="margin-bottom:26px" data-reveal>Trois façons de compter les tours</h2>
     <div class="grid g2" data-stagger>
       <article class="card"><span class="card-num">01 · SANS ÉLECTRONIQUE</span><h3>Un arbitre et un chrono</h3>
       <p>Une feuille, un téléphone et une personne qui note les passages. C’est gratuit et parfait pour tester un
