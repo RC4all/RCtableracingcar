@@ -534,11 +534,12 @@ P["reglement"] = {
         "step": [
             {"@type": "HowToStep", "position": 1, "name": "0:00 — Installation", "text": "Tapis, bordures, comptage et appairage des quatre voitures."},
             {"@type": "HowToStep", "position": 2, "name": "0:20 — Essais libres", "text": "Essais libres de 10 minutes, trims réglés et limiteurs annoncés."},
-            {"@type": "HowToStep", "position": 3, "name": "0:30 — Qualification 1", "text": "Qualification de 4 minutes, puis relevé des temps."},
-            {"@type": "HowToStep", "position": 4, "name": "0:45 — Qualification 2", "text": "Qualification de 4 minutes. Le meilleur temps fixe la grille."},
-            {"@type": "HowToStep", "position": 5, "name": "1:00 — Finale, manche 1", "text": "Première manche finale de 5 minutes."},
-            {"@type": "HowToStep", "position": 6, "name": "1:15 — Finale, manche 2", "text": "Seconde manche finale de 5 minutes."},
-            {"@type": "HowToStep", "position": 7, "name": "1:30 — Classement", "text": "Classement au cumul des deux manches, podium, photo et rangement."},
+            {"@type": "HowToStep", "position": 3, "name": "0:30 — Apéro", "text": "Apéro."},
+            {"@type": "HowToStep", "position": 4, "name": "0:35 — Qualifications", "text": "Deux qualifications de 4 minutes. Le meilleur temps fixe la grille."},
+            {"@type": "HowToStep", "position": 5, "name": "0:55 — Apéro", "text": "Apéro."},
+            {"@type": "HowToStep", "position": 6, "name": "1:00 — Finales", "text": "Trois manches finales de 3 minutes."},
+            {"@type": "HowToStep", "position": 7, "name": "1:30 — Classement", "text": "Classement sur les deux meilleures manches, podium et photo."},
+            {"@type": "HowToStep", "position": 8, "name": "1:40 — Rangement et apéro", "text": "Rangement, puis apéro pour finir la soirée."},
         ],
     }],
     "body": """
@@ -548,7 +549,7 @@ P["reglement"] = {
     <h1 class="h1" style="color:#fff">Règlement type de course</h1>
     <p class="lead">Une base simple, testée sur table, à copier et adapter pour ta prochaine soirée.
     Objectif : que personne ne discute le classement, et que tout le monde ait envie de revenir.</p>
-    <ul class="facts"><li><b>6 articles</b></li><li>Soirée <b>2 h</b></li><li><b>4 pilotes</b></li><li>Finale <b>2 × 5 min</b></li></ul>
+    <ul class="facts"><li><b>6 articles</b></li><li>Soirée <b>2 h</b></li><li><b>4 pilotes</b></li><li>Finale <b>3 × 3 min</b></li></ul>
     <p><button type="button" class="btn btn--race btn--sm" data-copy="#reglement-texte">Copier le règlement</button></p>
   </div>
 </section>
@@ -566,14 +567,14 @@ P["reglement"] = {
         Carrosserie libre, numéro obligatoire et lisible.</p></article>
       <article class="callout"><span class="tiny">Art. 2 · Piste</span>
         <p class="prose" style="margin-top:8px">Tapis tissu avec bordures sur toute la longueur, posé sur une
-        surface plane et stable. La piste doit faire au moins <strong>20 cm de large</strong> afin de permettre les
+        surface plane et stable. La piste doit faire <strong>au moins 20 cm de large</strong> afin de permettre les
         dépassements sans risque. Sens de circulation annoncé avant la première série.</p></article>
       <article class="callout"><span class="tiny">Art. 3 · Format</span>
         <p class="prose" style="margin-top:8px">Essais libres 10 min, puis deux séries qualificatives de 4 min.
-        Finale en deux manches de 5 min. Grille de départ selon le meilleur temps qualificatif.</p></article>
+        Finale en trois manches de 3 min. Grille de départ selon le meilleur temps qualificatif.</p></article>
       <article class="callout"><span class="tiny">Art. 4 · Classement</span>
         <p class="prose" style="margin-top:8px">Nombre de tours d’abord, temps au dernier tour ensuite. Un tour
-        non bouclé dans le sens de la piste n’est pas compté. Classement final par cumul des deux manches.</p></article>
+        non bouclé dans le sens de la piste n’est pas compté. Classement final par addition des deux meilleures manches.</p></article>
       <article class="callout"><span class="tiny">Art. 5 · Contacts</span>
         <p class="prose" style="margin-top:8px">Le pilote qui provoque un contact rend la position. Voiture
         retournée : seul le commissaire la remet en piste, à l’endroit où elle s’est arrêtée. Deux fautes
@@ -594,15 +595,25 @@ P["reglement"] = {
       <ol class="timeline" style="margin-top:18px">
         <li><span class="t">0:00</span><p>Installation : tapis, bordures, comptage et appairage des quatre voitures.</p></li>
         <li><span class="t">0:20</span><p>Essais libres · 10 min. Trims réglés et limiteurs annoncés.</p></li>
-        <li><span class="t">0:30</span><p>Qualification 1 · 4 min, puis relevé des temps.</p></li>
+        <li><span class="t">0:30</span><p>Apéro.</p></li>
+        <li><span class="t">0:35</span><p>Qualification 1 · 4 min, puis relevé des temps.</p></li>
         <li><span class="t">0:45</span><p>Qualification 2 · 4 min. La meilleure qualification fixe la grille.</p></li>
-        <li><span class="t">1:00</span><p>Finale · manche 1 · 5 min.</p></li>
-        <li><span class="t">1:15</span><p>Finale · manche 2 · 5 min.</p></li>
-        <li><span class="t">1:30</span><p>Classement au cumul des deux manches, podium, photo et rangement.</p></li>
+        <li><span class="t">0:55</span><p>Apéro.</p></li>
+        <li><span class="t">1:00</span><p>Finale · manche 1 · 3 min.</p></li>
+        <li><span class="t">1:10</span><p>Finale · manche 2 · 3 min.</p></li>
+        <li><span class="t">1:20</span><p>Finale · manche 3 · 3 min.</p></li>
+        <li><span class="t">1:30</span><p>Classement sur les deux meilleures manches, podium et photo.</p></li>
+        <li><span class="t">1:40</span><p>Rangement, puis apéro pour finir la soirée.</p></li>
       </ol>
+      <aside class="callout" style="margin-top:24px">
+        <p class="tiny">Format express</p>
+        <p class="prose" style="margin-top:8px">Ce planning s’adapte aussi très bien à une pause déjeuner de
+        45 minutes : une seule séance d’essais et une qualification de 3 minutes suffisent pour lancer le challenge,
+        sans avoir besoin de recharger les voitures.</p>
+      </aside>
     </div>
     <figure class="fig" data-reveal="right">
-      <img src="img/photos/grille-depart-carre.webp" width="941" height="706" loading="lazy" decoding="async" alt="Voitures RC 1/76 en position sur les emplacements peints de la grille de départ, ligne à damier au premier plan">
+      <img src="img/photos/ligne-depart-7425.jpg" width="1000" height="764" loading="lazy" decoding="async" alt="Quatre voitures RC 1/76 éclairées et alignées sur la grille de départ d’un tapis de course">
       <figcaption>La grille de départ se fait au meilleur temps qualificatif.</figcaption>
     </figure>
   </div>

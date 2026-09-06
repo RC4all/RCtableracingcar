@@ -79,9 +79,11 @@ P["index"] = {
         <h2 class="h1">Ce n’est plus un jouet.<br>C’est du modélisme.</h2>
         <p class="answer"><strong>Le RC table car racing</strong>, c’est faire courir des voitures
         radiocommandées de 5 à 6&nbsp;cm à l’échelle&nbsp;1/76 sur un tapis tissu posé sur une table.
-        Direction et accélération proportionnelles, trims, limiteur de puissance, pneus interchangeables,
-        batterie LiPo rechargeable : tout l’essentiel du RC racing, réduit à un format qui se pose
-        et se range en quelques secondes.</p>
+        Direction et accélération proportionnelles, trims, limiteur de puissance, carrosseries interchangeables,
+        batterie LiPo rechargeable, pièces remplaçables : tout l’essentiel du RC racing, réduit à un format qui se pose
+        et se range en quelques secondes. Pour le moment, il n’existe qu’une seule marque proposant des produits de
+        qualité modélisme au 1/76 : Turbo Racing. Le reste est du jouet bas de gamme qui ne procurera que de la
+        frustration. En visitant ce site, vous comprendrez mieux.</p>
       </div>
       <figure class="fig" data-reveal="right">
         <img src="img/photos/soiree-course-table.webp" width="900" height="675" loading="lazy" decoding="async" alt="Quatre pilotes debout autour d’un circuit RC 1/76 posé sur une table, radiocommandes en main">
