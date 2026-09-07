@@ -23,7 +23,7 @@ NAV = [
         ("Règlement type de course", "reglement", "6 articles prêts à copier"),
     ]),
     ("Communauté", [
-        ("Clubs &amp; compétitions", "clubs", "Où rouler, comment organiser"),
+        ("Clubs &amp; Pilotes", "clubs", "Où rouler, partager un circuit"),
         ("Galerie des circuits", "galerie", "Les pistes des pilotes"),
         ("Actus", "actus", "Essais, ateliers, comptes rendus"),
         ("Contact", "contact", "Signaler un club, corriger"),

@@ -58,6 +58,7 @@
     { "source": "/glossary", "destination": "/glossaire.html", "permanent": true },
     { "source": "/c76", "destination": "/guide-turbo-racing-c76.html", "permanent": true },
     { "source": "/budget", "destination": "/ou-acheter-et-budget.html", "permanent": true },
+    { "source": "/clubs-et-competitions.html", "destination": "/clubs-et-pilotes.html", "permanent": true },
     { "source": "/contact", "destination": "/contact.html", "permanent": true },
     { "source": "/sitemap", "destination": "/sitemap.xml", "permanent": true }
   ]

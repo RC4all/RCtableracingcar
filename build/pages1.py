@@ -196,7 +196,7 @@ P["index"] = {
       qu’il faut : matériel homogène, règles simples, et l’énorme avantage de se pratiquer chez soi.
       Transmettons cette passion — je rêve déjà d’un championnat de France&nbsp;1/76.</p>
       <div class="btn-row">
-        <a class="btn btn--race" href="clubs-et-competitions.html">Rejoindre la communauté <span class="arrow" aria-hidden="true">→</span></a>
+        <a class="btn btn--race" href="clubs-et-pilotes.html">Rejoindre la communauté <span class="arrow" aria-hidden="true">→</span></a>
         <a class="btn btn--ghost-inv" href="reglement-type-de-course.html">Le règlement type</a>
       </div>
     </div>

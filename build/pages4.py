@@ -5,13 +5,13 @@ from content import cta
 P = {}
 
 # =========================================================================== #
-#  CLUBS & COMPÉTITIONS
+#  CLUBS & PILOTES
 # =========================================================================== #
 P["clubs"] = {
     "head_bg": "photos/soiree-course-large.webp",
-    "url": "clubs-et-competitions.html",
-    "crumb": "Clubs & compétitions",
-    "title": "Clubs et compétitions RC 1/76 en France — où rouler, comment organiser",
+    "url": "clubs-et-pilotes.html",
+    "crumb": "Clubs & Pilotes",
+    "title": "Clubs et pilotes RC 1/76 en France — où rouler, comment se rencontrer",
     "desc": "La communauté francophone du RC racing sur table : groupes actifs, calendrier des "
             "rencontres, et ce qu’il faut pour monter sa propre course à quatre pilotes en deux heures.",
     "image": "photos/soiree-course-table.jpg",
@@ -23,7 +23,7 @@ P["clubs"] = {
 <section class="page-head">
   <div class="wrap page-head-inner stack" style="--gap:20px">
     <p class="eyebrow">Communauté</p>
-    <h1 class="h1" style="color:#fff">Clubs &amp; compétitions</h1>
+    <h1 class="h1" style="color:#fff">Clubs &amp; Pilotes</h1>
     <p class="lead">Des groupes de pilotes existent un peu partout, sur les forums et sur Facebook. Dès que
     des compétitions s’organisent, elles sont relayées ici. N’hésite pas à me contacter pour faire grandir
     la communauté.</p>
@@ -81,11 +81,11 @@ P["clubs"] = {
       <div class="table-wrap" style="margin-top:26px">
         <table class="data">
           <caption>Les annonces pour rouler et partager un circuit RC 1/76</caption>
-          <thead><tr><th scope="col">Pseudo</th><th scope="col">Hôte ou participant</th><th scope="col">Ville</th><th scope="col">Département</th><th scope="col">Adresse mail</th></tr></thead>
+          <thead><tr><th scope="col">Département</th><th scope="col">Ville</th><th scope="col">Pseudo</th><th scope="col">Hôte ou pilote</th><th scope="col">Adresse mail</th></tr></thead>
           <tbody>
-            <tr><th scope="row">Alex</th><td>Hôte</td><td>Paris</td><td>75</td><td><a href="mailto:c9149t0yz@relay.firefox.com">c9149t0yz@relay.firefox.com</a></td></tr>
-            <tr><th scope="row">Mika</th><td>Participant</td><td>Paris</td><td>75</td><td><a href="mailto:mickael@iidi.fr">mickael@iidi.fr</a></td></tr>
-            <tr><th scope="row">Jean-Luc</th><td>Hôte</td><td>Vidauban</td><td>83</td><td><a href="mailto:rangiroa1997@aol.com">rangiroa1997@aol.com</a></td></tr>
+            <tr><td>75</td><td>Paris</td><th scope="row">Alex</th><td>Hôte</td><td><a href="mailto:c9149t0yz@relay.firefox.com">c9149t0yz@relay.firefox.com</a></td></tr>
+            <tr><td>75</td><td>Paris</td><th scope="row">Mika</th><td>Pilote</td><td><a href="mailto:mickael@iidi.fr">mickael@iidi.fr</a></td></tr>
+            <tr><td>83</td><td>Vidauban</td><th scope="row">Jean-Luc</th><td>Hôte</td><td><a href="mailto:rangiroa1997@aol.com">rangiroa1997@aol.com</a></td></tr>
           </tbody>
         </table>
       </div>
@@ -596,7 +596,7 @@ P["plan"] = {
       <li style="list-style:none"><a href="entretien-et-personnalisation.html">Entretien &amp; personnalisation</a></li>
       <li style="list-style:none"><a href="reglement-type-de-course.html">Règlement type de course</a></li></ul></div>
     <div class="card card--flat"><h2 class="h3">Communauté</h2><ul style="display:grid;gap:9px;margin-top:8px">
-      <li style="list-style:none"><a href="clubs-et-competitions.html">Clubs &amp; compétitions</a></li>
+      <li style="list-style:none"><a href="clubs-et-pilotes.html">Clubs &amp; Pilotes</a></li>
       <li style="list-style:none"><a href="galerie-des-circuits.html">Galerie des circuits</a></li>
       <li style="list-style:none"><a href="actus.html">Actus</a></li>
       <li style="list-style:none"><a href="contact.html">Contact</a></li></ul></div>

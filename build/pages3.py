@@ -620,5 +620,5 @@ P["reglement"] = {
 </section>
 
 """ + cta("Tu organises quelque chose ? Dis-le, ça se relaie ici.",
-          "clubs-et-competitions.html", "Clubs &amp; compétitions"),
+          "clubs-et-pilotes.html", "Clubs &amp; Pilotes"),
 }

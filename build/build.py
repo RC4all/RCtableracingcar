@@ -19,7 +19,7 @@ SITE_NAME = "RC Table Racing Car"
 TAGLINE = "Le guide francophone du RC racing sur table à l’échelle 1/76"
 AUTHOR = "RC Table Racing Car"
 EMAIL = "c9149t0yz@relay.firefox.com"
-TODAY = "2026-09-06"
+TODAY = "2026-09-07"
 
 from content import PAGES, NAV, ORDER   # noqa: E402
 
@@ -120,7 +120,7 @@ FOOTER = """<footer class="site-footer">
       <div class="footer-col">
         <span class="tiny">Communauté</span>
         <ul>
-          <li><a href="clubs-et-competitions.html">Clubs &amp; compétitions</a></li>
+          <li><a href="clubs-et-pilotes.html">Clubs &amp; Pilotes</a></li>
           <li><a href="galerie-des-circuits.html">Galerie des circuits</a></li>
           <li><a href="reglement-type-de-course.html">Règlement type</a></li>
           <li><a href="actus.html">Actus</a></li>
