@@ -71,6 +71,25 @@ P["clubs"] = {
       <img src="img/photos/soiree-course-large.webp" width="900" height="506" loading="lazy" decoding="async" alt="Quatre pilotes autour d’un circuit RC 1/76 monté sur une table dans un bar, radiocommandes en main">
       <figcaption>Une rencontre n’a besoin de rien de plus : une table, un tapis avec bordures, quatre pilotes et deux heures.</figcaption>
     </figure>
+
+    <div style="margin-top:56px" data-reveal>
+      <p class="eyebrow">Se rencontrer près de chez vous</p>
+      <h2 class="h2" style="margin:12px 0 16px">La carte des pilotes et circuits 1/76</h2>
+      <p class="prose">Tu as un circuit maison à faire découvrir, ou tu cherches une équipe dans les environs ?
+      Fais-toi connaître et ton appel sera visible ici.</p>
+      <p style="margin-top:20px"><a class="btn btn--race" href="contact.html">S’ANNONCER <span class="arrow" aria-hidden="true">→</span></a></p>
+      <div class="table-wrap" style="margin-top:26px">
+        <table class="data">
+          <caption>Les annonces pour rouler et partager un circuit RC 1/76</caption>
+          <thead><tr><th scope="col">Pseudo</th><th scope="col">Hôte ou participant</th><th scope="col">Ville</th><th scope="col">Département</th><th scope="col">Adresse mail</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Alex</th><td>Hôte</td><td>Paris</td><td>75</td><td><a href="mailto:c9149t0yz@relay.firefox.com">c9149t0yz@relay.firefox.com</a></td></tr>
+            <tr><th scope="row">Mika</th><td>Participant</td><td>Paris</td><td>75</td><td><a href="mailto:mickael@iidi.fr">mickael@iidi.fr</a></td></tr>
+            <tr><th scope="row">Jean-Luc</th><td>Hôte</td><td>Vidauban</td><td>83</td><td><a href="mailto:rangiroa1997@aol.com">rangiroa1997@aol.com</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
 </section>
 
