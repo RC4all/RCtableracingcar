@@ -168,7 +168,7 @@ P["galerie"] = {
       <figure class="shot"><img src="img/photos/circuit-fastandfunrc.jpg" width="1040" height="780" loading="lazy" decoding="async"
         alt="Circuit RC miniature FastandFunRC avec tuiles en mousse rigide, station-service, stands et feux de départ">
         <figcaption>Le circuit de FastandFunRC, à base de tuiles en mousse rigide qui s’imbriquent comme un puzzle,
-          similaire à ce qui existe pour les circuits Mini-Z 1/24. Mais c’est relativement cher et un luxe pas nécessaire
+          similaire à ce qui existe pour les circuits Mini-Z 1/28. Mais c’est relativement cher et un luxe pas nécessaire
           pour le 1/76, moins rapide. Ce joli circuit a l’air fun, mais il risque de manquer de largeur pour affronter
           plusieurs pilotes. <a href="https://www.youtube.com/watch?v=tSlGppj1xbA" target="_blank" rel="noopener">Plus de vidéos sur YouTube</a>.</figcaption></figure>
       <div class="shot shot--empty">

@@ -114,7 +114,7 @@ P["index"] = {
 
     <p class="prose" style="margin-top:36px;max-width:78ch" data-reveal>L’échelle&nbsp;1/76 est le format
     le plus adapté pour organiser des courses entre amis ou de vraies compétitions sur un tapis posé sur
-    une table. Les formats supérieurs — 1/64, 1/28, 1/24 — demandent un circuit au sol, donc de l’espace
+    une table. Les formats supérieurs — 1/64 et 1/28 — demandent un circuit au sol, donc de l’espace
     et de l’infrastructure. <a class="link-arrow" href="le-concept.html">Le concept en détail <span aria-hidden="true">→</span></a></p>
   </div>
 </section>
@@ -192,7 +192,7 @@ P["index"] = {
     <div class="stack" data-reveal="left">
       <p class="eyebrow">L’ambition</p>
       <h2 class="h1">Faire du 1/76 une vraie catégorie de compétition</h2>
-      <p class="lead">Le 1/8, le 1/10, le 1/12 et le 1/24 ont leurs championnats. Le 1/76 a tout ce
+      <p class="lead">Le 1/8, le 1/10, le 1/12 et le 1/28 ont leurs championnats. Le 1/76 a tout ce
       qu’il faut : matériel homogène, règles simples, et l’énorme avantage de se pratiquer chez soi.
       Transmettons cette passion — je rêve déjà d’un championnat de France&nbsp;1/76.</p>
       <div class="btn-row">
@@ -397,7 +397,7 @@ P["concept"] = {
     <div class="stack" data-reveal="right">
       <p class="eyebrow">Pourquoi ce site existe</p>
       <h2 class="h2">Le 1/76 a tout ce qu’il faut pour devenir une catégorie de compétition</h2>
-      <p class="prose">Le 1/8, le 1/10, le 1/12 et le 1/24 sont des échelles très populaires, avec leurs
+      <p class="prose">Le 1/8, le 1/10, le 1/12 et le 1/28 sont des échelles très populaires, avec leurs
       championnats. Le 1/76 offre le même socle technique — matériel homogène, règles simples, pilotage
       exigeant — avec l’énorme avantage de se pratiquer chez soi, et pour une fraction du budget.</p>
       <p class="prose">Transmettons cette passion : je rêve déjà d’un championnat de France&nbsp;1/76.
@@ -417,7 +417,7 @@ P["concept"] = {
         <tbody>
           <tr class="is-star"><th scope="row">1/76</th><td>5 à 6 cm</td><td>Dès 95 × 50 cm</td><td>Sur une table, chez soi</td></tr>
           <tr><th scope="row">1/64</th><td>≈ 7 cm</td><td>Environ 3 × 2 m</td><td>Au sol, pièce dédiée</td></tr>
-          <tr><th scope="row">1/24</th><td>≈ 18 cm</td><td>Piste dédiée</td><td>Club, infrastructure</td></tr>
+          <tr><th scope="row">1/28</th><td>≈ 16 cm</td><td>Piste dédiée</td><td>Club, infrastructure</td></tr>
           <tr><th scope="row">1/12</th><td>≈ 36 cm</td><td>Piste indoor dédiée</td><td>Club, compétition</td></tr>
           <tr><th scope="row">1/10</th><td>≈ 45 cm</td><td>Piste extérieure ou hall</td><td>Club, championnats</td></tr>
           <tr><th scope="row">1/8</th><td>≈ 50 cm</td><td>Grande piste extérieure</td><td>Club, compétition</td></tr>
@@ -435,7 +435,7 @@ P["concept"] = {
            alt="Comparaison de taille entre plusieurs voitures radiocommandées, d’un grand buggy 1/8 à une très petite voiture 1/76">
       <figcaption><strong>Du 1/8 au 1/76, la différence est immédiate.</strong> À droite, la voiture 1/76 tient
       presque dans la paume de la main : c’est ce qui permet de rouler sur une table plutôt que sur une piste dédiée.
-      <span class="tiny" style="display:block;margin-top:10px">De gauche à droite : 1/8, 1/10, 1/12, 1/24 et 1/76.</span></figcaption>
+      <span class="tiny" style="display:block;margin-top:10px">De gauche à droite : 1/8, 1/10, 1/12, 1/28 et 1/76.</span></figcaption>
     </figure>
   </div>
 </section>
