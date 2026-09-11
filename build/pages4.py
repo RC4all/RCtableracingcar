@@ -189,6 +189,9 @@ P["galerie"] = {
 #  ACTUS
 # =========================================================================== #
 _POSTS = [
+    ("2026-09-10", "10 sept. 2026", "Vidéo", "Une vidéo pour découvrir le RC 1/76",
+     "Une vidéo de promotion consacrée au RC 1/76 vient d’être diffusée sur YouTube. Une belle façon de faire découvrir la catégorie : allez la voir !",
+     "https://youtu.be/70tkdRInbUE?si=QaflxZWXH93I8gPF", "photos/video-promotion-rc-1-76.jpg"),
     ("2026-08-28", "28 août 2026", "Course", "Course amicale à Paris : Housseyne l’emporte à la régularité",
      "Cette semaine à Paris, une course amicale a réuni les pilotes autour du circuit. Housseyne s’impose grâce à sa régularité : des tours propres, peu d’erreurs et une belle constance jusqu’à la dernière manche.",
      None, "photos/race-paris-08-2026.jpg"),
@@ -255,15 +258,18 @@ P["actus"] = {
 """.format(d=d, human=h, sec=s.upper(), t=t, x=x, u=u, race=" tag--race" if i == 0 else "",
            heading=('<a href="{u}"{external} style="color:inherit">{t}</a>'.format(u=u, t=t, external=' target="_blank" rel="noopener"' if u and u.startswith("http") else "") if u else t),
            more=('<p style="margin-top:10px"><a class="link-arrow" href="{u}"{external}>{label} <span aria-hidden="true">→</span></a></p>'.format(u=u, external=' target="_blank" rel="noopener"' if u.startswith("http") else "", label="Voir la vidéo" if u.startswith("http") else "Lire la page liée") if u else ""),
-           pic=('''<figure class="fig" style="max-width:500px;margin-top:18px"><img src="img/{img}" width="{width}" height="{height}" loading="lazy" decoding="async"
+           pic=('''<figure class="fig" style="max-width:{max_width}px;margin-top:18px"><img src="img/{img}" width="{width}" height="{height}" loading="lazy" decoding="async"
         alt="{alt}">{caption}</figure>'''.format(
                 img=img,
-                width=("1000" if img == "photos/mexico-1-76.jpg" else "1500"),
-                height=("553" if img == "photos/mexico-1-76.jpg" else "1125"),
-                alt=("Pilotes réunis autour d’un circuit RC 1/76 à Paris" if img == "photos/race-paris-08-2026.jpg" else
+                max_width=("400" if img == "photos/video-promotion-rc-1-76.jpg" else "500"),
+                width=("480" if img == "photos/video-promotion-rc-1-76.jpg" else "1000" if img == "photos/mexico-1-76.jpg" else "1500"),
+                height=("277" if img == "photos/video-promotion-rc-1-76.jpg" else "553" if img == "photos/mexico-1-76.jpg" else "1125"),
+                alt=("Vignette de la vidéo de promotion du RC 1/76 sur YouTube" if img == "photos/video-promotion-rc-1-76.jpg" else
+                     "Pilotes réunis autour d’un circuit RC 1/76 à Paris" if img == "photos/race-paris-08-2026.jpg" else
                      "Circuit RC 1/76 avec ses bordures, utilisé lors d’une compétition au Mexique" if img == "photos/mexico-1-76.jpg" else
                      "Quatre voitures RC 1/76 reliées à un chargeur USB quatre ports"),
-                caption=("<figcaption>Une course amicale disputée cette semaine à Paris.</figcaption>" if img == "photos/race-paris-08-2026.jpg" else
+                caption=("" if img == "photos/video-promotion-rc-1-76.jpg" else
+                         "<figcaption>Une course amicale disputée cette semaine à Paris.</figcaption>" if img == "photos/race-paris-08-2026.jpg" else
                          "" if img == "photos/mexico-1-76.jpg" else
                          "<figcaption>Quatre voitures rechargées à partir d’une seule prise.</figcaption>")) if img else ""))
         for i, (d, h, s, t, x, u, img) in enumerate(_POSTS)) + """
