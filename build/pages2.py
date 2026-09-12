@@ -552,7 +552,7 @@ P["pilotage"] = {
             {"@type": "Question", "name": "Pourquoi ma voiture RC avance-t-elle seule à l’arrêt ?",
              "acceptedAnswer": {"@type": "Answer", "text": "Le TH.TRIM est mal centré. Recalez le neutre des gaz, radio allumée et voiture posée au sol."}},
             {"@type": "Question", "name": "Pourquoi ma voiture RC 1/76 a-t-elle perdu sa vitesse de pointe ?",
-             "acceptedAnswer": {"@type": "Answer", "text": "Trois causes, dans l’ordre de probabilité : des cheveux ou de la poussière dans la transmission, une batterie fatiguée, des pneus polis. Neuf fois sur dix, c’est la transmission."}},
+             "acceptedAnswer": {"@type": "Answer", "text": "TH.D/R mal ajusté, cheveux ou poussière dans la transmission, ou batterie fatiguée."}},
             {"@type": "Question", "name": "Pourquoi ma voiture survire à la relance ?",
              "acceptedAnswer": {"@type": "Answer", "text": "Baissez le TH.LIM d’un cran et nettoyez les pneus arrière. Le tissu poussiéreux glisse plus qu’on ne croit."}},
             {"@type": "Question", "name": "Pourquoi l’avant décroche en entrée de virage ?",
@@ -593,17 +593,17 @@ P["pilotage"] = {
 
     <ol class="steps" data-stagger>
       <li class="step"><span class="step-n" aria-hidden="true">01</span>
-        <div><h2 class="h3">Freiner avant de tourner</h2>
-        <p>Pousse la gâchette en ligne droite, relâche, puis tourne. Freiner et braquer en même temps fait
-        décrocher l’avant : à 5&nbsp;cm de long, il n’y a aucune masse pour rattraper la glissade.</p></div></li>
+        <div><h2 class="h3">Ralentir avant de tourner</h2>
+        <p>Pousse la gâchette en ligne droite, relâche légèrement, puis tourne. Freiner et braquer en même temps
+        est contre-productif en 1/76 : il y a peu de risque de glissade.</p></div></li>
       <li class="step"><span class="step-n" aria-hidden="true">02</span>
         <div><h2 class="h3">Viser la sortie, pas la corde</h2>
         <p>Entre large, serre au point de corde, ressors large. Sur un tapis étroit, le pilote qui colle la
         corde à l’entrée perd systématiquement la relance.</p></div></li>
       <li class="step"><span class="step-n" aria-hidden="true">03</span>
         <div><h2 class="h3">Doser au bout des doigts</h2>
-        <p>Quelques degrés de volant suffisent. Le réflexe le plus coûteux du débutant est le grand geste de
-        correction, qui provoque le tête-à-queue qu’il essayait d’éviter.</p></div></li>
+        <p>Quelques degrés de braquage de volant suffisent. Le réflexe le plus coûteux du débutant est le grand geste de
+        correction, qui envoie droit dans le mur. Un mouvement adapté et progressif est le meilleur.</p></div></li>
       <li class="step"><span class="step-n" aria-hidden="true">04</span>
         <div><h2 class="h3">Être régulier, pas rapide</h2>
         <p>Dix tours propres battent trois tours héroïques et deux sorties de piste. En course, le classement
@@ -623,7 +623,7 @@ P["pilotage"] = {
         <tbody>
           <tr><th scope="row">Elle tire d’un côté</th><td>ST.TRIM, puis la biellette de direction, puis un pneu encrassé d’un seul côté.</td></tr>
           <tr><th scope="row">Elle avance seule à l’arrêt</th><td>TH.TRIM mal centré. Recale le neutre des gaz, radio allumée et voiture au sol.</td></tr>
-          <tr><th scope="row">Elle a perdu sa vitesse</th><td>Cheveux ou poussière dans la transmission, batterie fatiguée, pneus polis. Dans cet ordre : neuf fois sur dix, c’est le premier.</td></tr>
+          <tr><th scope="row">Elle a perdu sa vitesse</th><td>TH.D/R mal ajusté, cheveux ou poussière dans la transmission, ou batterie fatiguée.</td></tr>
           <tr><th scope="row">Elle survire à la relance</th><td>Baisse TH.LIM d’un cran et nettoie les pneus arrière. Le tissu poussiéreux glisse plus qu’on ne croit.</td></tr>
           <tr><th scope="row">Elle décroche à l’avant</th><td>Tu freines en braquant. Sépare les deux gestes, puis réduis ST.D/R pour t’obliger à moins braquer.</td></tr>
           <tr><th scope="row">Elle ne répond plus</th><td>Appairage perdu : deux contacteurs sous le châssis avec le trombone, puis redémarre la radio.</td></tr>
