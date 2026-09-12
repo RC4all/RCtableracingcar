@@ -475,12 +475,37 @@ P["radio"] = {
       <figure class="fig">
         <img src="img/photos/radio-p32s.webp" width="913" height="1024" loading="lazy" decoding="async"
              alt="Radiocommande Turbo Racing P32-S noire à quatre voies avec son écran LCD et son récepteur">
-        <figcaption>La P32-S : quatre voies, écran LCD, exponentiel de direction et mémoire multi-modèles.</figcaption>
+        <figcaption>La P32-S : 4 voies, écran LCD, exponentiel de direction (c’est LA fonction qui manque sur les autres radios) et mémoire multi-modèles.</figcaption>
       </figure>
       <figure class="fig">
-        <img src="img/photos/radio-a82s.webp" width="1000" height="977" loading="lazy" decoding="async"
+        <img src="img/photos/radio-a82s.webp" width="800" height="800" loading="lazy" decoding="async"
              alt="Radiocommande Turbo Racing A82-S à sept voies avec écran, volant et récepteur">
-        <figcaption>L’A82-S : sept voies, boîtier plus grand, meilleur écran. Visuel du constructeur.</figcaption>
+        <figcaption>L’A82-S : 7 voies, boîtier plus grand, meilleur écran, plus de fonctions, telles que le chronomètre,
+          le réglage de l’exponentiel de direction et la gestion multi-modèles.</figcaption>
+      </figure>
+    </div>
+    <div class="grid g2" style="margin-top:24px" data-stagger>
+      <figure class="fig" style="max-width:320px">
+        <img src="img/photos/radio-p21.jpg" width="504" height="600" loading="lazy" decoding="async"
+             alt="Radiocommande Turbo Racing P21 noire à volant">
+        <figcaption><strong>P21</strong> — Version livrée avec les C71 à C76. Inclut un port de charge pour la voiture ;
+          son utilisation réduit naturellement la durée de vie des piles.</figcaption>
+      </figure>
+      <figure class="fig" style="max-width:320px">
+        <img src="img/photos/radio-p36.jpg" width="521" height="641" loading="lazy" decoding="async"
+             alt="Radiocommande Turbo Racing P36 noire à volant">
+        <figcaption><strong>P36</strong> — Version livrée avec les modèles récents. Peut s’alimenter avec une pile rechargeable
+          LiPo 18650, pour une autonomie record. Ergonomie correcte.</figcaption>
+      </figure>
+      <figure class="fig" style="max-width:320px">
+        <img src="img/photos/radio-p31.jpg" width="600" height="733" loading="lazy" decoding="async"
+             alt="Radiocommande Turbo Racing P31 noire à volant">
+        <figcaption><strong>P31</strong> — Version livrée avec les premiers modèles de voitures. Petite, elle se range facilement.</figcaption>
+      </figure>
+      <figure class="fig" style="max-width:320px">
+        <img src="img/photos/radio-p30.webp" width="660" height="766" loading="lazy" decoding="async"
+             alt="Radiocommande Turbo Racing P30 noire à volant">
+        <figcaption><strong>P30</strong> — Vendue séparément, comme la P31 mais avec des boutons plutôt que des potentiomètres.</figcaption>
       </figure>
     </div>
   </div>
