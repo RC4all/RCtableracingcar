@@ -189,6 +189,9 @@ P["galerie"] = {
 #  ACTUS
 # =========================================================================== #
 _POSTS = [
+    ("2026-09-12", "12 sept. 2026", "Course", "Résumé vidéo de la dernière course RC-TABLE-RACING-CAR à Paris",
+     "La nouvelle C78 semble très à l’aise, pourtant son châssis TC-06 est le même que la C76. Peut-être le fait qu’elle soit toute neuve et bien rodée ? Les prochaines courses nous le diront.",
+     "https://youtu.be/j24feQUUZs0", "photos/resume-course-paris-c78.jpg"),
     ("2026-09-10", "10 sept. 2026", "Vidéo", "Une vidéo pour découvrir le RC 1/76",
      "Une vidéo de promotion consacrée au RC 1/76 vient d’être diffusée sur YouTube. Une belle façon de faire découvrir la catégorie : allez la voir !",
      "https://youtu.be/70tkdRInbUE?si=QaflxZWXH93I8gPF", "photos/video-promotion-rc-1-76.jpg"),
@@ -261,14 +264,15 @@ P["actus"] = {
            pic=('''<figure class="fig" style="max-width:{max_width}px;margin-top:18px"><img src="img/{img}" width="{width}" height="{height}" loading="lazy" decoding="async"
         alt="{alt}">{caption}</figure>'''.format(
                 img=img,
-                max_width=("400" if img == "photos/video-promotion-rc-1-76.jpg" else "500"),
-                width=("480" if img == "photos/video-promotion-rc-1-76.jpg" else "1000" if img == "photos/mexico-1-76.jpg" else "1500"),
-                height=("277" if img == "photos/video-promotion-rc-1-76.jpg" else "553" if img == "photos/mexico-1-76.jpg" else "1125"),
-                alt=("Vignette de la vidéo de promotion du RC 1/76 sur YouTube" if img == "photos/video-promotion-rc-1-76.jpg" else
+                max_width=("400" if img in ("photos/video-promotion-rc-1-76.jpg", "photos/resume-course-paris-c78.jpg", "photos/race-paris-08-2026.jpg", "photos/multi-chargeur-usb-c.jpg") else "500"),
+                width=("480" if img in ("photos/video-promotion-rc-1-76.jpg", "photos/resume-course-paris-c78.jpg") else "1000" if img in ("photos/mexico-1-76.jpg", "photos/multi-chargeur-usb-c.jpg") else "1500"),
+                height=("277" if img in ("photos/video-promotion-rc-1-76.jpg", "photos/resume-course-paris-c78.jpg") else "553" if img == "photos/mexico-1-76.jpg" else "820" if img == "photos/multi-chargeur-usb-c.jpg" else "866"),
+                alt=("Vignette du résumé vidéo de la dernière course RC Table Racing Car à Paris" if img == "photos/resume-course-paris-c78.jpg" else
+                     "Vignette de la vidéo de promotion du RC 1/76 sur YouTube" if img == "photos/video-promotion-rc-1-76.jpg" else
                      "Pilotes réunis autour d’un circuit RC 1/76 à Paris" if img == "photos/race-paris-08-2026.jpg" else
                      "Circuit RC 1/76 avec ses bordures, utilisé lors d’une compétition au Mexique" if img == "photos/mexico-1-76.jpg" else
                      "Quatre voitures RC 1/76 reliées à un chargeur USB quatre ports"),
-                caption=("" if img == "photos/video-promotion-rc-1-76.jpg" else
+                caption=("" if img in ("photos/video-promotion-rc-1-76.jpg", "photos/resume-course-paris-c78.jpg") else
                          "<figcaption>Une course amicale disputée cette semaine à Paris.</figcaption>" if img == "photos/race-paris-08-2026.jpg" else
                          "" if img == "photos/mexico-1-76.jpg" else
                          "<figcaption>Quatre voitures rechargées à partir d’une seule prise.</figcaption>")) if img else ""))
