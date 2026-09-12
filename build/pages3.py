@@ -52,14 +52,14 @@ P["entretien"] = {
 
 <section class="section">
   <div class="wrap">
+    <p class="answer" style="margin-bottom:40px" data-reveal><strong>Le rodage.</strong>
+    Si ta voiture est neuve, ne roule pas à fond dès le début : roule 15 minutes à 25&nbsp;%. Cela permet
+    d’apprendre en douceur, mais surtout de bien roder le moteur pour de meilleures performances par la suite.</p>
+
     <p class="answer" style="margin-bottom:40px" data-reveal><strong>Une minute entre chaque batterie suffit.</strong>
     Cheveux retirés à la pincette (30&nbsp;s), pneus essuyés au chiffon humide (15&nbsp;s), roues vérifiées
     libres (10&nbsp;s), puis charge une fois la batterie refroidie. C’est le meilleur gain de vitesse
     disponible, et il est gratuit.</p>
-
-    <p class="answer" style="margin-bottom:40px" data-reveal><strong>Le rodage.</strong>
-    Si ta voiture est neuve, ne roule pas à fond dès le début : roule 15 minutes à 25&nbsp;%. Cela permet
-    d’apprendre en douceur, mais surtout de bien roder le moteur pour de meilleures performances par la suite.</p>
 
     <h2 class="h2" style="margin-bottom:26px" data-reveal>La routine, batterie par batterie</h2>
     <ol class="steps" data-stagger>
