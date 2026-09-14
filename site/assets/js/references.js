@@ -15,11 +15,12 @@
       { id: 'C71 RTR',   cat: 'racing',     chassis: 'TC-06',       usage: 'Racing', prix: 86,  note: 'Nouvelle version avec dernier châssis. Verte. Sortie en 2026.', thumb: 'photos/model-c71-2026-white.png' },
       { id: 'C72 RTR',   cat: 'racing',     chassis: 'TC-06',       usage: 'Racing', prix: 86,  note: 'Nouvelle version avec dernier châssis. Jaune. Sortie en 2026.', thumb: 'photos/model-c72-2026-white.png' },
       { id: 'C73 RTR',   cat: 'racing',     chassis: 'TC-06',       usage: 'Racing', prix: 86,  note: 'Nouvelle version avec dernier châssis. Violet. Sortie en 2026.', thumb: 'photos/model-c73-2026-white.png' },
-      { id: 'C74 RTR',   cat: 'racing',     chassis: 'TC-06',       usage: 'Racing', prix: 80,  note: 'Nouvelle version avec dernier châssis. Bleu. Sortie en 2026.', thumb: 'photos/model-c74-2026-white.png' },
+      { id: 'C74 RTR',   cat: 'racing',     chassis: 'TC-06',       usage: 'Racing', prix: 85,  note: 'Nouvelle version avec dernier châssis. Bleu. Sortie en 2026.', thumb: 'photos/model-c74-2026-white.png' },
       { id: 'C75',       cat: 'racing',     chassis: 'TC-04',       usage: 'Racing', prix: 90,  note: 'Plus rapide que la v1 et 3, mais moins précise à piloter. Sortie en 2023.', thumb: 'photos/model-c75-no-text.jpg' },
       { id: 'C76',       cat: 'racing',     chassis: 'TC-06',       usage: 'Référence', prix: 85,  note: 'La meilleure : précision et vitesse au prix le plus juste. Notre base de comparaison. Existe aussi en version LE (Limited Edition), avec une carrosserie verte, pour une dizaine d’euros de plus. Sortie en 2025.', thumb: 'photos/model-c76-no-text.png', star: true },
       { id: 'C78',       cat: 'racing',     chassis: 'TC-06',       usage: 'Racing', prix: 100, note: 'Même base que la C76, carrosserie plus détaillée et prix plus élevé. Sortie en 2026.', thumb: 'photos/model-c78-v3.png' },
-      { id: 'C81 → C82', cat: 'fun',        chassis: 'TC-01',       usage: 'Hors piste', prix: 70,  note: 'Hors gabarit pour la catégorie, mais parfaite comme pace car. Sortie entre 2021 et 2022.', thumb: 'photos/model-c82.jpg' }
+      { id: 'C81 → C82', cat: 'fun',        chassis: 'TC-01',       usage: 'Hors piste', prix: 70,  note: 'Hors gabarit pour la catégorie, mais parfaite comme pace car. Sortie entre 2021 et 2022.', thumb: 'photos/model-c82.jpg' },
+      { id: 'C50',       cat: 'scenario',   chassis: 'TT01',        usage: 'Scénario', prix: 170, note: 'Pour les mises en scène, mais aucun usage en course.', thumb: 'photos/model-c50.png' }
     ],
 
     budget: {

@@ -11,8 +11,8 @@ P["modeles"] = {
     "head_bg": "photos/gamme-c71-c75.webp",
     "url": "choisir-son-modele.html",
     "crumb": "Choisir son modèle",
-    "title": "Choisir son modèle Turbo Racing 1/76 — comparateur des 11 voitures",
-    "desc": "Comparateur filtrable des modèles Turbo Racing 1/76 : MINI, C61-C66 drift, C71 à C78, "
+    "title": "Choisir son modèle Turbo Racing 1/76 — comparateur des 12 modèles",
+    "desc": "Comparateur filtrable des modèles Turbo Racing 1/76 : MINI, C50, C61-C66 drift, C71 à C78, "
             "C82. Châssis, usage, prix 2026 et notre lecture de chaque modèle, plus un sélecteur "
             "en trois questions.",
     "image": "photos/gamme-c71-c75.jpg",
@@ -26,9 +26,9 @@ P["modeles"] = {
         "@context": "https://schema.org",
         "@type": "ItemList",
         "name": "Comparatif des modèles Turbo Racing à l’échelle 1/76",
-        "description": "Onze modèles Turbo Racing classés par génération de châssis et par usage, "
+        "description": "Douze modèles Turbo Racing classés par génération de châssis et par usage, "
                        "avec prix indicatifs constatés en 2026.",
-        "numberOfItems": 11,
+        "numberOfItems": 12,
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "item": {"@type": "Thing", "name": "Turbo Racing MINI", "description": "Modèle découverte, rassurant et peu rapide."}},
             {"@type": "ListItem", "position": 2, "item": {"@type": "Thing", "name": "Turbo Racing C61 à C66", "description": "Famille drift : pneus métalliques et dérive volontaire."}},
@@ -41,6 +41,7 @@ P["modeles"] = {
             {"@type": "ListItem", "position": 9, "item": {"@type": "Thing", "name": "Turbo Racing C76", "description": "Référence racing sur châssis TC-06 ; également proposée en version LE (Limited Edition)."}},
             {"@type": "ListItem", "position": 10, "item": {"@type": "Thing", "name": "Turbo Racing C78", "description": "Modèle racing sur châssis TC-06."}},
             {"@type": "ListItem", "position": 11, "item": {"@type": "Thing", "name": "Turbo Racing C81 à C82", "description": "Modèles fun, hors gabarit pour la catégorie."}},
+            {"@type": "ListItem", "position": 12, "item": {"@type": "Thing", "name": "Turbo Racing C50", "description": "Camion sur châssis TT01, destiné aux mises en scène."}},
         ],
     }],
     "body": """
@@ -51,7 +52,7 @@ P["modeles"] = {
     <p class="lead">Drift, loisir ou compétition. À ce jour, seule la marque Turbo&nbsp;Racing propose des
     modèles&nbsp;1/76 assez fiables et performants pour courser sérieusement. Voici comment ils se situent
     les uns par rapport aux autres.</p>
-    <ul class="facts"><li><b>11 modèles</b> comparés</li><li><b>3 générations</b> de châssis</li><li>De <b>50 à 100 €</b></li><li>Référence <b>C76</b></li></ul>
+    <ul class="facts"><li><b>12 modèles</b> comparés</li><li><b>4 types</b> de châssis</li><li>De <b>50 à 170 €</b></li><li>Référence <b>C76</b></li></ul>
   </div>
 </section>
 
@@ -65,7 +66,7 @@ P["modeles"] = {
     <section id="comparateur" class="tool" data-reveal>
       <div class="tool-head">
         <div><span class="tiny">Outil 01</span><h2>Le comparateur Turbo Racing</h2></div>
-        <span class="tiny" style="color:#fff"><span data-compare-count>11</span> modèles affichés</span>
+        <span class="tiny" style="color:#fff"><span data-compare-count>12</span> modèles affichés</span>
       </div>
       <div class="tool-body">
         <div class="field">
@@ -76,6 +77,7 @@ P["modeles"] = {
             <button type="button" class="chip" data-filter="drift" aria-pressed="false">Drift</button>
             <button type="button" class="chip" data-filter="decouverte" aria-pressed="false">Découverte</button>
             <button type="button" class="chip" data-filter="fun" aria-pressed="false">Fun</button>
+            <button type="button" class="chip" data-filter="scenario" aria-pressed="false">Scénario</button>
           </div>
         </div>
         <div class="table-wrap">
