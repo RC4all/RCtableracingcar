@@ -8,10 +8,10 @@ NAV = [
     ("Débuter", [
         ("Débuter en 10 minutes", "debuter", "Les 4 étapes du premier soir"),
         ("Le concept 1/76", "concept", "Ce qui définit la discipline"),
-        ("Où acheter &amp; budget", "budget", "Calculateur · à partir de 125 €"),
+        ("Où acheter &amp; budget", "budget", "Calculateur · à partir de 115 €"),
     ]),
     ("Matériel", [
-        ("Choisir son modèle", "modeles", "Comparateur des 11 Turbo Racing"),
+        ("Choisir son modèle", "modeles", "Comparateur des 12 Turbo Racing"),
         ("Guide du Turbo Racing C76", "c76", "La référence, châssis TC-06"),
         ("Comprendre la radiocommande", "radio", "Schéma cliquable, 11 commandes"),
         ("Circuits et tapis", "circuits", "Dimensions, bordures, tracés"),

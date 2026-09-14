@@ -30,7 +30,7 @@
         c76le: { label: 'Turbo Racing C76LE', prix: 95 }
       },
       mats: {
-        xs:   { label: 'Turbo Racing XS · 95 × 50 cm', prix: 25 },
+        xs:   { label: 'Turbo Racing XS · 95 × 50 cm', prix: 15 },
         m:    { label: 'Turbo Racing M · 120 × 80 cm', prix: 40 },
         l:    { label: 'Turbo Racing L · 160 × 90 cm', prix: 60 },
         xl:   { label: 'LDARC XL · 240 × 120 cm',      prix: 120 },
@@ -39,7 +39,7 @@
       options: {
         bordures: { label: 'Bordures PU autocollantes · 5 m', prix: 15 },
         radio:    { label: 'Radio P32S',                      prix: 45 },
-        rfid:     { label: 'Comptage de tours RFID',          prix: 90 }
+        rfid:     { label: 'Comptage de tours RFID',          prix: 179 }
       }
     }
   };

@@ -368,7 +368,7 @@ P["comptage"] = {
       <article class="card"><span class="card-num">03 · NFC / RFID</span><h3>Une étiquette passive sous la voiture</h3>
       <p>Le <a href="https://rsrc.biz/turbo-racing/8386-systeme-de-comptage-pour-micro-rc-176.html" target="_blank" rel="noopener">Mini Race Challenge</a>
       est pensé pour les micro-RC 1/76 : une fine étiquette magnétique (NFC/RFID) placée sous le châssis et un lecteur
-      sous le tapis. Le kit est vendu aux alentours de <strong>180 €</strong>, avec huit étiquettes incluses. Il est même
+      sous le tapis. Le kit est vendu actuellement <strong>179 €</strong>, avec huit étiquettes incluses. Il est même
       possible d’ajouter en option des feux bicolores sur la ligne de départ, pour encore plus de réalisme.</p>
       <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px">
         <figure class="fig" style="margin:0"><img src="img/photos/mini-race-challenge-1-76.jpg" width="800" height="724" loading="lazy" decoding="async" style="display:block;width:100%;height:clamp(136px,15vw,190px);object-fit:cover"
@@ -410,7 +410,7 @@ P["budget"] = {
     "crumb": "Où acheter & budget",
     "title": "Budget RC 1/76 — combien coûte vraiment le RC racing sur table",
     "desc": "Calculateur de budget RC 1/76 : voiture, tapis, bordures, radio et comptage "
-            "de tours, pour un pilote ou pour un club. Budget de départ à partir d’environ 125 €, "
+            "de tours, pour un pilote ou pour un club. Budget de départ à partir d’environ 115 €, "
             "prix constatés en 2026.",
     "image": "photos/tapis-turbo-racing-l.jpg",
     "image_alt": "Plan d’un tapis de course Turbo Racing pour le 1/76",
@@ -424,7 +424,7 @@ P["budget"] = {
         "@type": "FAQPage",
         "mainEntity": [
             {"@type": "Question", "name": "Combien coûte le RC table car racing pour débuter ?",
-             "acceptedAnswer": {"@type": "Answer", "text": "Comptez environ 125 € pour un budget de départ complet : une voiture Turbo Racing C76 à environ 85 €, un tapis Turbo Racing XS à environ 25 €, et des bordures en polyuréthane autour de 15 € les 5 mètres. La radio, la batterie et le chargeur sont fournis avec la voiture."}},
+             "acceptedAnswer": {"@type": "Answer", "text": "Comptez environ 115 € pour un budget de départ complet : une voiture Turbo Racing C76 à environ 85 €, un tapis Turbo Racing XS à environ 15 €, et des bordures en polyuréthane autour de 15 € les 5 mètres. La radio, la batterie et le chargeur sont fournis avec la voiture."}},
             {"@type": "Question", "name": "Que faut-il vérifier avant d’acheter une RC 1/76 ?",
              "acceptedAnswer": {"@type": "Answer", "text": "Que le kit soit complet — radiocommande, batterie, chargeur, deux carrosseries — et que le modèle annoncé soit bien celui de la photo. Prévoyez quatre piles AAA, qui ne sont jamais fournies."}},
             {"@type": "Question", "name": "Quel matériel peut attendre quand on débute en RC 1/76 ?",
@@ -438,14 +438,14 @@ P["budget"] = {
     <h1 class="h1" style="color:#fff">Où acheter &amp; combien ça coûte</h1>
     <p class="lead">Compose ta liste et vois le total. Les prix sont indicatifs, constatés en 2026 chez les
     revendeurs de modélisme et sur les grandes plateformes — ce site n’a aucun lien commercial avec les marques citées.</p>
-    <ul class="facts"><li>Entrée <b>≈ 125 €</b></li><li>4 pilotes <b>≈ 415 €</b></li><li>Soit <b>≈ 104 € / pilote</b></li><li>Prix <b>2026</b></li></ul>
+    <ul class="facts"><li>Entrée <b>≈ 115 €</b></li><li>4 pilotes <b>≈ 415 €</b></li><li>Soit <b>≈ 104 € / pilote</b></li><li>Prix <b>2026</b></li></ul>
   </div>
 </section>
 
 <section class="section">
   <div class="wrap">
-    <p class="answer" style="margin-bottom:40px" data-reveal><strong>Le budget de départ est d’environ 125&nbsp;€ :</strong>
-    une Turbo Racing C76 (≈&nbsp;85&nbsp;€, radio et batterie incluses), un tapis XS (≈&nbsp;25&nbsp;€) et
+    <p class="answer" style="margin-bottom:40px" data-reveal><strong>Le budget de départ est d’environ 115&nbsp;€ :</strong>
+    une Turbo Racing C76 (≈&nbsp;85&nbsp;€, radio et batterie incluses), un tapis XS (≈&nbsp;15&nbsp;€) et
     des bordures PU (≈&nbsp;15&nbsp;€). Pour quatre pilotes sur un tapis L, compte plutôt
     <strong>environ 415&nbsp;€ au total</strong>, soit environ 104&nbsp;€ par personne.</p>
 
@@ -464,7 +464,7 @@ P["budget"] = {
             </div></div>
           <div class="field"><span class="tiny">Le tapis</span>
             <div class="chips" role="group" aria-label="Choisir le tapis">
-              <button type="button" class="chip" data-b="mat" data-v="xs" aria-pressed="false">XS 95 × 50 · 25 €</button>
+              <button type="button" class="chip" data-b="mat" data-v="xs" aria-pressed="false">XS 95 × 50 · 15 €</button>
               <button type="button" class="chip" data-b="mat" data-v="m" aria-pressed="false">M 120 × 80 · 40 €</button>
               <button type="button" class="chip" data-b="mat" data-v="l" aria-pressed="true">L 160 × 90 · 60 €</button>
               <button type="button" class="chip" data-b="mat" data-v="xl" aria-pressed="false">XL 240 × 120 · 120 €</button>
@@ -474,7 +474,7 @@ P["budget"] = {
             <div class="chips" role="group" aria-label="Options">
               <button type="button" class="chip" data-b="opt" data-v="bordures" aria-pressed="true">Bordures PU 5 m · 15 €</button>
               <button type="button" class="chip" data-b="opt" data-v="radio" aria-pressed="false">Radio P32S · 45 €</button>
-              <button type="button" class="chip" data-b="opt" data-v="rfid" aria-pressed="false">Comptage RFID · 90 €</button>
+              <button type="button" class="chip" data-b="opt" data-v="rfid" aria-pressed="false">Comptage RFID · 179 €</button>
             </div></div>
           <div class="field" style="margin-bottom:0"><span class="tiny">Combien de pilotes ?</span>
             <div class="chips" role="group" aria-label="Nombre de pilotes">

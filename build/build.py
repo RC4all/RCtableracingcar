@@ -413,7 +413,7 @@ def write_llms():
              "",
              "- Échelle : 1/76 — voiture de 5,8 cm de long",
              "- Piste minimum : 95 × 50 cm (tapis Turbo Racing XS)",
-             "- Budget de départ : environ 125 € (voiture + tapis + bordures)",
+             "- Budget de départ : environ 115 € (voiture + tapis + bordures)",
              "- Autonomie d'une batterie LiPo : 20 à 30 minutes selon l’usage",
              "- Modèle de référence : Turbo Racing C76, châssis TC-06, environ 85 €",
              "",
