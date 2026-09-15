@@ -519,6 +519,11 @@ P["radio"] = {
              alt="Radiocommande Turbo Racing P30 noire à volant">
         <figcaption><strong>P30</strong> — Vendue séparément, comme la P31 mais avec des boutons plutôt que des potentiomètres.</figcaption>
       </figure>
+      <figure class="fig" style="max-width:320px">
+        <img src="img/photos/radio-p52.png" width="480" height="520" loading="lazy" decoding="async"
+             alt="Radiocommande Turbo Racing P52 noire à volant avec écran LCD">
+        <figcaption><strong>P52</strong> — Assez similaire à la P32-S, avec un écran un peu plus grand et des boutons mieux étagés.</figcaption>
+      </figure>
     </div>
   </div>
 </section>
