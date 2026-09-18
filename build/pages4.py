@@ -593,6 +593,7 @@ P["plan"] = {
   <div class="wrap grid g3" data-stagger>
     <div class="card card--flat"><h2 class="h3">Débuter</h2><ul style="display:grid;gap:9px;margin-top:8px">
       <li style="list-style:none"><a href="debuter-en-10-minutes.html">Débuter en 10 minutes</a></li>
+      <li style="list-style:none"><a href="pourquoi-en-acheter-une.html">Pourquoi en acheter une ?</a></li>
       <li style="list-style:none"><a href="le-concept.html">Le concept 1/76</a></li>
       <li style="list-style:none"><a href="ou-acheter-et-budget.html">Où acheter &amp; budget</a></li></ul></div>
     <div class="card card--flat"><h2 class="h3">Matériel</h2><ul style="display:grid;gap:9px;margin-top:8px">

@@ -333,6 +333,59 @@ P["debuter"] = {
 
 
 # =========================================================================== #
+#  POURQUOI EN ACHETER UNE ?
+# =========================================================================== #
+P["pourquoi"] = {
+    "head_bg": "photos/soiree-course-large.webp",
+    "url": "pourquoi-en-acheter-une.html",
+    "crumb": "Pourquoi en acheter une ?",
+    "title": "Pourquoi acheter une voiture RC 1/76 ? — 4 bonnes raisons de craquer",
+    "desc": "Quatre raisons d’adopter le RC table car racing 1/76 : partager des courses entre amis, profiter d’un vrai modèle réduit, jouer avec ses enfants ou dynamiser une pause déjeuner entre collègues.",
+    "image": "photos/soiree-course-table.jpg",
+    "image_alt": "Pilotes réunis autour d’un circuit RC 1/76 posé sur une table",
+    "priority": "0.75", "changefreq": "monthly",
+    "og_type": "article",
+    "about": ["RC table car racing", "Loisir entre amis", "Modélisme 1/76", "Team building"],
+    "speakable": [".lead", ".card"],
+    "jsonld": [{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Pourquoi acheter une voiture RC 1/76 ?",
+        "description": "Quatre bonnes raisons de découvrir le RC table car racing : amis, qualité, famille et collègues.",
+        "inLanguage": "fr-FR",
+    }],
+    "body": """
+<section class="page-head">
+  <div class="wrap page-head-inner stack" style="--gap:20px">
+    <p class="eyebrow">RC table car racing · 1/76</p>
+    <h1 class="h1" style="color:#fff">Pourquoi en acheter une&nbsp;?</h1>
+    <p class="lead">Parce qu’une voiture de 5,8&nbsp;cm peut transformer une table en circuit, et une soirée ordinaire en vrai moment de partage.</p>
+    <ul class="facts"><li>Entre amis <b>Fous rires</b></li><li>En famille <b>À partager</b></li><li>Au bureau <b>Challenge</b></li><li>Au volant <b>Précision</b></li></ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="answer" style="margin-bottom:42px" data-reveal><strong>Une petite voiture, de grandes occasions.</strong> Le RC table car racing réunit les gens autour d’un défi simple, amusant et étonnamment précis. Voici quatre excellentes raisons de craquer.</p>
+    <div class="reasons-list" data-stagger>
+      <article class="card card--flat reason-card"><figure class="reason-card-media"><img src="img/photos/pourquoi-amis.webp" width="480" height="480" loading="lazy" decoding="async" alt="Quatre amis réunis autour d’un circuit RC miniature"></figure><div><span class="card-num">01</span><h2 class="h3">Réunir les amis</h2>
+        <p>C’est un concept qui réunit les amis : des moments de convivialité et des fous rires en perspective. Oubliez les soirées de jeu vidéo en ligne, seul derrière son écran&nbsp;: ici, tout le monde est autour de la même table&nbsp;!</p></div></article>
+      <article class="card card--flat reason-card"><figure class="reason-card-media"><img src="img/photos/pourquoi-precision.webp" width="480" height="480" loading="lazy" decoding="async" alt="Voiture RC miniature en virage et radiocommande en main"></figure><div><span class="card-num">02</span><h2 class="h3">Profiter d’une vraie qualité de pilotage</h2>
+        <p>On est plus proche du modèle réduit que du jouet. La précision de conduite est bluffante et les modèles magnifiques. Même si le budget peut sembler conséquent au premier abord, il reste bien inférieur à celui des autres échelles de voitures RC. Nous avons tous gardé un côté enfant&nbsp;: il va pouvoir s’exprimer ici&nbsp;!</p></div></article>
+      <article class="card card--flat reason-card"><figure class="reason-card-media"><img src="img/photos/pourquoi-famille.webp" width="480" height="480" loading="lazy" decoding="async" alt="Un parent et son enfant pilotant des voitures RC miniatures"></figure><div><span class="card-num">03</span><h2 class="h3">Partager un jeu avec ses enfants</h2>
+        <p>C’est l’occasion de trouver un jeu commun avec ses enfants. Cela plaira à tout le monde, et Madame sera contente de voir une telle complicité&nbsp;!</p></div></article>
+      <article class="card card--flat reason-card"><figure class="reason-card-media"><img src="img/photos/pourquoi-collegues.webp" width="480" height="480" loading="lazy" decoding="async" alt="Collègues réunis autour d’un challenge de voitures RC sur table"></figure><div><span class="card-num">04</span><h2 class="h3">Réveiller les pauses déjeuner</h2>
+        <p>Les pauses déjeuner entre collègues sont monotones&nbsp;? Les activités de team building proposées par l’entreprise sont nulles&nbsp;? Proposez un challenge RC&nbsp;1/76&nbsp;: l’ambiance va radicalement changer&nbsp;!</p></div></article>
+    </div>
+  </div>
+</section>
+
+""" + cta("Convaincu ? Compare les modèles et trouve ta première voiture.",
+          "choisir-son-modele.html", "Voir le comparateur Turbo Racing", dark=True),
+}
+
+
+# =========================================================================== #
 #  LE CONCEPT
 # =========================================================================== #
 P["concept"] = {

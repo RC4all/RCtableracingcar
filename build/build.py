@@ -19,7 +19,7 @@ SITE_NAME = "RC Table Racing Car"
 TAGLINE = "Le guide francophone du RC racing sur table à l’échelle 1/76"
 AUTHOR = "RC Table Racing Car"
 EMAIL = "c9149t0yz@relay.firefox.com"
-TODAY = "2026-09-15"
+TODAY = "2026-09-18"
 
 from content import PAGES, NAV, ORDER   # noqa: E402
 
@@ -99,6 +99,7 @@ FOOTER = """<footer class="site-footer">
         <span class="tiny">Débuter</span>
         <ul>
           <li><a href="debuter-en-10-minutes.html">Débuter en 10 minutes</a></li>
+          <li><a href="pourquoi-en-acheter-une.html">Pourquoi en acheter une ?</a></li>
           <li><a href="le-concept.html">Le concept 1/76</a></li>
           <li><a href="ou-acheter-et-budget.html">Où acheter &amp; budget</a></li>
           <li><a href="glossaire.html">Glossaire</a></li>

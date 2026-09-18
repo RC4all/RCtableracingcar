@@ -6,6 +6,7 @@
 # --------------------------------------------------------------------------- #
 NAV = [
     ("Débuter", [
+        ("Pourquoi en acheter une ?", "pourquoi", "4 bonnes raisons de craquer"),
         ("Débuter en 10 minutes", "debuter", "Les 4 étapes du premier soir"),
         ("Le concept 1/76", "concept", "Ce qui définit la discipline"),
         ("Où acheter &amp; budget", "budget", "Calculateur · à partir de 115 €"),
@@ -36,7 +37,7 @@ NAV = [
 ]
 
 # Ordre de lecture (précédent / suivant en bas de page)
-ORDER = ["debuter", "concept", "modeles", "c76", "radio", "pilotage", "entretien",
+ORDER = ["debuter", "pourquoi", "concept", "modeles", "c76", "radio", "pilotage", "entretien",
          "circuits", "comptage", "budget", "reglement", "clubs", "galerie", "actus",
          "glossaire", "faq", "contact"]
 
