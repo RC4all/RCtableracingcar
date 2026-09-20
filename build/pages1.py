@@ -366,7 +366,7 @@ P["pourquoi"] = {
 
 <section class="section">
   <div class="wrap">
-    <p class="answer" style="margin-bottom:42px" data-reveal><strong>Une petite voiture, de grandes occasions.</strong> Le RC table car racing réunit les gens autour d’un défi simple, amusant et étonnamment précis. Voici quatre excellentes raisons de craquer.</p>
+    <p class="answer" style="margin-bottom:42px" data-reveal><strong>Une petite voiture, de grandes occasions.</strong> Le RC table car racing réunit les gens autour d’un défi simple, amusant et étonnamment précis. Voici cinq excellentes raisons de craquer.</p>
     <div class="reasons-list" data-stagger>
       <article class="card card--flat reason-card"><figure class="reason-card-media"><img src="img/photos/pourquoi-amis.webp" width="480" height="480" loading="lazy" decoding="async" alt="Quatre amis réunis autour d’un circuit RC miniature"></figure><div><span class="card-num">01</span><h2 class="h3">Réunir les amis</h2>
         <p>C’est un concept qui réunit les amis : des moments de convivialité et des fous rires en perspective. Oubliez les soirées de jeu vidéo en ligne, seul derrière son écran&nbsp;: ici, tout le monde est autour de la même table&nbsp;!</p></div></article>
@@ -376,6 +376,8 @@ P["pourquoi"] = {
         <p>C’est l’occasion de trouver un jeu commun avec ses enfants. Cela plaira à tout le monde, et Madame sera contente de voir une telle complicité&nbsp;!</p></div></article>
       <article class="card card--flat reason-card"><figure class="reason-card-media"><img src="img/photos/pourquoi-collegues.webp" width="480" height="480" loading="lazy" decoding="async" alt="Collègues réunis autour d’un challenge de voitures RC sur table"></figure><div><span class="card-num">04</span><h2 class="h3">Réveiller les pauses déjeuner</h2>
         <p>Les pauses déjeuner entre collègues sont monotones&nbsp;? Les activités de team building proposées par l’entreprise sont nulles&nbsp;? Proposez un challenge RC&nbsp;1/76&nbsp;: l’ambiance va radicalement changer&nbsp;!</p></div></article>
+      <article class="card card--flat reason-card"><figure class="reason-card-media"><img src="img/photos/pourquoi-championnat.webp" width="480" height="480" loading="lazy" decoding="async" alt="Trois pilotes sur un podium avec leurs petites voitures RC 1/76 et une coupe de vainqueur"></figure><div><span class="card-num">05</span><h2 class="h3">Lancer un championnat local</h2>
+        <p>Le potentiel de ces petits modèles réduits rend désormais envisageable un championnat local ou régional. Les passionnés en connaissent le principe à des échelles plus grandes&nbsp;; l’appliquer au 1/76 devient aujourd’hui possible&nbsp;!</p></div></article>
     </div>
   </div>
 </section>
