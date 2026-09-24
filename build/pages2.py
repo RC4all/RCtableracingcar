@@ -255,6 +255,12 @@ P["c76"] = {
     à performance identique, c’est le choix rationnel — et le bon choix pour que tous les pilotes d’une
     même course roulent à armes égales. Voyons maintenant ce qu’il y a sous le capot.</p>
 
+    <figure class="fig" style="max-width:720px;margin-inline:auto;margin-bottom:44px" data-reveal="scale">
+      <img src="img/photos/retirer-carrosserie-c76.webp" width="720" height="720" loading="lazy" decoding="async"
+           alt="Carrosserie d’une voiture Turbo Racing C76 légèrement pliée à l’avant pour être déclipsée du châssis">
+      <figcaption>Pour retirer la carrosserie, il suffit de plier la partie avant de quelques millimètres pour la déclipser du châssis.</figcaption>
+    </figure>
+
     <figure class="fig" style="max-width:760px;margin-inline:auto;margin-bottom:44px" data-reveal="scale">
       <img src="img/photos/chassis-ouvert-c76.jpg" width="1000" height="912" loading="lazy" decoding="async"
            alt="Châssis Turbo Racing C76 ouvert montrant la batterie, le moteur, les engrenages et la direction">
