@@ -33,10 +33,10 @@ P["modeles"] = {
             {"@type": "ListItem", "position": 1, "item": {"@type": "Thing", "name": "Turbo Racing MINI", "description": "Modèle découverte, rassurant et peu rapide."}},
             {"@type": "ListItem", "position": 2, "item": {"@type": "Thing", "name": "Turbo Racing C61 à C66", "description": "Famille drift : pneus métalliques et dérive volontaire."}},
             {"@type": "ListItem", "position": 3, "item": {"@type": "Thing", "name": "Turbo Racing C71 à C74", "description": "Première génération de modèles racing loisir."}},
-            {"@type": "ListItem", "position": 4, "item": {"@type": "Thing", "name": "Turbo Racing C71 RTR", "description": "Version 2026 sur châssis TC-06."}},
-            {"@type": "ListItem", "position": 5, "item": {"@type": "Thing", "name": "Turbo Racing C72 RTR", "description": "Version 2026 sur châssis TC-06."}},
-            {"@type": "ListItem", "position": 6, "item": {"@type": "Thing", "name": "Turbo Racing C73 RTR", "description": "Version 2026 sur châssis TC-06."}},
-            {"@type": "ListItem", "position": 7, "item": {"@type": "Thing", "name": "Turbo Racing C74 RTR", "description": "Version 2026 sur châssis TC-06."}},
+            {"@type": "ListItem", "position": 4, "item": {"@type": "Thing", "name": "Turbo Racing C71 (2026)", "description": "Version 2026 sur châssis TC-06."}},
+            {"@type": "ListItem", "position": 5, "item": {"@type": "Thing", "name": "Turbo Racing C72 (2026)", "description": "Version 2026 sur châssis TC-06."}},
+            {"@type": "ListItem", "position": 6, "item": {"@type": "Thing", "name": "Turbo Racing C73 (2026)", "description": "Version 2026 sur châssis TC-06."}},
+            {"@type": "ListItem", "position": 7, "item": {"@type": "Thing", "name": "Turbo Racing C74 (2026)", "description": "Version 2026 sur châssis TC-06."}},
             {"@type": "ListItem", "position": 8, "item": {"@type": "Thing", "name": "Turbo Racing C75", "description": "Modèle racing sur châssis TC-04."}},
             {"@type": "ListItem", "position": 9, "item": {"@type": "Thing", "name": "Turbo Racing C76", "description": "Référence racing sur châssis TC-06 ; également proposée en version LE (Limited Edition)."}},
             {"@type": "ListItem", "position": 10, "item": {"@type": "Thing", "name": "Turbo Racing C78", "description": "Modèle racing sur châssis TC-06."}},
@@ -229,8 +229,8 @@ P["c76"] = {
   <div class="wrap page-head-inner stack" style="--gap:20px">
     <p class="eyebrow">Matériel · fiche de référence</p>
     <h1 class="h1" style="color:#fff">Guide complet du Turbo&nbsp;Racing&nbsp;C76</h1>
-    <p class="lead">Le châssis TC-06 est le meilleur que Turbo&nbsp;Racing propose aujourd’hui. Trois modèles
-    le partagent : C76, C76LE et C78. Autant prendre la moins chère — pour une course équitable entre amis,
+    <p class="lead">Le châssis TC-06 est le meilleur que Turbo&nbsp;Racing propose aujourd’hui. Sept modèles
+    le partagent : C71 (2026), C72 (2026), C73 (2026), C74 (2026), C76, C76LE et C78. Autant prendre la moins chère — pour une course équitable entre amis,
     mieux vaut le même châssis pour tous, quitte à se différencier à la peinture.</p>
     <ul class="facts">
       <li>Châssis <b>TC-06 v3</b></li><li>Moteur <b>coreless 1020</b></li>
@@ -250,9 +250,9 @@ P["c76"] = {
 <section class="section">
   <div class="wrap">
     <p class="answer" style="margin-bottom:40px" data-reveal><strong>Pourquoi la C76 plutôt qu’une autre :</strong>
-    la C76, la C76LE et la C78 utilisent exactement le même châssis TC-06 et la même mécanique. Seule la
-    carrosserie change. La C76 est la moins chère des trois (≈&nbsp;85&nbsp;€ contre 95 et 100&nbsp;€) :
-    à performance identique, c’est le choix rationnel — et le bon choix pour que tous les pilotes d’une
+    les C71 (2026), C72 (2026), C73 (2026), C74 (2026), C76, C76LE et C78 utilisent exactement le même châssis TC-06 et la même mécanique. Seule la
+    carrosserie change. La C76 et la C74 (2026) sont les moins chères (≈&nbsp;85&nbsp;€) :
+    à performance identique, la C76 reste le choix rationnel — et le bon choix pour que tous les pilotes d’une
     même course roulent à armes égales. Voyons maintenant ce qu’il y a sous le capot.</p>
 
     <figure class="fig" style="max-width:720px;margin-inline:auto;margin-bottom:44px" data-reveal="scale">
@@ -372,11 +372,15 @@ P["c76"] = {
     </div>
 
     <div class="callout callout--race" style="margin-top:40px" data-reveal>
-      <span class="tiny">Les trois modèles du châssis TC-06</span>
+      <span class="tiny">Les sept modèles du châssis TC-06</span>
       <div class="table-wrap" style="margin-top:16px;border:0">
         <table class="data">
           <thead><tr><th scope="col">Modèle</th><th scope="col">Châssis</th><th scope="col">Prix</th><th scope="col">Différence réelle</th></tr></thead>
           <tbody>
+            <tr><th scope="row">C71 (2026)</th><td>TC-06</td><td>≈ 86 €</td><td>Carrosserie verte uniquement</td></tr>
+            <tr><th scope="row">C72 (2026)</th><td>TC-06</td><td>≈ 86 €</td><td>Carrosserie jaune uniquement</td></tr>
+            <tr><th scope="row">C73 (2026)</th><td>TC-06</td><td>≈ 86 €</td><td>Carrosserie violette uniquement</td></tr>
+            <tr><th scope="row">C74 (2026)</th><td>TC-06</td><td>≈ 85 €</td><td>Carrosserie bleue uniquement</td></tr>
             <tr class="is-star"><th scope="row">C76</th><td>TC-06</td><td>≈ 85 €</td><td>Aucune, c’est la base — et la moins chère</td></tr>
             <tr><th scope="row">C76LE</th><td>TC-06</td><td>≈ 95 €</td><td>Carrosserie plus détaillée uniquement</td></tr>
             <tr><th scope="row">C78</th><td>TC-06</td><td>≈ 100 €</td><td>Carrosserie plus détaillée uniquement</td></tr>
