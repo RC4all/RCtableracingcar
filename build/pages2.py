@@ -85,7 +85,7 @@ P["modeles"] = {
             <caption>Prix indicatifs constatés en 2026 · kit complet radio + batterie + chargeur</caption>
             <thead><tr><th scope="col">Aperçu</th><th scope="col">Modèle</th><th scope="col">Châssis</th><th scope="col">Usage</th><th scope="col">Prix</th><th scope="col">Notre lecture</th></tr></thead>
             <tbody>
-              <tr class="is-star"><td><img class="model-thumb" src="img/photos/c76-avant.webp" alt="" width="68" height="44" loading="lazy" decoding="async"></td><th scope="row">C76<span class="star-tag">★</span></th><td>TC-06 · v3</td><td>Référence</td><td>≈ 85 €</td><td>La meilleure : précision et vitesse au prix le plus juste.</td></tr>
+              <tr class="is-star"><td><img class="model-thumb" src="img/photos/c76-avant.webp" alt="" width="68" height="44" loading="lazy" decoding="async"></td><th scope="row">C76<span class="star-tag">★</span></th><td>TC-06</td><td>Référence</td><td>≈ 85 €</td><td>La meilleure : précision et vitesse au prix le plus juste.</td></tr>
             </tbody>
           </table>
         </div>
@@ -208,7 +208,7 @@ P["c76"] = {
         "category": "Voiture radiocommandée échelle 1/76",
         "image": "https://rctableracingcar.fr/img/chassis-annote.png",
         "additionalProperty": [
-            {"@type": "PropertyValue", "name": "Châssis", "value": "TC-06 (3e génération)"},
+            {"@type": "PropertyValue", "name": "Châssis", "value": "TC-06"},
             {"@type": "PropertyValue", "name": "Échelle", "value": "1/76"},
             {"@type": "PropertyValue", "name": "Longueur", "value": "5,8 cm"},
             {"@type": "PropertyValue", "name": "Empattement réglable", "value": "33,5 à 34,5 mm"},
@@ -233,7 +233,7 @@ P["c76"] = {
     le partagent : C71 (2026), C72 (2026), C73 (2026), C74 (2026), C76, C76LE et C78. Autant prendre la moins chère — pour une course équitable entre amis,
     mieux vaut le même châssis pour tous, quitte à se différencier à la peinture.</p>
     <ul class="facts">
-      <li>Châssis <b>TC-06 v3</b></li><li>Moteur <b>coreless 1020</b></li>
+      <li>Châssis <b>TC-06</b></li><li>Moteur <b>coreless 1020</b></li>
       <li>Batterie <b>LiPo 3,7 V · 55 mAh</b></li><li>Charge <b>USB-C</b></li>
       <li>Puissance <b>20 / 50 / 100 %</b></li>
     </ul>
@@ -241,7 +241,7 @@ P["c76"] = {
 </section>
 
 """ + statbar([
-        ("Châssis", "TC-06 · v3", ""),
+        ("Châssis", "TC-06", ""),
         ("Longueur", "5,8 cm", ""),
         ("Autonomie", "20-30 min", ""),
         ("Prix constaté", '≈&nbsp;<span data-count="85" data-suffix="&nbsp;€">85&nbsp;€</span>', ""),
@@ -268,7 +268,8 @@ P["c76"] = {
         la poussière qui peut gêner, vérifier que tout tourne librement et mettre une pointe de graisse si nécessaire.
         Attention aux minuscules ressorts cachés sous les axes de direction, ainsi qu’aux cales de l’axe de roues arrière,
         qui ont un sens. Pense aussi à bien repérer la taille des vis lors du démontage pour éviter les galères au remontage.
-        L’usage d’une pincette pointue est recommandé.</figcaption>
+        L’usage d’une pincette pointue est recommandé. La C78 utilise une carrosserie légèrement plus longue : les
+        excentriques qui tiennent l’axe des roues arrière sont retournés pour allonger l’empattement de 1&nbsp;mm.</figcaption>
     </figure>
 
     <figure class="fig exploded" style="margin-bottom:44px" data-reveal="scale">
@@ -301,13 +302,13 @@ P["c76"] = {
       <dl class="specs" data-reveal="right">
         <div><dt>Échelle</dt><dd>1/76</dd></div>
         <div><dt>Longueur</dt><dd>5,8 cm</dd></div>
-        <div><dt>Châssis</dt><dd>TC-06 · v3</dd></div>
+        <div><dt>Châssis</dt><dd>TC-06</dd></div>
         <div><dt>Empattement</dt><dd>33,5–34,5 mm</dd></div>
         <div><dt>Transmission</dt><dd>Propulsion</dd></div>
         <div><dt>Moteur</dt><dd>Coreless 1020</dd></div>
         <div><dt>Régime</dt><dd>≈ 42 000 tr/min</dd></div>
         <div><dt>Puissance</dt><dd>20 / 50 / 100 %</dd></div>
-        <div><dt>Batterie</dt><dd>LiPo 3,7 V · 55 mAh</dd></div>
+        <div><dt>Batterie</dt><dd>LiPo 3,7 V · 55 mAh · type 041215 (4 × 12 × 15 mm)</dd></div>
         <div><dt>Charge</dt><dd>USB-C · ≈ 20 min</dd></div>
         <div><dt>Autonomie</dt><dd>20–30 min selon l’usage</dd></div>
         <div><dt>Vitesse</dt><dd>≈ 6 km/h</dd></div>
@@ -383,7 +384,7 @@ P["c76"] = {
             <tr><th scope="row">C74 (2026)</th><td>TC-06</td><td>≈ 85 €</td><td>Carrosserie bleue uniquement</td></tr>
             <tr class="is-star"><th scope="row">C76</th><td>TC-06</td><td>≈ 85 €</td><td>Aucune, c’est la base — et la moins chère</td></tr>
             <tr><th scope="row">C76LE</th><td>TC-06</td><td>≈ 95 €</td><td>Carrosserie plus détaillée uniquement</td></tr>
-            <tr><th scope="row">C78</th><td>TC-06</td><td>≈ 100 €</td><td>Carrosserie plus détaillée uniquement</td></tr>
+            <tr><th scope="row">C78</th><td>TC-06</td><td>≈ 100 €</td><td>Carrosserie plus détaillée uniquement · empattement long (+1 mm)</td></tr>
           </tbody>
         </table>
       </div>
@@ -635,12 +636,13 @@ P["pilotage"] = {
     <h2 class="h2" style="margin:12px 0 26px" data-reveal>Ma voiture fait ça, pourquoi&nbsp;?</h2>
     <div class="table-wrap" data-reveal>
       <table class="data">
-        <caption>Les six symptômes les plus courants et l’ordre dans lequel les vérifier</caption>
+        <caption>Les sept symptômes les plus courants et l’ordre dans lequel les vérifier</caption>
         <thead><tr><th scope="col">Symptôme</th><th scope="col">Ce qu’il faut vérifier, dans cet ordre</th></tr></thead>
         <tbody>
           <tr><th scope="row">Elle tire d’un côté</th><td>ST.TRIM, puis la biellette de direction, puis un pneu encrassé d’un seul côté.</td></tr>
           <tr><th scope="row">Elle avance seule à l’arrêt</th><td>TH.TRIM mal centré. Recale le neutre des gaz, radio allumée et voiture au sol.</td></tr>
           <tr><th scope="row">Elle a perdu sa vitesse</th><td>TH.D/R mal ajusté, cheveux ou poussière dans la transmission, ou batterie fatiguée.</td></tr>
+          <tr><th scope="row">Direction ou accélération qui bloque</th><td>Peut-être un débris dans la transmission. Il faudrait ouvrir le châssis.</td></tr>
           <tr><th scope="row">Elle survire à la relance</th><td>Baisse TH.LIM d’un cran et nettoie les pneus arrière. Le tissu poussiéreux glisse plus qu’on ne croit.</td></tr>
           <tr><th scope="row">Elle décroche à l’avant</th><td>Tu freines en braquant. Sépare les deux gestes, puis réduis ST.D/R pour t’obliger à moins braquer.</td></tr>
           <tr><th scope="row">Elle ne répond plus</th><td>Appairage perdu : deux contacteurs sous le châssis avec le trombone, puis redémarre la radio.</td></tr>

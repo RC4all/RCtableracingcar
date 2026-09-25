@@ -421,7 +421,7 @@ def write_llms():
              "### Fiche technique du Turbo Racing C76 (modèle de référence)",
              "",
              "- Échelle : 1/76 — longueur 5,8 cm",
-             "- Châssis : TC-06, 3e génération, empattement réglable de 33,5 à 34,5 mm",
+             "- Châssis : TC-06, empattement réglable de 33,5 à 34,5 mm",
              "- Transmission : propulsion (2 roues motrices)",
              "- Moteur : coreless 1020, environ 42 000 tr/min",
              "- Modes de puissance : 20 %, 50 %, 100 % via le limiteur TH.LIM",
