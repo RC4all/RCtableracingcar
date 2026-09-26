@@ -53,7 +53,7 @@ P["entretien"] = {
 <section class="section">
   <div class="wrap">
     <p class="answer" style="margin-bottom:40px" data-reveal><strong>Le rodage.</strong>
-    Si ta voiture est neuve, ne roule pas à fond dès le début : roule 15 minutes à 25&nbsp;%. Cela permet
+    Si ta voiture est neuve, ne roule pas à fond dès le début : roule 15 minutes à 20&nbsp;%. Cela permet
     d’apprendre en douceur, mais surtout de bien roder le moteur pour de meilleures performances par la suite.</p>
 
     <p class="answer" style="margin-bottom:40px" data-reveal><strong>Une minute entre chaque batterie suffit.</strong>
@@ -79,8 +79,8 @@ P["entretien"] = {
       <p class="eyebrow">Atelier</p>
       <h2 class="h2">Peindre ses carrosseries</h2>
       <p class="prose">Le kit livre deux carrosseries vierges : c’est l’invitation. Dégraisse, applique une
-      peinture pour polycarbonate en couches très fines <strong>depuis l’intérieur</strong>, laisse sécher
-      entre les passes, puis pose les stickers de numéro.</p>
+      peinture pour polycarbonate en couches très fines, laisse sécher
+      entre les passes, puis pose les stickers de numéro si tu veux.</p>
       <p class="prose">Une flotte où chacun reconnaît sa voiture d’un coup d’œil change complètement
       l’ambiance d’une course — et c’est la seule personnalisation que le règlement encourage.</p>
     </div>
