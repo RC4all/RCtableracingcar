@@ -322,7 +322,7 @@ P["debuter"] = {
       <li><span class="x" aria-hidden="true">02</span><div><b>Piloter à 100 % tout de suite.</b><span>Le limiteur existe pour ça, sers-t’en.</span></div></li>
       <li><span class="x" aria-hidden="true">03</span><div><b>Ignorer les cheveux dans la transmission.</b><span>Une pincette, dix secondes, à chaque batterie.</span></div></li>
       <li><span class="x" aria-hidden="true">04</span><div><b>Recharger une batterie brûlante.</b><span>Laisse-la revenir à température.</span></div></li>
-      <li><span class="x" aria-hidden="true">05</span><div><b>Toucher au bouton REV.</b><span>Il n’y a jamais de raison. Vraiment jamais.</span></div></li>
+      <li><span class="x" aria-hidden="true">05</span><div><b>Toucher au bouton REV.</b><span>Il sert à inverser la direction droite/gauche : aucun intérêt en usage normal.</span></div></li>
     </ul>
   </div>
 </section>
