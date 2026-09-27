@@ -446,8 +446,8 @@ P["budget"] = {
   <div class="wrap">
     <p class="answer" style="margin-bottom:40px" data-reveal><strong>Le budget de départ est d’environ 115&nbsp;€ :</strong>
     une Turbo Racing C76 (≈&nbsp;85&nbsp;€, radio et batterie incluses), un tapis XS (≈&nbsp;15&nbsp;€) et
-    des bordures PU (≈&nbsp;15&nbsp;€). Pour quatre pilotes sur un tapis L, compte plutôt
-    <strong>environ 415&nbsp;€ au total</strong>, soit environ 104&nbsp;€ par personne.</p>
+    des bordures PU (≈&nbsp;15&nbsp;€). Tu peux partager avec des amis le coût d’un tapis XL et garder un
+    budget serré pour débuter.</p>
 
     <section id="budget-tool" class="tool" data-reveal>
       <div class="tool-head">
