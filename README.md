@@ -4,7 +4,7 @@ Le guide francophone du RC racing sur table à l'échelle 1/76.
 Site statique, sans serveur, sans base de données, sans cookie ni traceur.
 
 **En ligne :** https://rctableracingcar.fr
-**Dépôt :** `git@github.com:mickael-IIDI/rctableracingcar.git`
+**Dépôt :** `rctableracingcar.git`
 
 ---
 

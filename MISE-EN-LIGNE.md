@@ -18,7 +18,7 @@ git init
 git branch -M main
 git add .
 git commit -m "Site RC Table Racing Car : 20 pages statiques, SEO et GEO"
-git remote add origin git@github.com:mickael-IIDI/rctableracingcar.git
+git remote add origin git@github.com:RC4all/rctableracingcar.git
 git push -u origin main
 ```
 
