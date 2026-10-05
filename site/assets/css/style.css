@@ -458,6 +458,7 @@ table.data tr.is-star th{color:var(--race-dark)}
 /* ---------- 16. Figures ---------- */
 figure.fig{margin:0;border:1px solid var(--line);background:var(--paper);overflow:hidden}
 figure.fig img{width:100%}
+.video-thumb{aspect-ratio:16/9;object-fit:cover;object-position:center}
 figure.fig figcaption{padding:14px 18px;font:500 13.5px/1.5 var(--font-body);color:var(--text-3);border-top:1px solid var(--line);background:var(--paper-2)}
 
 /* ---------- 17. Timeline ---------- */
