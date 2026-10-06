@@ -130,6 +130,8 @@ P["galerie"] = {
              "caption": "Le circuit de Cyril, administrateur du groupe Facebook Turbo Racing 1/76 RC Car-Official Group."},
             {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-fastandfunrc.jpg",
              "caption": "Le circuit FastandFunRC, construit avec des tuiles en mousse rigide imbriquées."},
+            {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-yann.jpg",
+             "caption": "Le circuit démontable de Yann, créé pour partager le plaisir de rouler avec ses enfants."},
         ],
     }],
     "body": """
@@ -171,6 +173,9 @@ P["galerie"] = {
           similaire à ce qui existe pour les circuits Mini-Z 1/28. Mais c’est relativement cher et un luxe pas nécessaire
           pour le 1/76, moins rapide. Ce joli circuit a l’air fun, mais il risque de manquer de largeur pour affronter
           plusieurs pilotes. <a href="https://www.youtube.com/watch?v=tSlGppj1xbA" target="_blank" rel="noopener">Plus de vidéos sur YouTube</a>.</figcaption></figure>
+      <figure class="shot"><img src="img/photos/circuit-yann.jpg" width="640" height="480" loading="lazy" decoding="async"
+        alt="Circuit RC 1/76 démontable de Yann, installé au sol avec vibreurs rouges et blancs">
+        <figcaption>Yann a créé ce circuit démontable pour partager le plaisir de rouler avec ses enfants.</figcaption></figure>
       <div class="shot shot--empty">
         <span class="tiny">Emplacement libre</span>
         <p class="h3">ta piste ici</p>
