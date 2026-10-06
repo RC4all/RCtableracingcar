@@ -452,6 +452,10 @@ table.data tr.is-star th{color:var(--race-dark)}
 .shot{position:relative;overflow:hidden;border:1px solid var(--line);background:var(--paper-2);display:block}
 .shot img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .7s var(--ease),filter .5s}
 .shot:hover img{transform:scale(1.05)}
+.shot--swap .shot-img-primary,.shot--swap .shot-img-secondary{transition:transform .7s var(--ease),opacity .35s var(--ease)}
+.shot--swap .shot-img-secondary{position:absolute;inset:0;opacity:0}
+.shot--swap:hover .shot-img-primary{opacity:0}
+.shot--swap:hover .shot-img-secondary{opacity:1}
 .shot figcaption{padding:15px 18px;font-size:14.5px;color:var(--text-2);line-height:1.5;border-top:1px solid var(--line)}
 .shot--empty{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;border:2px dashed var(--line-2);min-height:240px;text-align:center;padding:30px}
 

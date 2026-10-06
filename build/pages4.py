@@ -132,6 +132,8 @@ P["galerie"] = {
              "caption": "Le circuit FastandFunRC, construit avec des tuiles en mousse rigide imbriquées."},
             {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-yann.jpg",
              "caption": "Le circuit démontable de Yann, créé pour partager le plaisir de rouler avec ses enfants."},
+            {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-yann-detail.jpg",
+             "caption": "Vue rapprochée du circuit démontable de Yann."},
         ],
     }],
     "body": """
@@ -173,8 +175,8 @@ P["galerie"] = {
           similaire à ce qui existe pour les circuits Mini-Z 1/28. Mais c’est relativement cher et un luxe pas nécessaire
           pour le 1/76, moins rapide. Ce joli circuit a l’air fun, mais il risque de manquer de largeur pour affronter
           plusieurs pilotes. <a href="https://www.youtube.com/watch?v=tSlGppj1xbA" target="_blank" rel="noopener">Plus de vidéos sur YouTube</a>.</figcaption></figure>
-      <figure class="shot"><img src="img/photos/circuit-yann.jpg" width="640" height="480" loading="lazy" decoding="async"
-        alt="Circuit RC 1/76 démontable de Yann, installé au sol avec vibreurs rouges et blancs">
+      <figure class="shot shot--swap"><img class="shot-img-primary" src="img/photos/circuit-yann.jpg" width="640" height="480" loading="lazy" decoding="async"
+        alt="Circuit RC 1/76 démontable de Yann, installé au sol avec vibreurs rouges et blancs"><img class="shot-img-secondary" src="img/photos/circuit-yann-detail.jpg" width="640" height="480" loading="lazy" decoding="async" alt="" aria-hidden="true">
         <figcaption>Yann a créé ce circuit démontable pour partager le plaisir de rouler avec ses enfants.</figcaption></figure>
       <div class="shot shot--empty">
         <span class="tiny">Emplacement libre</span>
