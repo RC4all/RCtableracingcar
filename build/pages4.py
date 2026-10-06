@@ -123,7 +123,7 @@ P["galerie"] = {
             {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-criso.jpg",
              "caption": "Le circuit de Criso : un tracé miniature magnifique et technique."},
             {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/soiree-course-table.jpg",
-             "caption": "Quatre pilotes, un apéro, deux heures de course."},
+             "caption": "Quatre pilotes, un apéro, deux heures de course sur un tapis LDARC XXL 240 × 120 cm."},
             {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/microcorsa-makerworld.webp",
              "caption": "Circuit Microcorsa à imprimer en 3D, partagé gratuitement par GregSparrow sur MakerWorld."},
             {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-cyril.jpg",
@@ -159,7 +159,7 @@ P["galerie"] = {
           de largeur de piste, au moins 20 cm. <a href="https://www.facebook.com/100005246790455/videos/pcb.27592073257060300/27400379099564676" target="_blank" rel="noopener">Plus de vidéos sur Facebook</a>.</figcaption></figure>
       <figure class="shot"><img src="img/photos/soiree-course-table.webp" width="900" height="675" loading="lazy" decoding="async"
         alt="Quatre pilotes debout autour d’un circuit RC 1/76 posé sur une table dans un bar">
-        <figcaption>Un bar de quartier, quatre pilotes, un tapis de course installé sur 2 tables, deux heures de fun avec l’apéro jamais très loin. Le format qui fait vivre la catégorie en soirée !</figcaption></figure>
+        <figcaption>Un bar de quartier, quatre pilotes, un tapis de course installé sur 2 tables, deux heures de fun avec l’apéro jamais très loin. Ici avec un circuit LDARC XXL 240 × 120 cm. Le format qui fait vivre la catégorie en soirée !</figcaption></figure>
       <figure class="shot"><img src="img/photos/microcorsa-makerworld.webp" width="1000" height="562" loading="lazy" decoding="async"
         alt="Circuit Microcorsa pour voitures RC aux échelles 1/64 et 1/76, imprimé en 3D">
         <figcaption>GregSparrow partage gratuitement un circuit à imprimer en 3D. Les pièces sont téléchargeables sur
