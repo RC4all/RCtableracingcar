@@ -134,6 +134,8 @@ P["galerie"] = {
              "caption": "Le circuit démontable de Yann : tapis Micro Tracks XL 220 × 130 cm personnalisé pour rouler avec ses enfants."},
             {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-yann-detail.jpg",
              "caption": "Vue rapprochée du circuit démontable de Yann."},
+            {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-carlo-del-monte.jpg",
+             "caption": "Le Carlo Del Monte de Roll-Rennstrecke, circuit 200 × 300 cm de HeliChrissi, avec 20 à 30 cm de largeur de roulement pour rouler à plusieurs."},
         ],
     }],
     "body": """
@@ -180,6 +182,9 @@ P["galerie"] = {
         <figcaption>Yann a créé ce circuit démontable pour partager le plaisir de rouler avec ses enfants. Il s’agit
           d’un tapis plastifié <a href="https://micro-tracks.de/1-76-turbo-racing" target="_blank" rel="noopener">Micro Tracks</a>,
           en version XL 220 × 130 cm, qu’il a personnalisé. Différents modèles sont disponibles chez Micro Tracks.</figcaption></figure>
+      <figure class="shot"><img src="img/photos/circuit-carlo-del-monte.jpg" width="1200" height="668" loading="lazy" decoding="async"
+        alt="Circuit Carlo Del Monte de Roll-Rennstrecke, installé sur une grande table et utilisé avec de petites voitures RC">
+        <figcaption>HeliChrissi roule sur le « Carlo Del Monte » de <a href="https://roll-rennstrecke.de/category/rennstrecken" target="_blank" rel="noopener">Roll-Rennstrecke</a>, un circuit de 200 × 300 cm. Petit pour le 1/43, mais immense pour le 1/76 ! Avec une largeur de roulement comprise entre 20 et 30 cm, il permet à un grand nombre de pilotes de se challenger sur cette surface. Ces tapis en toile cirée peuvent servir en drift ou en course, selon les pneumatiques. La marque propose de nombreux jolis tracés.</figcaption></figure>
       <div class="shot shot--empty">
         <span class="tiny">Emplacement libre</span>
         <p class="h3">ta piste ici</p>
