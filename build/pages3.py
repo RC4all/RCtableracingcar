@@ -160,7 +160,7 @@ P["circuits"] = {
     "url": "circuits-et-tapis.html",
     "crumb": "Circuits et tapis",
     "title": "Circuits et tapis RC 1/76 — dimensions, bordures et tracés",
-    "desc": "Comparatif des tapis de course RC 1/76 de 95 × 50 cm à 240 × 120 cm, rôle des bordures "
+    "desc": "Comparatif des tapis de course RC 1/76 de 95 × 50 cm à 300 × 200 cm, rôle des bordures "
             "en polyuréthane, construction d’un circuit maison et solutions de comptage de tours.",
     "image": "photos/tapis-ldarc-1609a.jpg",
     "image_alt": "Plan d’un tapis de course RC 1/76 avec vibreurs et ligne de départ",
@@ -172,14 +172,16 @@ P["circuits"] = {
         "@context": "https://schema.org",
         "@type": "ItemList",
         "name": "Les tapis de course pour le RC 1/76",
-        "description": "Tapis tissu utilisés en RC table car racing, du format entraînement au format course.",
-        "numberOfItems": 5,
+        "description": "Tapis et pistes utilisés en RC table car racing, du format entraînement au grand prix.",
+        "numberOfItems": 7,
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "LDARC XL — 240 × 120 cm — course jusqu’à 8 pilotes"},
-            {"@type": "ListItem", "position": 2, "name": "LDARC L — 160 × 90 cm — course"},
-            {"@type": "ListItem", "position": 3, "name": "Turbo Racing L — 160 × 90 cm — course"},
-            {"@type": "ListItem", "position": 4, "name": "Turbo Racing M — 120 × 80 cm — démonstration"},
-            {"@type": "ListItem", "position": 5, "name": "Turbo Racing XS — 95 × 50 cm — entraînement"},
+            {"@type": "ListItem", "position": 1, "name": "Turbo Racing XS — 95 × 50 cm — entraînement"},
+            {"@type": "ListItem", "position": 2, "name": "Turbo Racing M — 120 × 80 cm — démonstration"},
+            {"@type": "ListItem", "position": 3, "name": "LDARC L — 160 × 90 cm — course"},
+            {"@type": "ListItem", "position": 4, "name": "Turbo Racing L — 160 × 90 cm — course"},
+            {"@type": "ListItem", "position": 5, "name": "Micro Tracks — 220 × 130 cm — courses"},
+            {"@type": "ListItem", "position": 6, "name": "LDARC XL — 240 × 120 cm — course jusqu’à 8 pilotes"},
+            {"@type": "ListItem", "position": 7, "name": "Roll-Rennstrecke — 300 × 200 cm — grands prix"},
         ],
     }],
     "body": """
@@ -189,7 +191,7 @@ P["circuits"] = {
     <h1 class="h1" style="color:#fff">Circuits et tapis</h1>
     <p class="lead">Sans circuit, la discipline perd tout son intérêt. C’est l’élément qui permet d’apprendre
     et de se mesurer. Un petit tapis suffit pour s’entraîner ; il faut du grand pour se battre à cinq, six ou huit.</p>
-    <ul class="facts"><li>Du <b>95 × 50</b> au <b>240 × 120 cm</b></li><li>Piste <b>≈ 12 cm</b> de large</li><li>Bordures <b>PU autocollant</b></li></ul>
+    <ul class="facts"><li>Du <b>95 × 50</b> au <b>300 × 200 cm</b></li><li>Piste <b>≈ 12 cm</b> de large</li><li>Bordures <b>PU autocollant</b></li></ul>
   </div>
 </section>
 
@@ -203,14 +205,16 @@ P["circuits"] = {
     <h2 class="h2" style="margin-bottom:24px" data-reveal>Les tapis à privilégier</h2>
     <div class="table-wrap" data-reveal>
       <table class="data">
-        <caption>Tapis tissu utilisés en RC 1/76 · le critère décisif est la largeur de piste</caption>
+        <caption>Tapis et pistes utilisés en RC 1/76 · le critère décisif est la largeur de piste</caption>
         <thead><tr><th scope="col">Marque / référence</th><th scope="col">Dimensions</th><th scope="col">Surface</th><th scope="col">Usage</th></tr></thead>
         <tbody>
-          <tr class="is-star"><th scope="row">LDARC XL</th><td>240 × 120 cm</td><td>Tissu + bordures</td><td>Course, jusqu’à 8 pilotes</td></tr>
+          <tr><th scope="row">Turbo Racing XS</th><td>95 × 50 cm</td><td>Tissu</td><td>Entraînement</td></tr>
+          <tr><th scope="row">Turbo Racing M</th><td>120 × 80 cm</td><td>Tissu</td><td>Démonstration</td></tr>
           <tr><th scope="row">LDARC L</th><td>160 × 90 cm</td><td>Tissu + bordures</td><td>Course</td></tr>
           <tr><th scope="row">Turbo Racing L</th><td>160 × 90 cm</td><td>Tissu</td><td>Course</td></tr>
-          <tr><th scope="row">Turbo Racing M</th><td>120 × 80 cm</td><td>Tissu</td><td>Démonstration</td></tr>
-          <tr><th scope="row">Turbo Racing XS</th><td>95 × 50 cm</td><td>Tissu</td><td>Entraînement</td></tr>
+          <tr><th scope="row"><a href="https://micro-tracks.de/1-76-barnim-ring-drift-turbo-racing/" target="_blank" rel="noopener">Micro Tracks</a></th><td>220 × 130 cm</td><td>PVC</td><td>Courses</td></tr>
+          <tr><th scope="row">LDARC XL</th><td>240 × 120 cm</td><td>Tissu + bordures</td><td>Course, jusqu’à 8 pilotes</td></tr>
+          <tr><th scope="row"><a href="https://roll-rennstrecke.de/product/carlo-del-monte" target="_blank" rel="noopener">Roll-Rennstrecke</a></th><td>300 × 200 cm</td><td>PVC</td><td>Grands prix</td></tr>
         </tbody>
       </table>
     </div>
