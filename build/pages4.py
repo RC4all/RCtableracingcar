@@ -136,6 +136,8 @@ P["galerie"] = {
              "caption": "Vue rapprochée du circuit démontable de Yann."},
             {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-carlo-del-monte.jpg",
              "caption": "Le Carlo Del Monte de Roll-Rennstrecke, circuit 200 × 300 cm de HeliChrissi, avec 20 à 30 cm de largeur de roulement pour rouler à plusieurs."},
+            {"@type": "ImageObject", "contentUrl": "https://rctableracingcar.fr/img/photos/circuit-pierre.jpg",
+             "caption": "Le circuit 280 × 150 cm de Pierre, au tracé de 12 m, construit avec des tapis de yoga, des bordures Turbo Racing et un comptage Mini Race Challenge."},
         ],
     }],
     "body": """
@@ -185,6 +187,9 @@ P["galerie"] = {
       <figure class="shot"><img src="img/photos/circuit-carlo-del-monte.jpg" width="1200" height="668" loading="lazy" decoding="async"
         alt="Circuit Carlo Del Monte de Roll-Rennstrecke, installé sur une grande table et utilisé avec de petites voitures RC">
         <figcaption>HeliChrissi roule sur le « Carlo Del Monte » de <a href="https://roll-rennstrecke.de/category/rennstrecken" target="_blank" rel="noopener">Roll-Rennstrecke</a>, un circuit de 200 × 300 cm. Petit pour le 1/43, mais immense pour le 1/76 ! Avec une largeur de roulement comprise entre 20 et 30 cm, il permet à un grand nombre de pilotes de se challenger sur cette surface. Ces tapis en toile cirée peuvent servir en drift ou en course, selon les pneumatiques. La marque propose de nombreux jolis tracés.</figcaption></figure>
+      <figure class="shot shot--portrait"><img src="img/photos/circuit-pierre.jpg" width="1200" height="1600" loading="lazy" decoding="async"
+        alt="Circuit RC 1/76 de Pierre, construit avec des tapis de yoga noirs, des bordures blanches et rouges et un portique de comptage">
+        <figcaption>Le circuit de Pierre, 280 × 150 cm, propose un tracé de 12 m de long. Il est construit avec des tapis de yoga Decathlon à 3 €, des bordures PU Turbo Racing et un système de comptage Mini Race Challenge.</figcaption></figure>
       <div class="shot shot--empty">
         <span class="tiny">Emplacement libre</span>
         <p class="h3">ta piste ici</p>
